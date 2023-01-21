@@ -1,8 +1,8 @@
 from flask import jsonify, Blueprint
 
-query = Blueprint('query', __name__)
+recommender = Blueprint('recommender', __name__)
 
-@query.route('/', methods = ['GET'])
+@recommender.route('/recommender', methods = ['GET'])
 def get_all_queries():
     return jsonify({ 'result': 'hello world' })
 
