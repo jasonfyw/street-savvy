@@ -1,0 +1,404 @@
+
+.card_card {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.card_card .footer {
+	position: absolute;
+	left: 0px;
+	top: 1900px;
+	width: 1440px;
+	height: 118px;
+	background: rgba(115,107,146,1.00);
+}
+.card_card .Copyright2023 {
+	position: absolute;
+	left: 562px;
+	top: 1963px;
+	width: 316px;
+	height: 23px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22.5px;
+}
+.card_card .nav {
+	position: absolute;
+	left: 0px;
+	top: -114px;
+	width: 1440px;
+	height: 171px;
+}
+.card_card .nav .login {
+	position: absolute;
+	left: 1305px;
+	top: 74.023193359375px;
+	height: 21.751953125px;
+}
+.card_card .nav .login .Login {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26108916225195%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.card_card .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
+	position: absolute;
+	left: 2px;
+	top: 2.837158203125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.card_card .nav .StreetSavvy {
+	position: absolute;
+	left: 49px;
+	top: 57px;
+	width: 217px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 65.912109375px;
+}
+.card_card .nav .Findaplace {
+	position: absolute;
+	left: 1125px;
+	top: 68.348876953125px;
+	width: 136px;
+	height: 28.3720703125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.card_card .nav .About {
+	position: absolute;
+	left: 994px;
+	top: 68.348876953125px;
+	width: 67px;
+	height: 28.3720703125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.card_card .nav .nav_1 {
+	position: absolute;
+	left: 0px;
+	top: 113px;
+	width: 1440px;
+	height: 58px;
+}
+.card_card .nav .nav_1 .Navbar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 58px;
+	background: rgba(222,138,119,1.00);
+}
+.card_card .nav .nav_1 .login_1 {
+	position: absolute;
+	left: 1251px;
+	top: 20px;
+	height: 21.751953125px;
+}
+.card_card .nav .nav_1 .login_1 .Login_1 {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26108916225195%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .nav .nav_1 .login_1 ._7887887426_googlegpnggooglelogowhitepng1_1 {
+	position: absolute;
+	left: 2px;
+	top: 2.837158203125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.card_card .nav .nav_1 .StreetSavvy_1 {
+	position: absolute;
+	left: 116px;
+	top: 0px;
+	width: 335px;
+	height: 24px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 59.634765625px;
+}
+.card_card .nav .nav_1 .Findaplace_1 {
+	position: absolute;
+	left: 943px;
+	top: 16.9456787109375px;
+	width: 113px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .nav .nav_1 .About_1 {
+	position: absolute;
+	left: 835px;
+	top: 17px;
+	width: 56px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .nav .nav_1 .Profile {
+	position: absolute;
+	left: 1124px;
+	top: 16px;
+	width: 59px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .nav .nav_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 114px;
+}
+.card_card .nav .nav_2 .login_2 {
+	position: absolute;
+	left: 1305px;
+	top: 17.023193359375px;
+	height: 21.751953125px;
+}
+.card_card .nav .nav_2 .login_2 .Login_2 {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26108916225195%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.card_card .nav .nav_2 .login_2 ._7887887426_googlegpnggooglelogowhitepng1_2 {
+	position: absolute;
+	left: 2px;
+	top: 2.837158203125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.card_card .nav .nav_2 .StreetSavvy_2 {
+	position: absolute;
+	left: 49px;
+	top: 0px;
+	width: 217px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 65.912109375px;
+}
+.card_card .nav .nav_2 .Findaplace_2 {
+	position: absolute;
+	left: 1125px;
+	top: 11.348876953125px;
+	width: 136px;
+	height: 28.3720703125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.card_card .nav .nav_2 .About_2 {
+	position: absolute;
+	left: 994px;
+	top: 11.348876953125px;
+	width: 67px;
+	height: 28.3720703125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.card_card .nav .nav_2 .nav_3 {
+	position: absolute;
+	left: 0px;
+	top: 56px;
+	width: 1440px;
+	height: 58px;
+}
+.card_card .nav .nav_2 .nav_3 .Navbar_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 58px;
+	background: rgba(222,138,119,1.00);
+}
+.card_card .nav .nav_2 .nav_3 .login_3 {
+	position: absolute;
+	left: 1251px;
+	top: 20px;
+	height: 21.751953125px;
+}
+.card_card .nav .nav_2 .nav_3 .login_3 .Login_3 {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26108916225195%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .nav .nav_2 .nav_3 .login_3 ._7887887426_googlegpnggooglelogowhitepng1_3 {
+	position: absolute;
+	left: 2px;
+	top: 2.837158203125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.card_card .nav .nav_2 .nav_3 .StreetSavvy_3 {
+	position: absolute;
+	left: 116px;
+	top: 1px;
+	width: 335px;
+	height: 52px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 59.634765625px;
+}
+.card_card .nav .nav_2 .nav_3 .Findaplace_3 {
+	position: absolute;
+	left: 943px;
+	top: 16.9456787109375px;
+	width: 113px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .nav .nav_2 .nav_3 .About_3 {
+	position: absolute;
+	left: 835px;
+	top: 17px;
+	width: 56px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .nav .nav_2 .nav_3 .Profile_1 {
+	position: absolute;
+	left: 1124px;
+	top: 16px;
+	width: 59px;
+	height: 23.6434326171875px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.card_card .Rectangle9 {
+	position: absolute;
+	left: 335px;
+	top: 399px;
+	width: 770px;
+	height: 925px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 5px;
+	border: 1px solid rgba(226.0000017285347,225.00000178813934,229.00000154972076,1);
+	box-sizing: border-box;
+}
+.card_card .Group5 {
+	position: absolute;
+	left: 355px;
+	top: 513px;
+	width: 60px;
+	height: 82px;
+}
+.card_card .Group5 .Ellipse1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 60px;
+	height: 82px;
+}
+.card_card .Group5 .Ellipse2 {
+	position: absolute;
+	left: 14px;
+	top: 8px;
+	width: 32px;
+	height: 33px;
+	background: rgba(217,217,217,0.00);
+	border-radius: 50%;
+	border: 3px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+	box-sizing: border-box;
+}
+.card_card .Line1 {
+	position: absolute;
+	left: 95px;
+	top: 1192px;
+	width: 1181.873046875px;
+	height: 140.003173828125px;
+}
+.card_card .Star1 {
+	position: absolute;
+	left: 343px;
+	top: 628px;
+	width: 84px;
+	height: 85px;
+	border-radius: 3px;
+	border: 3px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+	box-sizing: border-box;
+}

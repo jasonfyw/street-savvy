@@ -1,0 +1,491 @@
+
+.home_home {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.home_home .Rectangle7 {
+	position: absolute;
+	left: 3px;
+	top: 2691px;
+	width: 1450px;
+	height: 230px;
+	background: rgba(233,241,247,1.00);
+}
+.home_home .Rectangle4 {
+	position: absolute;
+	left: -6px;
+	top: 1202px;
+	width: 1451px;
+	height: 347px;
+	background: rgba(233,241,247,1.00);
+}
+.home_home .Group3 {
+	position: absolute;
+	left: 78px;
+	top: 1435px;
+	width: 242px;
+	height: 51px;
+	border-radius: 11px;
+}
+.home_home .Group3 .FindaplaceHolder {
+	position: absolute;
+	left: 28px;
+	top: 0px;
+	width: 186px;
+	height: 51px;
+	background: rgba(223,181,107,1.00);
+	border-radius: 11px;
+}
+.home_home .Group3 .Findaplace {
+	position: absolute;
+	left: 0px;
+	top: 11px;
+	width: 242px;
+	height: 23px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22.5px;
+}
+.home_home .footer {
+	position: absolute;
+	left: 0px;
+	top: 3128px;
+	width: 1440px;
+	height: 118px;
+	background: rgba(115,107,146,1.00);
+}
+.home_home .about {
+	position: absolute;
+	left: 104px;
+	top: 326px;
+	width: 1201px;
+	height: 122.78949737548828px;
+	border-radius: 11px;
+}
+.home_home .about .Rectangle2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 639.3949584960938px;
+	height: 122.78949737548828px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 11px;
+}
+.home_home .about .StreetSavvygivesyourecommendationsbasedonyourbudgetandinterestswhetheritbeforfoodshoppingorentertainmentNowyouwillneverhavetroublepickingaspotorworryaboutgoingoveryourbudget {
+	position: absolute;
+	left: 18.02447509765625px;
+	top: 11.42227554321289px;
+	width: 1182.9754638671875px;
+	height: 42.83354949951172px;
+	color: rgba(0,0,0,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22.5px;
+}
+.home_home .canada {
+	position: absolute;
+	left: 0px;
+	top: 434px;
+	width: 1440px;
+	height: 486px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.home_home .NotsurewheretogoonyournextoutingSpendingtoomuchmoneywhengoingoutWegotyoucovered {
+	position: absolute;
+	left: 116px;
+	top: 159px;
+	width: 1156px;
+	height: 262px;
+	color: rgba(115,107,146,1.00);
+	font-family: Rubik;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 42.659996032714844px;
+}
+.home_home .Toprestaurantrecommendations {
+	position: absolute;
+	left: 110px;
+	top: 1218px;
+	width: 908px;
+	height: 44px;
+	color: rgba(115,107,146,1.00);
+	font-family: Rubik;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 42.659996032714844px;
+}
+.home_home .Funplacestovisit {
+	position: absolute;
+	left: 684px;
+	top: 1900px;
+	width: 559px;
+	height: 44px;
+	color: rgba(115,107,146,1.00);
+	font-family: Rubik;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 42.659996032714844px;
+}
+.home_home .Group1 {
+	position: absolute;
+	left: 88px;
+	top: 423px;
+	width: 242px;
+	height: 51px;
+	border-radius: 11px;
+}
+.home_home .Group1 .FindaplaceHolder_1 {
+	position: absolute;
+	left: 28px;
+	top: 0px;
+	width: 186px;
+	height: 51px;
+	background: rgba(223,181,107,1.00);
+	border-radius: 11px;
+}
+.home_home .Group1 .Findaplace_1 {
+	position: absolute;
+	left: 0px;
+	top: 11px;
+	width: 242px;
+	height: 23px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22.5px;
+}
+.home_home .Copyright2023 {
+	position: absolute;
+	left: 562px;
+	top: 3191px;
+	width: 316px;
+	height: 23px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22.5px;
+}
+.home_home .About {
+	position: absolute;
+	left: 890px;
+	top: 17px;
+	width: 67px;
+	height: 30px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.home_home .InputyourbudgetandreceivepersonalizedrestaurantrecommendationsinTorontofromourextensivedatabaseOuralgorithmlearnswhatrestaurantsandcuisinesyoulikeandrecommendssimilarplaces {
+	position: absolute;
+	left: 110px;
+	top: 1305px;
+	width: 702px;
+	height: 181px;
+	color: rgba(0,0,0,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22.5px;
+}
+.home_home .Rectangle5 {
+	position: absolute;
+	left: 909px;
+	top: 1292px;
+	width: 433px;
+	height: 409px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.home_home .Rectangle6 {
+	position: absolute;
+	left: 135px;
+	top: 1900px;
+	width: 393px;
+	height: 235px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.home_home .BlobShape {
+	position: absolute;
+	left: 1056.992919921875px;
+	top: 2048px;
+	width: 184.13720703125px;
+	height: 179.482421875px;
+}
+.home_home .BlobShape_1 {
+	position: absolute;
+	left: 1163.1527099609375px;
+	top: 2121.849609375px;
+	width: 184.5498046875px;
+	height: 193.0010986328125px;
+}
+.home_home .BlobShape_2 {
+	position: absolute;
+	left: 751px;
+	top: 2236px;
+	width: 180.7513427734375px;
+	height: 189.2109375px;
+}
+.home_home .BlobShape_3 {
+	position: absolute;
+	left: 1057.3582763671875px;
+	top: 2285.2265625px;
+	width: 171.2896728515625px;
+	height: 176.939453125px;
+}
+.home_home .nav {
+	position: absolute;
+	left: 0px;
+	top: -57px;
+	width: 1440px;
+	height: 114px;
+}
+.home_home .nav .login {
+	position: absolute;
+	left: 1305px;
+	top: 17.02325439453125px;
+	height: 21.751953125px;
+}
+.home_home .nav .login .Login {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26080856604113%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.home_home .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
+	position: absolute;
+	left: 2px;
+	top: 2.83721923828125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.home_home .nav .StreetSavvy {
+	position: absolute;
+	left: 49px;
+	top: 0px;
+	width: 217px;
+	height: 23.643402099609375px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 65.912109375px;
+}
+.home_home .nav .Findaplace_2 {
+	position: absolute;
+	left: 1125px;
+	top: 11.34881591796875px;
+	width: 136px;
+	height: 28.372100830078125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.home_home .nav .About_1 {
+	position: absolute;
+	left: 994px;
+	top: 11.34881591796875px;
+	width: 67px;
+	height: 28.372100830078125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.home_home .nav .nav_1 {
+	position: absolute;
+	left: 0px;
+	top: 56px;
+	width: 1440px;
+	height: 58px;
+}
+.home_home .nav .nav_1 .Navbar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 58px;
+	background: rgba(222,138,119,1.00);
+}
+.home_home .nav .nav_1 .login_1 {
+	position: absolute;
+	left: 1251px;
+	top: 20px;
+	height: 21.751953125px;
+}
+.home_home .nav .nav_1 .login_1 .Login_1 {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26080856604113%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.home_home .nav .nav_1 .login_1 ._7887887426_googlegpnggooglelogowhitepng1_1 {
+	position: absolute;
+	left: 2px;
+	top: 2.83721923828125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.home_home .nav .nav_1 .StreetSavvy_1 {
+	position: absolute;
+	left: 116px;
+	top: 1px;
+	width: 335px;
+	height: 52px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 59.634765625px;
+}
+.home_home .nav .nav_1 .Findaplace_3 {
+	position: absolute;
+	left: 943px;
+	top: 16.945709228515625px;
+	width: 113px;
+	height: 23.643402099609375px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.home_home .nav .nav_1 .About_2 {
+	position: absolute;
+	left: 835px;
+	top: 17px;
+	width: 56px;
+	height: 23.643402099609375px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.home_home .nav .nav_1 .Profile {
+	position: absolute;
+	left: 1124px;
+	top: 16px;
+	width: 59px;
+	height: 23.643402099609375px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.home_home .Group2 {
+	position: absolute;
+	left: 599px;
+	top: 2825px;
+	width: 242px;
+	height: 51px;
+	border-radius: 11px;
+}
+.home_home .Group2 .FindaplaceHolder_2 {
+	position: absolute;
+	left: 28px;
+	top: 0px;
+	width: 186px;
+	height: 51px;
+	background: rgba(223,181,107,1.00);
+	border-radius: 11px;
+}
+.home_home .Group2 .Findaplace_4 {
+	position: absolute;
+	left: 0px;
+	top: 11px;
+	width: 242px;
+	height: 23px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22.5px;
+}
+.home_home .Group4 {
+	position: absolute;
+	left: 658px;
+	top: 2135px;
+	width: 242px;
+	height: 51px;
+	border-radius: 11px;
+}
+.home_home .Group4 .FindaplaceHolder_3 {
+	position: absolute;
+	left: 28px;
+	top: 0px;
+	width: 186px;
+	height: 51px;
+	background: rgba(223,181,107,1.00);
+	border-radius: 11px;
+}
+.home_home .Group4 .Findaplace_5 {
+	position: absolute;
+	left: 0px;
+	top: 11px;
+	width: 242px;
+	height: 23px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22.5px;
+}
+.home_home .Getstartedimmediately {
+	position: absolute;
+	left: 532px;
+	top: 2731px;
+	width: 908px;
+	height: 44px;
+	color: rgba(115,107,146,1.00);
+	font-family: Rubik;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 42.659996032714844px;
+}
