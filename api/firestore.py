@@ -2,12 +2,12 @@ import firebase_admin
 from firebase_admin import firestore
 from firebase_admin import credentials
 
+cred = credentials.Certificate(
+            'Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
+app = firebase_admin.initialize_app(cred)
 
 class firestoreManager:
     def __init__(self) -> None:
-        self.cred = credentials.Certificate(
-            'Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
-        self.app = firebase_admin.initialize_app(self.cred)
         self.db = firestore.client()
 
     def addRestaurant(self, address, category, description, name, phoneNumber, photoAPI, placeID, priceLevel, rating, reviews, website) -> None:
