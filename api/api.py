@@ -3,6 +3,7 @@ from flask_restful import Api, Resource, reqparse
 from firestore import firestoreManager
 
 from recommender import recommender
+from utils import utils
 
 dbManager = firestoreManager()
 
@@ -27,7 +28,7 @@ api.add_resource(userReg, "/userreg/<string:userID>")
 
 # register blueprint routes
 app.register_blueprint(recommender)
-
+app.register_blueprint(utils)
 
 if __name__ == "__main__":
     app.run(debug=True)

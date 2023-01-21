@@ -6,7 +6,7 @@ from firebase_admin import credentials
 class firestoreManager:
     def __init__(self) -> None:
         self.cred = credentials.Certificate(
-            'api/Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
+            'Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
         self.app = firebase_admin.initialize_app(self.cred)
         self.db = firestore.client()
 
