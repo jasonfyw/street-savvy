@@ -1,0 +1,1030 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ARywPAIQgH2Sjq69YPe49R5GzmI34xj_Q66RLg9y0RUjD64U5YgGOv3oqU1hjsgGy51XJCDDhCdMKDuZIg-vyWaW1RRWMm2ky1Voiw_25mJzv4iv06eorHWeA2FfLK2VeyW4tCPq0Zo9W8yC0u8UFw_yaC5c9fwxxbuSbiyv_hYQqrI2guVeY0wCps-G_lfQSh71ZUoV8Q0Vegolj8Ai7LhUCp7K6u08f7AeCP7p6Du-1zVm3zkzrIVgD02BWv0QmrF_i86SqpHGMLL6lLsL_n6WMQWXyCCikv0XhbYoKYUPqvxVYKKKcP53lJnSQ1YDwGDLj8ULd60PzRoseP-laroHnc4aTKIcFsfHWwsylNbUt6k6Hc77XeZMti3yBKMOwvXrdcCXreJMIdHza8IGJHq4MVORciYlrOgaT5xOU3AFnM-i9Ym0WSonHizanqDC",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.655849,
+               "lng" : -79.43550499999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.65718973029151,
+                  "lng" : -79.43312995000001
+               },
+               "southwest" : {
+                  "lat" : 43.65449176970851,
+                  "lng" : -79.43671135000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Pizza Pizza",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116732435616420242688\"\u003ePizza Pizza\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAI58e9f-0KQdhM4Rl1QcbOw3qtFtekFI4GitCOJq60Lo9_0a-FCkMoIDKq7UWjbBSNI39kUbfqMh1ytsq9oSfspjUJSG5r5AhTRYZF7MCzfjcycKGYrp4mcE-RL_zbS3MYCnXJ_3-fUFoXgfqAxqmbE0wrCR2hL55S-yOziP_ZmSl8",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJqVQVxVo0K4gR73i74lQrBNY",
+         "plus_code" : {
+            "compound_code" : "MH47+8Q Toronto, ON, Canada",
+            "global_code" : "87M2MH47+8Q"
+         },
+         "price_level" : 1,
+         "rating" : 3.8,
+         "reference" : "ChIJqVQVxVo0K4gR73i74lQrBNY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 97,
+         "vicinity" : "900 Dufferin Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6548822,
+               "lng" : -79.451745
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6561683802915,
+                  "lng" : -79.45048341970849
+               },
+               "southwest" : {
+                  "lat" : 43.6534704197085,
+                  "lng" : -79.4531813802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Pizza Nova",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104000736849465373142\"\u003eMark Webster\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIYjWsZe3gKPnV9Ia_ncS9gyLJJhhBnpSTt1SV5vZMJMirWVADLWVnIUbGnRi5S4HF0J7To4uGCWO5FUB-UVhgyAxWHTmivNnrEbfv-7ClSFTSlFIyROkRAe-EKZqgz6KoC7JrhArunoHYIVgP08EvD0D4pWoJXW1ITXNs-4Z6ZN810",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJtZmfaTc0K4gRoYt_uaAFerk",
+         "plus_code" : {
+            "compound_code" : "MG3X+X8 Toronto, ON, Canada",
+            "global_code" : "87M2MG3X+X8"
+         },
+         "price_level" : 1,
+         "rating" : 3.9,
+         "reference" : "ChIJtZmfaTc0K4gRoYt_uaAFerk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 289,
+         "vicinity" : "2264 Dundas Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6582874,
+               "lng" : -79.44242109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6596934802915,
+                  "lng" : -79.44106376970849
+               },
+               "southwest" : {
+                  "lat" : 43.6569955197085,
+                  "lng" : -79.4437617302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Ali Baba's Middle Eastern Cuisine",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115325419640950604336\"\u003eRobert Karbaum\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKPKYTG-ktEKSroJbcMLzlq2iCmw-SdZTCYmsXp66E7Oz_x3oPV57Ci1543dDWZmtMzLoC7JyrXDNKghTGVzeoo2ZbYwgl-Gw0RqW338iAxAwVix3yPrjSO5ONqth6V1e5YI9uRriq1IS8kearOZnaB5P7Xj7vq6MEAdWpxZ2IIgGRv",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJnbN5n0Y0K4gRzlGRJkEaxJE",
+         "plus_code" : {
+            "compound_code" : "MH55+82 Toronto, ON, Canada",
+            "global_code" : "87M2MH55+82"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJnbN5n0Y0K4gRzlGRJkEaxJE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 330,
+         "vicinity" : "1283 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65894179999999,
+               "lng" : -79.4404174
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.66024028029151,
+                  "lng" : -79.4390453697085
+               },
+               "southwest" : {
+                  "lat" : 43.65754231970851,
+                  "lng" : -79.44174333029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+         "name" : "Nuthouse",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109728660793081679592\"\u003eLauren Christerra\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJQ_AAdJH3M50ttpctYAD9J-3BEO33-9hJvX9JBVirE2Gcp9x0rDUW1VuVcZeHmnGA8rUe7vGMUUAcwXmExCTt-knouV6zsV5fB_LsxEyKImMJWBi1j5C0Gfpy-X7OTGnojmkOjCQrdLXzRHYt2ztPHx4nh1IsTTOdP-717BHvhz9kp",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJTcTJACo0K4gRxIFu_oD-o84",
+         "plus_code" : {
+            "compound_code" : "MH55+HR Toronto, ON, Canada",
+            "global_code" : "87M2MH55+HR"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJTcTJACo0K4gRxIFu_oD-o84",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "grocery_or_supermarket",
+            "health",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 90,
+         "vicinity" : "1256 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6586849,
+               "lng" : -79.4401053
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6601313802915,
+                  "lng" : -79.43879496970848
+               },
+               "southwest" : {
+                  "lat" : 43.6574334197085,
+                  "lng" : -79.4414929302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "FOXXES DEN MALE REVUE",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJq2LG3zs2K4gRuwJiO_azikw",
+         "plus_code" : {
+            "compound_code" : "MH55+FX Toronto, ON, Canada",
+            "global_code" : "87M2MH55+FX"
+         },
+         "rating" : 3,
+         "reference" : "ChIJq2LG3zs2K4gRuwJiO_azikw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "night_club",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 65,
+         "vicinity" : "1215 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65442309999999,
+               "lng" : -79.43545659999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.65570098029149,
+                  "lng" : -79.4340861197085
+               },
+               "southwest" : {
+                  "lat" : 43.6530030197085,
+                  "lng" : -79.4367840802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Jimmy The Greek",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 6936,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116301643713030025659\"\u003erobert fishman\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALbeMdeCS5lH8u6iIRIhGSvJJer7StieCRw4DOInOrbQhjYxgIc9UeFEChTFXtCWNscs6ODBkbPZDNmhx_19pAv1Mn-UKynp_07U21sYGmCuyNC3bHR-QC8G29Kwq8RhAFNJyKpyBTI4CpEMjDQDR3WT2JZS6mypiZdc0YuWZdNwxVu",
+               "width" : 9248
+            }
+         ],
+         "place_id" : "ChIJ64iNI1s0K4gRZ3xy0s64bsQ",
+         "plus_code" : {
+            "compound_code" : "MH37+QR Toronto, ON, Canada",
+            "global_code" : "87M2MH37+QR"
+         },
+         "price_level" : 1,
+         "rating" : 4.1,
+         "reference" : "ChIJ64iNI1s0K4gRZ3xy0s64bsQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 174,
+         "vicinity" : "Dufferin Mall, 900 Dufferin Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6586283,
+               "lng" : -79.4408258
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6600326302915,
+                  "lng" : -79.43949901970849
+               },
+               "southwest" : {
+                  "lat" : 43.6573346697085,
+                  "lng" : -79.44219698029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Latin World Store",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104660679291119563441\"\u003eBen Fenlon\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJ3FUHW4OA98pE9xAg7nQ5tX5Vg4j-4cseMqIV6fjFQKgAGCmcjXvvGcTF2WK-dsz4VPbFCWqAcKD9bNPcm1_Lz2lXOEqGKkxiuXcfRfB-WGxGE54p882MG-9RIR3xwJeND0rc5OS9PlnnpyQhEzcNrLdgSQ2Zv3dcygx0-J1pQ3zVL",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJX_DHAcI0K4gROFZNPpkTsK4",
+         "plus_code" : {
+            "compound_code" : "MH55+FM Toronto, ON, Canada",
+            "global_code" : "87M2MH55+FM"
+         },
+         "price_level" : 1,
+         "rating" : 4,
+         "reference" : "ChIJX_DHAcI0K4gROFZNPpkTsK4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "grocery_or_supermarket",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 819,
+         "vicinity" : "1229 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65538370000001,
+               "lng" : -79.4461711
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6567728302915,
+                  "lng" : -79.4448389697085
+               },
+               "southwest" : {
+                  "lat" : 43.6540748697085,
+                  "lng" : -79.44753693029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Solid Design Creative",
+         "photos" : [
+            {
+               "height" : 634,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100633861329754785559\"\u003eSolid Design Creative\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIpJ33-uCDsnUI9S7jDHabOx1Kfv6Mf9UsYDBW0lT2owWJialCxih81lOXaogMmCLS_Cs0F1YbFW1T0fi3FBssG5X8aRUBUPDo_FZxNxazqChGCFi4Z2urjRK7uLF1U73EkCgiGq9b7cmBKVKuVTk6bc4WI9q2R1QVusQnSJZaba32b",
+               "width" : 1125
+            }
+         ],
+         "place_id" : "ChIJQWthk7M1K4gRr-tTCn0L8-Q",
+         "plus_code" : {
+            "compound_code" : "MH43+5G Toronto, ON, Canada",
+            "global_code" : "87M2MH43+5G"
+         },
+         "reference" : "ChIJQWthk7M1K4gRr-tTCn0L8-Q",
+         "scope" : "GOOGLE",
+         "types" : [
+            "general_contractor",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "213 Sterling Road Suite 101, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6525372,
+               "lng" : -79.4495393
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6539848802915,
+                  "lng" : -79.4481444197085
+               },
+               "southwest" : {
+                  "lat" : 43.6512869197085,
+                  "lng" : -79.4508423802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Bandit Brewery",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 683,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115429557573771465529\"\u003eBandit Brewery\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKKuoi_ZgAI812VUlsnn0vTPZGqqZ6t8E5X-K5jOSTjg0CaCSaDmTrnXOy6imZueKCpk7bb5Z7DpxXeZ7Az209JydgCwgJ-mDIIolNK5T9xjGKIyoEGXRWeYuHtqb-L2FDDYrCFI8RZQB-9TxPCLgreL_HszGFoDs6v5HV6grkB4gt9",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJXR4CRjY0K4gRZwebwTz0NRc",
+         "plus_code" : {
+            "compound_code" : "MH32+25 Toronto, ON, Canada",
+            "global_code" : "87M2MH32+25"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJXR4CRjY0K4gRZwebwTz0NRc",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1143,
+         "vicinity" : "2125 Dundas Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6480146,
+               "lng" : -79.4493454
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6493287802915,
+                  "lng" : -79.44816341970849
+               },
+               "southwest" : {
+                  "lat" : 43.64663081970851,
+                  "lng" : -79.45086138029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Barque Smokehouse",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101584822874607816752\"\u003eKathryn Otto\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIvRnU9ehzZcS1R3r57zKZZOaaBp6TMc30kofQY69k01e6HgTnmbmSjTBV7hardwc7I5vniyJR23SUKqsLsORJoCggxVvVQe5t-dWg3WQS7nD5RzWC9gD0CX4Ak-GHz8RzrfQ6khAsLjyHo9QHOJvPjfzVPR1ump24NDat584hibUld",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJU16oDjU0K4gRYTAXujglr3Y",
+         "plus_code" : {
+            "compound_code" : "JHX2+67 Toronto, ON, Canada",
+            "global_code" : "87M2JHX2+67"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJU16oDjU0K4gRYTAXujglr3Y",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1624,
+         "vicinity" : "299 Roncesvalles Avenue, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65622399999999,
+               "lng" : -79.43557699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6578655302915,
+                  "lng" : -79.4341603197085
+               },
+               "southwest" : {
+                  "lat" : 43.6551675697085,
+                  "lng" : -79.4368582802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Thai Express Restaurant Toronto",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102457713116018843333\"\u003eThai Express Restaurant Toronto\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJ-ryqkhSZ5d2tOkU6e61rmUkZaC3lAZE79Qx9KBa1BHXcXLKx2KiN654hPplhNCI5kQ5XHd3LwNrv1bJvRSG434YbAqxiEs8wFMy2EMK8nZm4685OYAUACC6EocIEQv6L5LKkM_TrWrOmL56BlUkgDwfAJc6iqQ5BV3EVhTMl29hEp",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJ64iNI1s0K4gRMn8shMMShxc",
+         "plus_code" : {
+            "compound_code" : "MH47+FQ Toronto, ON, Canada",
+            "global_code" : "87M2MH47+FQ"
+         },
+         "price_level" : 1,
+         "rating" : 2.9,
+         "reference" : "ChIJ64iNI1s0K4gRMn8shMMShxc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 53,
+         "vicinity" : "900 Dufferin Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6509197,
+               "lng" : -79.4394779
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.65230673029149,
+                  "lng" : -79.43819271970851
+               },
+               "southwest" : {
+                  "lat" : 43.6496087697085,
+                  "lng" : -79.44089068029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Papa John's Pizza",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 5316,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114603216786287970229\"\u003ePapa John&#39;s Pizza\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKAVEKVn5Y1egs6V98XIHgvbE_ZbXReLwXFadEuMChN9Do82ofPKSesRDdOG8oNb7bqa9FfkT8xQgUl_Av97f8T5rxOk3gOgTXYI1kuf4BNdbeK5a_krA98nXvdlNvh2QleTNBcBm0km9lC6onNfPQw8SPwTL92MumkyQPaSnjtAgLv",
+               "width" : 5316
+            }
+         ],
+         "place_id" : "ChIJ2xKsik40K4gRBNn6UJ7JAbY",
+         "plus_code" : {
+            "compound_code" : "MH26+96 Toronto, ON, Canada",
+            "global_code" : "87M2MH26+96"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ2xKsik40K4gRBNn6UJ7JAbY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 202,
+         "vicinity" : "1269 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65890099999999,
+               "lng" : -79.439373
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.66031263029149,
+                  "lng" : -79.4380648697085
+               },
+               "southwest" : {
+                  "lat" : 43.65761466970849,
+                  "lng" : -79.44076283029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Pizza Pizza",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3468,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116414040548151831401\"\u003eN Nomad\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJoeX0xlSZsP3xBeMiQhjYIuL2Voa3tUw_rm6aOWZIB0FeisUlYNn7IZ9JyUPDfLzs_5llxYipVhoMKeOQww2sp0Pfgro6IfWHm8W3IHvm4dTgURq5tc24WrbCWsch_q8hnfDagY0mvjXy37Sdt12b-m8Iy3do5-1qRYHySC4aUxbzL",
+               "width" : 4624
+            }
+         ],
+         "place_id" : "ChIJP2EYMhM0K4gRUbpWlCtNTy8",
+         "plus_code" : {
+            "compound_code" : "MH56+H7 Toronto, ON, Canada",
+            "global_code" : "87M2MH56+H7"
+         },
+         "price_level" : 1,
+         "rating" : 3.6,
+         "reference" : "ChIJP2EYMhM0K4gRUbpWlCtNTy8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 374,
+         "vicinity" : "1193 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6591336,
+               "lng" : -79.439616
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.66041803029151,
+                  "lng" : -79.4382417197085
+               },
+               "southwest" : {
+                  "lat" : 43.65772006970851,
+                  "lng" : -79.44093968029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Duffy's Tavern",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3468,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116414040548151831401\"\u003eN Nomad\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKUMJBOvlMj2iS8vRaqj2ui97MMT1M_x4pMwKQ9Elh9EAN_EgNsCZhk2_xr9EH3DQtw7ju31bm7UZaokx69fcVqDB4TUVWd2QOx-Pz4OTG-S9RebSH8FEjzoZ5RplV_sJyVLyMAXxje7AQA1Arn4rcEN637TQ9n6Vc0DCuyBCMgda-m",
+               "width" : 4624
+            }
+         ],
+         "place_id" : "ChIJu_CEQq43K4gRaOFIU-DuvqU",
+         "plus_code" : {
+            "compound_code" : "MH56+M5 Toronto, ON, Canada",
+            "global_code" : "87M2MH56+M5"
+         },
+         "price_level" : 1,
+         "rating" : 3.9,
+         "reference" : "ChIJu_CEQq43K4gRaOFIU-DuvqU",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 801,
+         "vicinity" : "1238 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.64996609999999,
+               "lng" : -79.43952349999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.65136478029149,
+                  "lng" : -79.43825966970849
+               },
+               "southwest" : {
+                  "lat" : 43.6486668197085,
+                  "lng" : -79.44095763029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Just Get Wings",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 881,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118368949222731749258\"\u003eJust Get Wings\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIxUMkahB0zFXa02dw5IxJiJqvRbK7nzTfcCSJYquOYPp_pM1a1hplSf5t_bCPV6D_x2ygY1cglJ3zPVrSoMhf2o3gG8vcNo58gfnA4szw00GbFwEwsay9L2EAEo2eUa2eHi2AcdLg0D_d_8uh9LSkqdlWen9nsBj8ChJQ6mi95DTid",
+               "width" : 1690
+            }
+         ],
+         "place_id" : "ChIJVQaTgE40K4gRcEvJ3OpRT70",
+         "plus_code" : {
+            "compound_code" : "JHX6+X5 Toronto, ON, Canada",
+            "global_code" : "87M2JHX6+X5"
+         },
+         "rating" : 2.9,
+         "reference" : "ChIJVQaTgE40K4gRcEvJ3OpRT70",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 17,
+         "vicinity" : "1745 Dundas Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6585917,
+               "lng" : -79.44215910000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6598831802915,
+                  "lng" : -79.4407868697085
+               },
+               "southwest" : {
+                  "lat" : 43.6571852197085,
+                  "lng" : -79.44348483029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Caribbean Queen of Patties",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2252,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112942586853670715121\"\u003eGlenn Dickler\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALPJxwOtqfQ9uGQKeBCsB1SMNdfTgTfvnkjq4SYuSSCrIF_-0zbZoojEL2g75yhUL4z-bHDKo4-jOxF8PINPr6aYrOESwHu8u_3hxzpg4tVDsuIprjPRq-Xm9Qs55jzApdjf9Ugkt6Qz6oJ92jzobvfYo5nXsQ8jwjLkpA-CJMYRmDy",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJQxwEoEY0K4gRvqvrT6xsw0E",
+         "plus_code" : {
+            "compound_code" : "MH55+C4 Toronto, ON, Canada",
+            "global_code" : "87M2MH55+C4"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJQxwEoEY0K4gRvqvrT6xsw0E",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 256,
+         "vicinity" : "1294 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6618174,
+               "lng" : -79.44633229999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6632172802915,
+                  "lng" : -79.44493771970849
+               },
+               "southwest" : {
+                  "lat" : 43.6605193197085,
+                  "lng" : -79.44763568029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "icon_background_color" : "#4B96F3",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+         "name" : "Neon Commissary",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101645726311930194699\"\u003eJessica Yong\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJFcR7NlTlByBQwzodNqt02WxeQcZ7FUqaWTQtq7V8LUpsb-yvN7sOL7yVtJmTMmQH6Pa-hZH5pyZDxy2CF-hxXD9HFt_rWPECJqeRK1WqTXobT2NEBXN3GekDV5XDYS7XmxE9kICZL5-AznNjbi54fEZsEPTs3lOzwWyAkbi3kJ_I",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJy57njEA0K4gRDsbb6G6c-a0",
+         "plus_code" : {
+            "compound_code" : "MH63+PF Toronto, ON, Canada",
+            "global_code" : "87M2MH63+PF"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJy57njEA0K4gRDsbb6G6c-a0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "cafe",
+            "bakery",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 266,
+         "vicinity" : "241 Wallace Avenue, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65457549999999,
+               "lng" : -79.43525339999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6558627302915,
+                  "lng" : -79.4338828197085
+               },
+               "southwest" : {
+                  "lat" : 43.6531647697085,
+                  "lng" : -79.43658078029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Subway",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116573799676246272460\"\u003eValerie\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJhqq_fsnO05q3IHTQ0hk15wSjpnmbkJa7kHfRX5mS9MXaanXu7LJVgQz0hYITh5h02Ux8zdblY1w1ltrw3iRH5n8nwmsEomKceBSfhXnrPCn3tN3-ZdMBr7m-2NpTiKna_A118zoUIchZT7Zq3b-WFCZzatn6XZCh6oOFn-FtvLgJ2",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ64iNI1s0K4gREciqtG72ZnU",
+         "plus_code" : {
+            "compound_code" : "MH37+RV Toronto, ON, Canada",
+            "global_code" : "87M2MH37+RV"
+         },
+         "price_level" : 1,
+         "rating" : 3.8,
+         "reference" : "ChIJ64iNI1s0K4gREciqtG72ZnU",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 215,
+         "vicinity" : "900 Dufferin Street Unit #0074, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65459,
+               "lng" : -79.43540609999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.65584553029151,
+                  "lng" : -79.4339780697085
+               },
+               "southwest" : {
+                  "lat" : 43.65314756970851,
+                  "lng" : -79.43667603029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Shanghai 360",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118198470057552629497\"\u003eTimothy Cheng\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIGYYHYwO_x6BOPh3F37JlsI7fbdNb9b5ZnNY5KuQYiyGsm8BEKdLvly4UGeDK_Ng4ZTd01kGlb2TXd7G-gi4iifeSOB8iCxlTGCkNIVQFcWL9EWHJNX0EkHRM0AZCxm-oCXx6dreksxxLJpe-y2mbmGkhIXIZ0QcuJU5zvkuS9BXHg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJBSnrAls0K4gRJu2VJlA6n1U",
+         "plus_code" : {
+            "compound_code" : "MH37+RR Toronto, ON, Canada",
+            "global_code" : "87M2MH37+RR"
+         },
+         "rating" : 2.8,
+         "reference" : "ChIJBSnrAls0K4gRJu2VJlA6n1U",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 26,
+         "vicinity" : "900 Dufferin Street, Toronto"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65622399999999,
+               "lng" : -79.43557699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6578655302915,
+                  "lng" : -79.4341603197085
+               },
+               "southwest" : {
+                  "lat" : 43.6551675697085,
+                  "lng" : -79.4368582802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Cultures",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 912,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111382003942825324067\"\u003eCultures\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALfLREfgexdWDYMrKoScE0lO6ODpD3Wy1Qpp-gBVzPFhvvvtv95R6sAeCgufVSoakTZPoX6WECFdS5sVnQR4-88nXcGSG45ZQKCOT2qsLXCgjQUPN4Dd8w4yHx7Qx0Ir2J9o3KO8iaN6P1RScrVEWZwPNP9S1xVlGNz8ZxPW7REh9Qc",
+               "width" : 1620
+            }
+         ],
+         "place_id" : "ChIJS6oRvVo0K4gR2dKTa6vekQg",
+         "plus_code" : {
+            "compound_code" : "MH47+FQ Toronto, ON, Canada",
+            "global_code" : "87M2MH47+FQ"
+         },
+         "price_level" : 2,
+         "rating" : 3.3,
+         "reference" : "ChIJS6oRvVo0K4gR2dKTa6vekQg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 24,
+         "vicinity" : "900 Dufferin Street, Toronto"
+      }
+   ],
+   "status" : "OK"
+}

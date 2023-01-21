@@ -1,0 +1,154 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6777659,
+               "lng" : -79.4426067
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6792046302915,
+                  "lng" : -79.44129356970849
+               },
+               "southwest" : {
+                  "lat" : 43.6765066697085,
+                  "lng" : -79.4439915302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Pupusa To Go",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101099755441584622253\"\u003eChris Duncan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALMIFrq96n7dPV5N-pGjhrIOCgR0iyL_UN8kBeolJcLf29sg5oVEZjmDh0YL2F0fHqC64I9iopabC89uLo2CUJ9mTbnsyk3GZazv5h98QjE1lita7Cx8i0kfburly3YytZttsPuwfyKCaKx2MD0lHM1afw8JAQCtkqPNbzLzfCTgsW-",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJIT9e5Nc1K4gR7LzOJCOUCTg",
+         "plus_code" : {
+            "compound_code" : "MHH4+4X Toronto, ON, Canada",
+            "global_code" : "87M2MHH4+4X"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJIT9e5Nc1K4gR7LzOJCOUCTg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 30,
+         "vicinity" : "1165 Saint Clair Avenue West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6777659,
+               "lng" : -79.4426067
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6792046302915,
+                  "lng" : -79.44129356970849
+               },
+               "southwest" : {
+                  "lat" : 43.6765066697085,
+                  "lng" : -79.4439915302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Hey Wey!",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1591,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101893392544559040167\"\u003eHey Wey!\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAL_ydnbUQhWG7cmF_vQw5nkav69pvD0jtYYvN7FroJIrZnPBFReqepyHUU3_zWoD115EOfOoNDejym5bJ4yRa9mqFichdIVenZzv4NXrdptEolMfmwwNyzr7VtBK7hBnd7qFlllYUiCNht5hoqUCDpp5F-JVbZnbcrHfcaqvvNu567j",
+               "width" : 2828
+            }
+         ],
+         "place_id" : "ChIJrZcAbLw1K4gRowf8cOo76UI",
+         "plus_code" : {
+            "compound_code" : "MHH4+4X Toronto, ON, Canada",
+            "global_code" : "87M2MHH4+4X"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJrZcAbLw1K4gRowf8cOo76UI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 61,
+         "vicinity" : "1165 Saint Clair Avenue West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6778815,
+               "lng" : -79.44236189999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.67929213029149,
+                  "lng" : -79.44103551970849
+               },
+               "southwest" : {
+                  "lat" : 43.67659416970849,
+                  "lng" : -79.4437334802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "El Tren 🚂 Latino",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110285237557847762686\"\u003eOmar El Alami\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAI02u23DBbF1F0ZzcD6KTiklM4tmenk-hNkJAp9fzHMihx08kQAb7Ty2m1LWJIiulKh2LH14osegqs2EJkCyTUdJZUdezTiajJ1E1ZIgthJ1tY8hF3iB1gM5WJJawC53AY8IOL8XFsReMvcWl3Ug6j7p9YPt-MB_Kv0iOuZpaFVyI5F",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJSaklFoszK4gRH81Q3CdWtrs",
+         "plus_code" : {
+            "compound_code" : "MHH5+53 Toronto, ON, Canada",
+            "global_code" : "87M2MHH5+53"
+         },
+         "rating" : 4,
+         "reference" : "ChIJSaklFoszK4gRH81Q3CdWtrs",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 230,
+         "vicinity" : "1157 Saint Clair Avenue West, Toronto"
+      }
+   ],
+   "status" : "OK"
+}
