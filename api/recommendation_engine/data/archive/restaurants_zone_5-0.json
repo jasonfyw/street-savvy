@@ -1,0 +1,1008 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ARywPAJAE4H6vWkr1zANbNh7qfaoIzpwQVvO_vx0cSRdjzuy5bTmmFJKUmtdl9SHSY_jyQQz-lHJ0a_uiBElt_ncusFjKhjIhnJIpGUbOovV5m1atgHY-Ubi-HbTvnC0lwh7t00KZx6FSx5T7fKNHSDbSwV2LHG_QgqPxgJ4XJAX0XwwQkBxe6UKp7aj1R86RsAMlBQHCL-qJ0uHtPojJmguZnG2oqNiOZFuByYnTtdqQid6p6DOcpDfZUh-92P5o5d7ucCKfc6KQXpoDknoGCd4OBPgCbFo1pg96p9VG-lWYiglkEYIszZio484u0QT3ulGTExMmbERww3S5HdOK9d9qBqIFaMsynwoXXFkCZeX-N5iO3qfJpTPdHOmxeh2uUc4-2zW51EjW4Us04sf71-hVyqtqne-p0UflALTUG7azM70QhnZwp65bvFZZBqB",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6630891,
+               "lng" : -79.42198019999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6643005302915,
+                  "lng" : -79.42054726970849
+               },
+               "southwest" : {
+                  "lat" : 43.6616025697085,
+                  "lng" : -79.4232452302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Banjara Indian Cuisine",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1800,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113331820645724242530\"\u003eMichael Gfroerer\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIFQBYIbJ0Kyx3NAmDkLw3hFBBw7zhK2L9sry7w6eslpjzyR06ZBRORcGHwH3R85UIA-6l7UsOVYBFWl8dv-MadgbbxAZNNXhMKtvXMT7wIaRkFHXXnjsfzfr2CDQQXDNiD-YswutJxLcaWzbS9rwjitzrEd75hmzbg30Ei5EHmtBgm",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJJRL_Ros0K4gRM8kCsKvdkCE",
+         "plus_code" : {
+            "compound_code" : "MH7H+66 Toronto, ON, Canada",
+            "global_code" : "87M2MH7H+66"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJJRL_Ros0K4gRM8kCsKvdkCE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2202,
+         "vicinity" : "796 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.66481889999999,
+               "lng" : -79.4131852
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.66611783029149,
+                  "lng" : -79.41179796970849
+               },
+               "southwest" : {
+                  "lat" : 43.66341986970849,
+                  "lng" : -79.41449593029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Snakes & Lattes Annex",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 640,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111520886572808393856\"\u003eSnakes &amp; Lattes Annex\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALlOm51PK11YY8JYTa5dSNzek1ydzZZi1BFTMwbHXJcUwQEczRmbRr__vWBAU7Ybb4aROAwo-xI-Aco1_ELHDdPd-CIQ0uiYJ7CwNzuOwmLnv3Ow30__iq_cbcBPdPa_cv4PmCL3j-15u3aeFRcvWEkLSaeWxF5-5SXav3jKvNZTLRP",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJc-8hbJI0K4gRDhU_qf-1yII",
+         "plus_code" : {
+            "compound_code" : "MH7P+WP Toronto, ON, Canada",
+            "global_code" : "87M2MH7P+WP"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJc-8hbJI0K4gRDhU_qf-1yII",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "cafe",
+            "bar",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2670,
+         "vicinity" : "600 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6547165,
+               "lng" : -79.42179109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6560050302915,
+                  "lng" : -79.42041821970849
+               },
+               "southwest" : {
+                  "lat" : 43.6533070697085,
+                  "lng" : -79.4231161802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Boom Breakfast & Co. College St.",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1135,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110265082407994165059\"\u003eBoom Breakfast &amp; Co. College St.\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJU9nxeOoapNDtNLfhIvmY3sIneZRUUDktJj1a8TK-gnk5usNQWZqc5bufAt67pAWH3jSlGmRHoLw-ocXOPcWU1EznfxTYrKc1X1v8OsTxa5dWo6tMrF6ZTg-fA2ObPqrOPw5GDsMc3h3DUPGodi3gWD2OPwXNuiOleQDbfs_AYZEk",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJGY6iGvc0K4gRShI41nSGMIg",
+         "plus_code" : {
+            "compound_code" : "MH3H+V7 Toronto, ON, Canada",
+            "global_code" : "87M2MH3H+V7"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJGY6iGvc0K4gRShI41nSGMIg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 439,
+         "vicinity" : "808 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6554307,
+               "lng" : -79.41349939999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6567155802915,
+                  "lng" : -79.41210956970849
+               },
+               "southwest" : {
+                  "lat" : 43.6540176197085,
+                  "lng" : -79.4148075302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Utopia Cafe & Grill",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117985869048475557016\"\u003eUtopia Cafe &amp; Grill\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALZz9KetnE_V63zfWH5CdfiEOG2NLBmSgPukzfD4Od3OVruuoYbdZnrDY_AgplB64rf21FoIMhsUx76YSmUx6mpGhi1OBTiJrtSZOVPhvqbcTSgkepPklQDIWHSutf8Yh3oBLMu81yv6fIjFBEBh8hPO_pVPomnURiLGYmnrWEIc3JK",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJ8Tt7I-40K4gR4vOSIxAmEg0",
+         "plus_code" : {
+            "compound_code" : "MH4P+5J Toronto, ON, Canada",
+            "global_code" : "87M2MH4P+5J"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJ8Tt7I-40K4gR4vOSIxAmEg0",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 557,
+         "vicinity" : "586 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65473,
+               "lng" : -79.42166569999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6560941802915,
+                  "lng" : -79.42024466970848
+               },
+               "southwest" : {
+                  "lat" : 43.6533962197085,
+                  "lng" : -79.42294263029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Gino's Pizza",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2665,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103879305080534609495\"\u003eGino&#39;s Pizza\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKtdW4F85yOfu7FBL3NtoHjE-NXo7loIDbHYj4fcXZ7wtQMz5K6D4XFM0uJY2EjxLGFheLNzo0kJYkptoJ1Ipz8NFijjEb9emsPahcHoY7xn3SCICDFXmAjbn4qSB_CPUSFZtLiDiZBaZWetl0OaC_i7-JLeudZD4yezeZOIICg6G55",
+               "width" : 3184
+            }
+         ],
+         "place_id" : "ChIJTdY1Gvc0K4gRvQzUgMG97I8",
+         "plus_code" : {
+            "compound_code" : "MH3H+V8 Toronto, ON, Canada",
+            "global_code" : "87M2MH3H+V8"
+         },
+         "price_level" : 1,
+         "rating" : 3.8,
+         "reference" : "ChIJTdY1Gvc0K4gRvQzUgMG97I8",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 240,
+         "vicinity" : "802 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6538722,
+               "lng" : -79.42586109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6551521302915,
+                  "lng" : -79.4244766197085
+               },
+               "southwest" : {
+                  "lat" : 43.6524541697085,
+                  "lng" : -79.42717458029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Folly Brewpub",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116709645748461535277\"\u003eFolly Brewpub\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAL9yHSlXSuQJH5kMyRR5psdlx0Qs9bH7rDHSFBSFg-bYCuwUtcHZ4z51kwEUkt9GWQi9B3nrNTU2Urbe9asOs6D_OkwNH8dJA5Q3rjhdRlUOmoC8-_9vou3kMOZSTOQgLM0NplDXPYJs58ccbQp3dswwhsJSDo1aQ_pr824brSAP7oL",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJaWCJBVg0K4gRmgQ8jPniZNA",
+         "plus_code" : {
+            "compound_code" : "MH3F+GM Toronto, ON, Canada",
+            "global_code" : "87M2MH3F+GM"
+         },
+         "price_level" : 2,
+         "rating" : 4.7,
+         "reference" : "ChIJaWCJBVg0K4gRmgQ8jPniZNA",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 264,
+         "vicinity" : "928 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6643238,
+               "lng" : -79.4162366
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6656875802915,
+                  "lng" : -79.4148132697085
+               },
+               "southwest" : {
+                  "lat" : 43.6629896197085,
+                  "lng" : -79.41751123029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Pour Boy - Manning",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102133422964331070457\"\u003ePour Boy - Manning\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAL6J_zNNI-6za2ygfoXKvG6-pw6wWr2nPC8EFx3iAyH0oYK3X6U7QmGtCaHqFoyqU0UPmHDDt1GovvT8DjpXG5_mr9RLY-IshY4f9mdxDg5wh8gA-cjYQZuuy78PYJASzEJLVpKhVtOmXfsTMRj6GpYXVCo-rx3hAOQB_VKGJVVVzki",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJA7Y-po00K4gRasHFXGdXQj4",
+         "plus_code" : {
+            "compound_code" : "MH7M+PG Toronto, ON, Canada",
+            "global_code" : "87M2MH7M+PG"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJA7Y-po00K4gRasHFXGdXQj4",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 700,
+         "vicinity" : "666 Manning Avenue, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6554635,
+               "lng" : -79.4138026
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6567018802915,
+                  "lng" : -79.4124112197085
+               },
+               "southwest" : {
+                  "lat" : 43.6540039197085,
+                  "lng" : -79.41510918029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Cafe Diplomatico Restaurant & Pizzeria",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117475328396658131886\"\u003eCafe Diplomatico Restaurant &amp; Pizzeria\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAL35yr7ja9mQOLpzL3hhDowsc82hCZw8cYrKn2hVfdwZ54eOLNsOVBwqVjeOzlenAh5k4mkbN524EtO7JigL3XExtfpwe3AxmXTdWwqMkZFpMqhL9-PdPMu-jiB3bH3lDcxsZ9PT7wLyT8yylW9FpXsPQWTUZ0V5Mf40BcCfKgZOzTC",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJgSasJu40K4gR5XBFeP58Sk0",
+         "plus_code" : {
+            "compound_code" : "MH4P+5F Toronto, ON, Canada",
+            "global_code" : "87M2MH4P+5F"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJgSasJu40K4gR5XBFeP58Sk0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 2398,
+         "vicinity" : "594 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.665399,
+               "lng" : -79.4114716
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.66667028029151,
+                  "lng" : -79.41004941970849
+               },
+               "southwest" : {
+                  "lat" : 43.66397231970851,
+                  "lng" : -79.41274738029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#13B5C7",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Coda",
+         "photos" : [
+            {
+               "height" : 1367,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105310040519355982705\"\u003eCoda\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKPFtYpP09HzL4JyZhuVg9qGjMhTzh4rQ_isr5XfwJ5k9n-DkpQ5x33_ZjmHEI_7FOvgT14mICFNrSU6K0LCk22JJJnbLsEJDkaKnWJVjdeNqI7DtF9RLFty9a_9qYr0bvKm5Duk7xxFUqTQybMTBbuVEGQiLABmbzyZ4EqTjKxpWY7",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJxc_7MpI0K4gR_CxjHVsdwGA",
+         "plus_code" : {
+            "compound_code" : "MH8Q+5C Toronto, ON, Canada",
+            "global_code" : "87M2MH8Q+5C"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJxc_7MpI0K4gR_CxjHVsdwGA",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1093,
+         "vicinity" : "794 Bathurst Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.654877,
+               "lng" : -79.4208934
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6561740302915,
+                  "lng" : -79.41952351970848
+               },
+               "southwest" : {
+                  "lat" : 43.6534760697085,
+                  "lng" : -79.4222214802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Regina Pizzeria & Trattoria",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116754247367708394247\"\u003eToko Love Food\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAK7sBi2yVOZtPufkp1DycRhTkfFi7NeSZVISttoMfuZjzwdRCUFqsXQPpBjG0CyJRfOVQPreGchxgU8K6ADR4d_7EeUhvs08vqaqEWV5l5VIH-uOT_Xn_i9iCMVfpvv2a1v8k7DpTvCqawvY1T6-d4HFgP-X-AY66_3HPbpp7suG_74",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJL8VaIfc0K4gRooBf0PDlbMA",
+         "plus_code" : {
+            "compound_code" : "MH3H+XJ Toronto, ON, Canada",
+            "global_code" : "87M2MH3H+XJ"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJL8VaIfc0K4gRooBf0PDlbMA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 309,
+         "vicinity" : "782 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6544463,
+               "lng" : -79.42329600000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.65570758029151,
+                  "lng" : -79.42191766970851
+               },
+               "southwest" : {
+                  "lat" : 43.65300961970851,
+                  "lng" : -79.42461563029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "VIP Billiards on College",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 640,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111228470414433292704\"\u003eVIP Billiards on College\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKP7MbrxBALZ9j2tBwOy9LDLRZVf1sX19_q7lHdUwUVzeSanY0D5tXzePs6uBh06e8yJ6BDAzLo4_HhISFU41nSRolstL2yeB_G-VDxfVK3Vp4Ldn_6eiEHmflr_uuJ7N1C-x-Dltp5uOOitMuISVU5U5A2mL6LHN2V6C0FXuL0VNvb",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJfQwCYbU0K4gRDnGk5jYG76w",
+         "plus_code" : {
+            "compound_code" : "MH3G+QM Toronto, ON, Canada",
+            "global_code" : "87M2MH3G+QM"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJfQwCYbU0K4gRDnGk5jYG76w",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 837,
+         "vicinity" : "842 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6539151,
+               "lng" : -79.42568729999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6551869302915,
+                  "lng" : -79.42433281970848
+               },
+               "southwest" : {
+                  "lat" : 43.6524889697085,
+                  "lng" : -79.42703078029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "The Emmet Ray Whisky Jazz Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2616,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118374732077993490900\"\u003eReza Moshtagh\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALVZI2Erc8wdMHRYSQORD8V8fVNyF7XBZu7SLAEY1dzzCfnZvImNLxrk-7jD4i_0-LMU-W2y8Hb2C4s2Iznc1sSZY5--EhwIxYjANmkz0xP97QCrY8tSJbRgBJ92QZmmpfhKZzG7TVSDXF9oaVh9jQqpIRsRYZ795qdxWN8RIHXEjY",
+               "width" : 1960
+            }
+         ],
+         "place_id" : "ChIJw1ylCFg0K4gRNcy5mMX54uM",
+         "plus_code" : {
+            "compound_code" : "MH3F+HP Toronto, ON, Canada",
+            "global_code" : "87M2MH3F+HP"
+         },
+         "price_level" : 2,
+         "rating" : 4.6,
+         "reference" : "ChIJw1ylCFg0K4gRNcy5mMX54uM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "night_club",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 527,
+         "vicinity" : "924 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6550855,
+               "lng" : -79.41802129999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6564637802915,
+                  "lng" : -79.41658886970849
+               },
+               "southwest" : {
+                  "lat" : 43.6537658197085,
+                  "lng" : -79.41928683029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Pizza Nova",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102553769511302489247\"\u003eAndroid Dave\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALw5IKx3Spq-czlM35L7l3pgwPJWdoG-Aby2VE4vkiOXoSGfKcu7n7lx5VRMt267ArSPPscHCe8kI3OEQXo9zwIGnfl2YXLMrhQzdbhxppfmTIcVEGBMapx2Pqikt1wKwBMN5uSInwZq-Rcgr6ZyVQAuFwkYT87R0tzWDVaqgzNZalA",
+               "width" : 3036
+            }
+         ],
+         "place_id" : "ChIJvaXsG_E0K4gRLA-gigIWAKM",
+         "plus_code" : {
+            "compound_code" : "MH4J+2Q Toronto, ON, Canada",
+            "global_code" : "87M2MH4J+2Q"
+         },
+         "price_level" : 1,
+         "rating" : 3.8,
+         "reference" : "ChIJvaXsG_E0K4gRLA-gigIWAKM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 129,
+         "vicinity" : "703 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.665107,
+               "lng" : -79.410831
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.66650723029149,
+                  "lng" : -79.40949576970849
+               },
+               "southwest" : {
+                  "lat" : 43.66380926970849,
+                  "lng" : -79.41219373029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Insomnia Restaurant and Lounge",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112493261956791420454\"\u003eInsomnia Restaurant and Lounge\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKFTlOrja2XnMd8C1fK7YjTyNojSkHYrLnxVyXtM0CZmKRnzB3eKBDKs0RtkpEz2srCQ1YEWyIQksejKFrlt6GIGt0UYaI7X8RMuehWSfyCxGyI6bws9zveO7LUzd-TMPpvQuVLgx7trKzyOu-YJJuqcfewKUVHy57H-XRyH20_nBCr",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJdccXyZM0K4gRu9mnZpTFdtY",
+         "plus_code" : {
+            "compound_code" : "MH8Q+2M Toronto, ON, Canada",
+            "global_code" : "87M2MH8Q+2M"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJdccXyZM0K4gRu9mnZpTFdtY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "night_club",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 3158,
+         "vicinity" : "563 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6611332,
+               "lng" : -79.4290233
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6625286802915,
+                  "lng" : -79.42769406970848
+               },
+               "southwest" : {
+                  "lat" : 43.6598307197085,
+                  "lng" : -79.4303920302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "African Palace",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108255210910271780464\"\u003eRadowan Alfutini\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALNNEGcrNCE7wHj18dlfCPX3ES8yLLZAC_JYSN6Vb5RbO-Ehldb2nkXm21jAW40PvCmx4FyLbLHZ_IGpU2Y_GJ-LzzJ2yhHWoaNW0oc4ozaLHrFc1444bpUw5MPsUhIqySTWqO2d8f264T5c5tk78rnyJNrgMe1pqkCFAUNLDordSqN",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJPVBdW140K4gRGU_8tMNh-qA",
+         "plus_code" : {
+            "compound_code" : "MH6C+F9 Toronto, ON, Canada",
+            "global_code" : "87M2MH6C+F9"
+         },
+         "price_level" : 1,
+         "rating" : 4.6,
+         "reference" : "ChIJPVBdW140K4gRGU_8tMNh-qA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 341,
+         "vicinity" : "977 Bloor Street West, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65329579999999,
+               "lng" : -79.4286932
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6545600802915,
+                  "lng" : -79.42733726970849
+               },
+               "southwest" : {
+                  "lat" : 43.6518621197085,
+                  "lng" : -79.43003523029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Bairrada Churrasqueira",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118214842428454472678\"\u003eNara Medeiros\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJUY4axioEiwGs7zRrX29Dp32sdWAzQVBPuErTZDvz09T4reyqVD4xAmyWS_3wZOpZ4pyxbhoTkU8iavZgxoev-6yZONGjF_VGrl-Twkus3jb_qahfmH5Bc6TCx-E8UaqguAKZHIUOa8wDTWZwUBznscstnuSaiV6NW0mw2-Blv6PZG",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJF-qVe1c0K4gR6-YHo_N7wgg",
+         "plus_code" : {
+            "compound_code" : "MH3C+8G Toronto, ON, Canada",
+            "global_code" : "87M2MH3C+8G"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJF-qVe1c0K4gR6-YHo_N7wgg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1059,
+         "vicinity" : "1000 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65588030000001,
+               "lng" : -79.40980999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6571087802915,
+                  "lng" : -79.4085659697085
+               },
+               "southwest" : {
+                  "lat" : 43.6544108197085,
+                  "lng" : -79.41126393029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "La Carnita",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108818691162402328949\"\u003eHong Pham\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIWY3GTc6sIezHy98Ue9VfOoAwqtWhqoPijXEWfGaQ8mTuWpjI0gUb5JNCA_dzQnXQyQCY4-_tFCkdd0J4gPO3G83d9PxuXW1sPP-8xPgf1Bhzo79e8Wk8mT0E19bmTcuVIa9nAk2zyjNME7wUITluz_R8VjWbEW0yv039ezMY869SO",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJkfz0ou40K4gRxXCUNNzUCrI",
+         "plus_code" : {
+            "compound_code" : "MH4R+93 Toronto, ON, Canada",
+            "global_code" : "87M2MH4R+93"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJkfz0ou40K4gRxXCUNNzUCrI",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1250,
+         "vicinity" : "501 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6549139,
+               "lng" : -79.41646109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6562406302915,
+                  "lng" : -79.41505151970851
+               },
+               "southwest" : {
+                  "lat" : 43.6535426697085,
+                  "lng" : -79.41774948029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Vivoli",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3331,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110668288214578954356\"\u003eVivoli\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJGTFIEVuETGjj8RrpA3xQsUq54J7nAAZsSzRykU0sZ_tE9R7fyCJYBIzX4j72JmYEl8K8UcKC_74X_qKMzegjiGZtcqgrxxPo83M4pHwhaSuZK_9rQUiNATarXbhEfRCj-WtYn4PlXD-Xj49lSVSpxfQZsNlorAEx4iw2l_E8obBI0",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJLflFqfE0K4gRgsnCejavq58",
+         "plus_code" : {
+            "compound_code" : "MH3M+XC Toronto, ON, Canada",
+            "global_code" : "87M2MH3M+XC"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJLflFqfE0K4gRgsnCejavq58",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 486,
+         "vicinity" : "665 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.6562274,
+               "lng" : -79.4074217
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6577142302915,
+                  "lng" : -79.40611861970851
+               },
+               "southwest" : {
+                  "lat" : 43.6550162697085,
+                  "lng" : -79.40881658029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Sneaky Dee's",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116390878428581972296\"\u003eSneaky Dee&#39;s\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKBCASaGID8lmbqqgTYgVkM7QmKlMBXPtx6OKif3c91cZt3erkpdGNjKia-JPhdMiTlJSe7va_bXkMkmcj3yIhZAOll1cwQBAfKi9bBO7_3Zyo-65jkSd18tNDdS_yI4iZ1bA9oiWRYFTAeucmekwUgO3WyQoWBReU8DmOsgleVz1C0",
+               "width" : 480
+            }
+         ],
+         "place_id" : "ChIJU1gu4us0K4gRv9DuMfAv1x4",
+         "plus_code" : {
+            "compound_code" : "MH4V+F2 Toronto, ON, Canada",
+            "global_code" : "87M2MH4V+F2"
+         },
+         "price_level" : 1,
+         "rating" : 4.3,
+         "reference" : "ChIJU1gu4us0K4gRv9DuMfAv1x4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 4999,
+         "vicinity" : "431 College Street, Toronto"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 43.65577400000001,
+               "lng" : -79.4122313
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.6570199302915,
+                  "lng" : -79.41082031970851
+               },
+               "southwest" : {
+                  "lat" : 43.65432196970851,
+                  "lng" : -79.41351828029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Duff's Famous Wings",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114777553857534576843\"\u003eOğuz Avci\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKvsCRV73WECH24IxqNWff4Fno7uqnoP52gG7j8pNIyRGN-hvGLOxkZFBf36AC-Rpxep5oZp-0d49zILrt6LghP-w0uMdi-4R4bMv5U4vJtvDZYRqFuDcQ1_hEMLh9OFT_YxOvaRy58TShs7U3mtWs_jCjkrEyo3kQAWE7ZJYVV0nYL",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJHzw4aO40K4gRHKZM3aX9Xmk",
+         "plus_code" : {
+            "compound_code" : "MH4Q+84 Toronto, ON, Canada",
+            "global_code" : "87M2MH4Q+84"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJHzw4aO40K4gRHKZM3aX9Xmk",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1085,
+         "vicinity" : "558 College Street, Toronto"
+      }
+   ],
+   "status" : "OK"
+}
