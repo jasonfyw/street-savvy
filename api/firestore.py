@@ -29,14 +29,16 @@ class firestoreManager:
         })
 
     def addUser(self, userID, email) -> None:
-        doc_ref = self.db.collection(u'Users').document()
-        doc_ref.set({
-            u'email': f'{email}',
-            u'userID': f'{userID}',
-            u'restaurantChoices': [],
-            u'shoppingChoices': [],
-            u'thingsChoices': [],
-        })
+
+        doc_ref = self.db.collection(u'Users').document(userID)
+        if not doc_ref.get().exists:
+            doc_ref.set({
+                u'email': f'{email}',
+                u'userID': f'{userID}',
+                u'restaurantChoices': [],
+                u'shoppingChoices': [],
+                u'thingsChoices': [],
+            })
 
     def addChoice(self, userID, choiceCat, docID):
         collection = self.db.collection(u'Users')
@@ -61,11 +63,18 @@ class firestoreManager:
         collection = self.db.collection(u'Users')
         query = collection.where(u'userID', u'==', userID).stream()
         for doc in query:
-            return doc.data
+            return doc.to_dict()
+
+    def filterRestaurant(self, categoryDict: dict):
+        collection = self.db.collection(u'Restaurants')
+        for key in categoryDict:
+            collection = collection.where(key, u'==', categoryDict[key])
+        return collection.stream()
 
 
 if __name__ == "__main__":
     dbManager = firestoreManager()
-    # dbManager.addRestaurant("class test 1", "italian", "test for OOP", "$$$$")
-    # dbManager.addUser("testuser", "test@test.ca")
-    dbManager.addThingsToDo('testuser', '1231515151')
+    iter = dbManager.filterRestaurant(
+        {'category': 'american', 'name': "Johnny G's Cafe"})
+    for i in iter:
+        print(i.to_dict())
