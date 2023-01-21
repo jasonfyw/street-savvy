@@ -20,9 +20,24 @@ def getRecommendation():
         list(preferenceConfig.values())
     )
 
+
     # TODO get random sample from database
+    filterConfig = {
+        'category': subcategory[0],
+        'priceLevel': price,
+    }
+
+    print(filterConfig)
+
     candidateLocations = []
-    res = sample(candidateLocations, 1)
-
-    return jsonify({ 'location': res })
-
+    if category == 'restaurant':
+        candidateLocationsStream = dbManager.filterRestaurant(filterConfig)
+        for l in candidateLocationsStream:
+            candidateLocations.append(l.to_dict())
+        
+    res = sample(candidateLocations, 1) if len(candidateLocations) > 0 else {}
+        
+    try:
+        return jsonify({ 'location': res[0] })
+    except KeyError:
+        return jsonify({ 'location': {} })
