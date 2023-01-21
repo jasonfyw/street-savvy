@@ -16,8 +16,7 @@ const RouterDOM = () => {
 	return (
 		<Router>
 			<Switch>
-				<Route exact path="/"><HomePage /></Route>
-				<Route exact path="/home"><Home /></Route>
+				<Route exact path="/"><Home /></Route>
 				<Route exact path="/about"><About /></Route>
 				<Route exact path="/findaplace"><Findaplace /></Route>
 				<Route exact path="/saved"><Saved /></Route>
