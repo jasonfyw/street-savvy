@@ -30,10 +30,8 @@ export default function Home () {
 				<span className='Findaplace_1'>Find a place</span>
 			</div>
 			<span className='Copyright2023'>Copyright © 2023 | All rights reserved</span>
-			<Link to='/about'>
-				<span className='About'>About</span>
-			</Link>
-			<span className='InputyourbudgetandreceivepersonalizedrestaurantrecommendationsinTorontofromourextensivedatabaseOuralgorithmlearnswhatrestaurantsandcuisinesyoulikeandrecommendssimilarplaces'>Input your budget and receive personalized restaurant recommendations in Toronto from our extensive database. Our algorithm learns what restaurants and cuisines you like and recommends similar places! </span>
+			<span className='About'>About</span>
+			<span className='InputyourbudgetandreceivepersonalizedrestaurantrecommendationsinTorontofromourextensivedatabaseofover700restuarantsOuralgorithmlearnswhatrestaurantsandcuisinesyoulikeandrecommendssimilarplaces'>Input your budget and receive personalized restaurant recommendations in Toronto from our extensive database of over 700 restuarants. Our algorithm learns what restaurants and cuisines you like and recommends similar places! </span>
 			<img className='Rectangle5' src = {ImgAsset.home_Rectangle5} />
 			<img className='Rectangle6' src = {ImgAsset.home_Rectangle6} />
 			<img className='BlobShape' src = {ImgAsset.home_BlobShape} />
@@ -55,22 +53,49 @@ export default function Home () {
 					<Link to='/about'>
 						<span className='About_2'>About</span>
 					</Link>
-					<span className='Profile'>Profile</span>
+					<Link to='/saved'>
+						<span className='Profile'>Profile</span>
+					</Link>
+					<div className='nav_2'>
+						<login className='login_2'/>
+						<span className='StreetSavvy_2'>Street Savvy</span>
+						<span className='Findaplace_4'>Find a place</span>
+						<span className='About_3'>About</span>
+						<div className='nav_3'>
+							<div className='Navbar_1'/>
+							<login className='login_3'/>
+							<span className='StreetSavvy_3'>Street Savvy</span>
+							<Link to='/findaplace'>
+								<span className='Findaplace_5'>Find a place</span>
+							</Link>
+							<Link to='/about'>
+								<span className='About_4'>About</span>
+							</Link>
+							<Link to='/saved'>
+								<span className='Saved'>Saved</span>
+							</Link>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div className='Group2'>
 				<Link to='/findaplace'>
 					<div className='FindaplaceHolder_2'/>
 				</Link>
-				<span className='Findaplace_4'>Find a place</span>
+				<span className='Findaplace_6'>Find a place</span>
 			</div>
 			<div className='Group4'>
-				<Link to='/findaplace'>
+				<Link to='/card'>
 					<div className='FindaplaceHolder_3'/>
 				</Link>
-				<span className='Findaplace_5'>Find a place</span>
+				<span className='Findaplace_7'>Find a place</span>
 			</div>
 			<span className='Getstartedimmediately'>Get started immediately</span>
+			<span className='InputyourbudgetandreceivepersonalizedrestaurantrecommendationsinTorontofromourextensivedatabaseOuralgorithmlearnswhatrestaurantsandcuisinesyoulikeandrecommendssimilarplaces'>Input your budget and receive personalized restaurant recommendations in Toronto from our extensive database. Our algorithm learns what restaurants and cuisines you like and recommends similar places! </span>
+			<img className='Vector' src = {ImgAsset.home_Vector} />
+			<img className='Vector_1' src = {ImgAsset.home_Vector_1} />
+			<img className='Vector_2' src = {ImgAsset.home_Vector_2} />
+			<img className='Vector_3' src = {ImgAsset.home_Vector_3} />
 		</div>
 	)
 }

@@ -1,0 +1,438 @@
+
+.saved_saved {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.saved_saved .footer {
+	position: absolute;
+	left: 0px;
+	top: 1528px;
+	width: 1440px;
+	height: 118px;
+	background: rgba(115,107,146,1.00);
+}
+.saved_saved .Copyright2023 {
+	position: absolute;
+	left: 562px;
+	top: 1591px;
+	width: 316px;
+	height: 23px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22.5px;
+}
+.saved_saved .nav {
+	position: absolute;
+	left: 0px;
+	top: -57px;
+	width: 1440px;
+	height: 114px;
+}
+.saved_saved .nav .login {
+	position: absolute;
+	left: 1305px;
+	top: 17.02325439453125px;
+	height: 21.751953125px;
+}
+.saved_saved .nav .login .Login {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26080856604113%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.saved_saved .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
+	position: absolute;
+	left: 2px;
+	top: 2.83721923828125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.saved_saved .nav .StreetSavvy {
+	position: absolute;
+	left: 49px;
+	top: 0px;
+	width: 217px;
+	height: 23.643402099609375px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 65.912109375px;
+}
+.saved_saved .nav .Findaplace {
+	position: absolute;
+	left: 1125px;
+	top: 11.34881591796875px;
+	width: 136px;
+	height: 28.372100830078125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.saved_saved .nav .About {
+	position: absolute;
+	left: 994px;
+	top: 11.34881591796875px;
+	width: 67px;
+	height: 28.372100830078125px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.saved_saved .nav .nav_1 {
+	position: absolute;
+	left: 0px;
+	top: 56px;
+	width: 1440px;
+	height: 58px;
+}
+.saved_saved .nav .nav_1 .Navbar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 58px;
+	background: rgba(222,138,119,1.00);
+}
+.saved_saved .nav .nav_1 .login_1 {
+	position: absolute;
+	left: 1251px;
+	top: 20px;
+	height: 21.751953125px;
+}
+.saved_saved .nav .nav_1 .login_1 .Login_1 {
+	position: absolute;
+	left: 26px;
+	top: -1.8914794921875px;
+	width: 90%;
+	height: 78.26080856604113%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.saved_saved .nav .nav_1 .login_1 ._7887887426_googlegpnggooglelogowhitepng1_1 {
+	position: absolute;
+	left: 2px;
+	top: 2.83721923828125px;
+	width: 22.5%;
+	height: 82.6086468528329%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.saved_saved .nav .nav_1 .StreetSavvy_1 {
+	position: absolute;
+	left: 115px;
+	top: 4px;
+	width: 335px;
+	height: 24px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 59.634765625px;
+}
+.saved_saved .nav .nav_1 .Findaplace_1 {
+	position: absolute;
+	left: 943px;
+	top: 16.945709228515625px;
+	width: 113px;
+	height: 23.643402099609375px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.saved_saved .nav .nav_1 .About_1 {
+	position: absolute;
+	left: 835px;
+	top: 17px;
+	width: 56px;
+	height: 23.643402099609375px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.saved_saved .Profile {
+	position: absolute;
+	left: 1116px;
+	top: 16px;
+	width: 87px;
+	height: 43px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.saved_saved .Saved {
+	position: absolute;
+	left: 115px;
+	top: 147px;
+	width: 438px;
+	height: 60px;
+	color: rgba(115,107,146,1.00);
+	font-family: Rubik;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 42.659996032714844px;
+}
+.saved_saved .Rectangle9 {
+	position: absolute;
+	left: 104px;
+	top: 241px;
+	width: 1200px;
+	height: 333px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 5px;
+	border: 1px solid rgba(226.0000017285347,225.00000178813934,229.00000154972076,1);
+	box-sizing: border-box;
+}
+.saved_saved .NameofPlace {
+	position: absolute;
+	left: -107px;
+	top: 251px;
+	width: 1356px;
+	height: 13px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(115,107,146,1.00);
+	font-family: Rubik;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 23.69999885559082px;
+}
+.saved_saved .Group8 {
+	position: absolute;
+	left: 494px;
+	top: 287px;
+	width: 432px;
+	height: 121px;
+}
+.saved_saved .Group8 .Group5 {
+	position: absolute;
+	left: 10.212890625px;
+	top: 31.646156311035156px;
+	width: 20.42529296875px;
+	height: 23.26923179626465px;
+}
+.saved_saved .Group8 .Group5 .Ellipse1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20.42529296875px;
+	height: 23.26923179626465px;
+}
+.saved_saved .Group8 .Group5 .Ellipse2 {
+	position: absolute;
+	left: 5.10595703125px;
+	top: 3.0025100708007812px;
+	width: 10.8935546875px;
+	height: 9.364447593688965px;
+	background: rgba(217,217,217,0.00);
+	border-radius: 50%;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+	box-sizing: border-box;
+}
+.saved_saved .Group8 .Star1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 42.8935546875px;
+	height: 33.5076904296875px;
+	border-radius: 3px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+	box-sizing: border-box;
+}
+.saved_saved .Group8 ._123StreetNameONCanada {
+	position: absolute;
+	left: 37.787109375px;
+	top: 34.4384651184082px;
+	width: 389.1064453125px;
+	height: 32.57692337036133px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.saved_saved .Group8 ._1234567890 {
+	position: absolute;
+	left: 39.82958984375px;
+	top: 62.36152648925781px;
+	width: 389.1064453125px;
+	height: 32.57692337036133px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.saved_saved .Group8 .wwwcompanywebsitecom {
+	position: absolute;
+	left: 42.89404296875px;
+	top: 88.4230728149414px;
+	width: 389.1064453125px;
+	height: 32.576927185058594px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.saved_saved .Group8 ._5 {
+	position: absolute;
+	left: 39.82958984375px;
+	top: 7.446159362792969px;
+	width: 295.14892578125px;
+	height: 31.646154403686523px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.saved_saved .Group8 .Group6 {
+	position: absolute;
+	left: 9.19189453125px;
+	top: 58.63844299316406px;
+	width: 24.51025390625px;
+	height: 21.40769386291504px;
+}
+.saved_saved .Group8 .Group6 .Line1 {
+	position: absolute;
+	left: 3.77099609375px;
+	top: 0px;
+	width: 6.28466796875px;
+	height: 21.407691955566406px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.saved_saved .Group8 .Group6 .Line2 {
+	position: absolute;
+	left: 11.94091796875px;
+	top: 0px;
+	width: 6.28466796875px;
+	height: 21.407691955566406px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.saved_saved .Group8 .Group6 .Line4 {
+	position: absolute;
+	left: 1.25634765625px;
+	top: 7.135863304138184px;
+	width: 23.25390625px;
+	height: 9.5367431640625e-7px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.saved_saved .Group8 .Group6 .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 13.677154541015625px;
+	width: 23.25390625px;
+	height: 0px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.saved_saved .Group8 .Group7 {
+	position: absolute;
+	left: 9.19140625px;
+	top: 84.69999694824219px;
+	width: 21.4921875px;
+	height: 27.23504638671875px;
+}
+.saved_saved .Group8 .Group7 .Line5_1 {
+	position: absolute;
+	left: 1.0693359375px;
+	top: 0.000110626220703125px;
+	width: 19.404296875px;
+	height: 12.120121002197266px;
+}
+.saved_saved .Group8 .Group7 .Line7 {
+	position: absolute;
+	left: 0.89990234375px;
+	top: 10.262214660644531px;
+	width: 7.4892578125px;
+	height: 5.091785430908203px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.saved_saved .Group8 .Group7 .Line9 {
+	position: absolute;
+	left: 0.8994140625px;
+	top: 15.354141235351562px;
+	width: 7.4892578125px;
+	height: 8.486427307128906px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.saved_saved .Group8 .Group7 .Line11 {
+	position: absolute;
+	left: 0.00048828125px;
+	top: 22.58120346069336px;
+	width: 4.69189453125px;
+	height: 3.2576942443847656px;
+}
+.saved_saved .Group8 .Group7 .Line10 {
+	position: absolute;
+	left: 4.64404296875px;
+	top: 18.748641967773438px;
+	width: 7.4892578125px;
+	height: 8.486427307128906px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.saved_saved .Group8 .Group7 .Line8 {
+	position: absolute;
+	left: 11.2109375px;
+	top: 18.392681121826172px;
+	width: 5.2373046875px;
+	height: 2.470378875732422px;
+}
+.saved_saved .Group8 .Group7 .Line6 {
+	position: absolute;
+	left: 15.513671875px;
+	top: 1.1801185607910156px;
+	width: 5.97900390625px;
+	height: 19.135879516601562px;
+}
+.saved_saved .Rectangle10 {
+	position: absolute;
+	left: 104px;
+	top: 240px;
+	width: 372px;
+	height: 334px;
+	background: rgba(217,217,217,1.00);
+	border-radius: 5px;
+}
+.saved_saved .ThedescriptiongoeshereLoremipsumdolorsitametconsecteturadipiscingelitseddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaUtenimadminimveniamquisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequatDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborum {
+	position: absolute;
+	left: 501px;
+	top: 431px;
+	width: 777px;
+	height: 59px;
+	color: rgba(0,0,0,1.00);
+	font-family: Quicksand;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 17.5px;
+}

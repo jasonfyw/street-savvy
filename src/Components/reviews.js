@@ -1,13 +1,13 @@
 import React from 'react'
-import './card.css'
+import './reviews.css'
 import ImgAsset from '../public'
 import {Link} from 'react-router-dom'
 import login from "./login"
-export default function Card () {
+export default function Reviews () {
 	return (
-		<div className='card_card'>
-			<img className='Vector' src = {ImgAsset.card_Vector} />
-			<img className='Vector_1' src = {ImgAsset.card_Vector_1} />
+		<div className='reviews_reviews'>
+			<img className='Vector' src = {ImgAsset.reviews_Vector} />
+			<img className='Vector_1' src = {ImgAsset.reviews_Vector_1} />
 			<div className='Rectangle9'/>
 			<div className='footer'/>
 			<span className='Copyright2023'>Copyright © 2023 | All rights reserved</span>
@@ -57,28 +57,28 @@ export default function Card () {
 			<span className='NameofPlace'>Name of Place</span>
 			<div className='Group8'>
 				<div className='Group5'>
-					<img className='Ellipse1' src = {ImgAsset.card_Ellipse1} />
+					<img className='Ellipse1' src = {ImgAsset.reviews_Ellipse1} />
 					<div className='Ellipse2'/>
 				</div>
-				<img className='Star1' src = {ImgAsset.card_Star1} />
+				<img className='Star1' src = {ImgAsset.reviews_Star1} />
 				<span className='_123StreetNameONCanada'>123 Street Name, ON, Canada</span>
 				<span className='_1234567890'>123 - 456 7890</span>
 				<span className='wwwcompanywebsitecom'>www.companywebsite.com</span>
 				<span className='_5'># / 5</span>
 				<div className='Group6'>
-					<img className='Line1' src = {ImgAsset.card_Line1} />
-					<img className='Line2' src = {ImgAsset.card_Line2} />
-					<img className='Line4' src = {ImgAsset.card_Line4} />
-					<img className='Line5' src = {ImgAsset.card_Line5} />
+					<img className='Line1' src = {ImgAsset.reviews_Line1} />
+					<img className='Line2' src = {ImgAsset.reviews_Line2} />
+					<img className='Line4' src = {ImgAsset.reviews_Line4} />
+					<img className='Line5' src = {ImgAsset.reviews_Line5} />
 				</div>
 				<div className='Group7'>
-					<img className='Line5_1' src = {ImgAsset.card_Line5_1} />
-					<img className='Line7' src = {ImgAsset.card_Line7} />
-					<img className='Line9' src = {ImgAsset.card_Line9} />
-					<img className='Line11' src = {ImgAsset.card_Line11} />
-					<img className='Line10' src = {ImgAsset.card_Line10} />
-					<img className='Line8' src = {ImgAsset.card_Line8} />
-					<img className='Line6' src = {ImgAsset.card_Line6} />
+					<img className='Line5_1' src = {ImgAsset.reviews_Line5_1} />
+					<img className='Line7' src = {ImgAsset.reviews_Line7} />
+					<img className='Line9' src = {ImgAsset.reviews_Line9} />
+					<img className='Line11' src = {ImgAsset.reviews_Line11} />
+					<img className='Line10' src = {ImgAsset.reviews_Line10} />
+					<img className='Line8' src = {ImgAsset.reviews_Line8} />
+					<img className='Line6' src = {ImgAsset.reviews_Line6} />
 				</div>
 			</div>
 			<div className='Rectangle10'/>
@@ -87,12 +87,8 @@ export default function Card () {
 				<div className='FindaplaceHolder'/>
 				<span className='Save'>Save</span>
 			</div>
-			<div className='Group10'>
-				<div className='FindaplaceHolder_1'/>
-				<span className='Reviews'>Reviews</span>
-			</div>
 			<div className='Group9'>
-				<div className='FindaplaceHolder_2'/>
+				<div className='FindaplaceHolder_1'/>
 				<span className='Skip'>Skip</span>
 			</div>
 		</div>

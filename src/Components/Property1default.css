@@ -1,17 +1,5 @@
 
 .Property1default_Property1default {
-	width: 63px;
-	height: 48px;
-	display: flex;
-	flex-direction: column;
-	padding-top: 10px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	box-sizing: border-box;
-	justify-content: center;
-	background: rgba(223,181,107,1.00);
-	border-radius: 5px;
-	border: 1px solid rgba(223.00000190734863,181.0000044107437,107.00000122189522,1);
-	box-sizing: border-box;
+	width: 300px;
+	height: 28px;
 }
