@@ -1,35 +1,39 @@
 # travel-budget-app
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### User installation
+Clone the repository in a directory of your choosing:
+```
+$ git clone https://github.com/jasonfyw/travel-budget-app.git
+```
+Change directory into the cloned repository:
+```
+$ cd travel-budget-app
+```
+Then, install the JS dependencies from `package.json` using `npm`:
+```
+$ npm install
+```
+Now, change into the `api` directory to set up and enter a virtual Python environment using `venv`:
+```
+$ cd api
+$ python3 -m venv venv
+$ source venv/bin/activate
+```
+We can now safely install the Python dependencies and run the scripts properly. Using `requirements.txt`, we can do this pretty painlessly (although it might take a few minutes):
+``` 
+$ pip install -r ../requirements.txt
+```
 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
+You're now able to launch the web app! In the command line, start the backend API on your machine by running:
+```
+$ npm run start-api
+```
+Then, open another terminal prompt and navigate to the repository. Then, launch the ReactJS frontend by running:
+```
+$ npm start
+```
+You should now be able to access the web app at `http://localhost:3000`. It is also possible to access it from across your local network, however, adjustments need to be made to the API.
