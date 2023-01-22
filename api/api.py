@@ -22,6 +22,9 @@ class userReg(Resource):
         dbManager.addUser(userID, args["email"])
         return '', 202
 
+    def get(self, userID):
+        return dbManager.getUserData(userID)
+
 
 api.add_resource(userReg, "/userreg/<string:userID>")
 
