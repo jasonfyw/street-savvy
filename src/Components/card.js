@@ -2,7 +2,6 @@ import React from 'react'
 import './card.css'
 import ImgAsset from '../public'
 import {Link} from 'react-router-dom'
-import login from "./login"
 export default function Card () {
 	return (
 		<div className='card_card'>
@@ -11,48 +10,6 @@ export default function Card () {
 			<div className='Rectangle9'/>
 			<div className='footer'/>
 			<span className='Copyright2023'>Copyright © 2023 | All rights reserved</span>
-			<div className='nav'>
-				<login className='login'/>
-				<span className='StreetSavvy'>Street Savvy</span>
-				<span className='Findaplace'>Find a place</span>
-				<span className='About'>About</span>
-				<div className='nav_1'>
-					<div className='Navbar'/>
-					<login className='login_1'/>
-					<Link to='/home'>
-						<span className='StreetSavvy_1'>Street Savvy</span>
-					</Link>
-					<Link to='/findaplace'>
-						<span className='Findaplace_1'>Find a place</span>
-					</Link>
-					<Link to='/about'>
-						<span className='About_1'>About</span>
-					</Link>
-					<Link to='/saved'>
-						<span className='Profile'>Profile</span>
-					</Link>
-				</div>
-				<div className='nav_2'>
-					<login className='login_2'/>
-					<span className='StreetSavvy_2'>Street Savvy</span>
-					<span className='Findaplace_2'>Find a place</span>
-					<span className='About_2'>About</span>
-					<div className='nav_3'>
-						<div className='Navbar_1'/>
-						<login className='login_3'/>
-						<Link to='/home'>
-							<span className='StreetSavvy_3'>Street Savvy</span>
-						</Link>
-						<Link to='/findaplace'>
-							<span className='Findaplace_3'>Find a place</span>
-						</Link>
-						<Link to='/about'>
-							<span className='About_3'>About</span>
-						</Link>
-						<span className='Profile_1'>Profile</span>
-					</div>
-				</div>
-			</div>
 			<div className='Rectangle9_1'/>
 			<span className='NameofPlace'>Name of Place</span>
 			<div className='Group8'>
@@ -87,13 +44,49 @@ export default function Card () {
 				<div className='FindaplaceHolder'/>
 				<span className='Save'>Save</span>
 			</div>
-			<div className='Group10'>
-				<div className='FindaplaceHolder_1'/>
-				<span className='Reviews'>Reviews</span>
-			</div>
+			<Link to='/reviews'>
+				<div className='Group10'>
+					<div className='FindaplaceHolder_1'/>
+					<span className='Reviews'>Reviews</span>
+				</div>
+			</Link>
 			<div className='Group9'>
 				<div className='FindaplaceHolder_2'/>
 				<span className='Skip'>Skip</span>
+			</div>
+			<div className='nav'>
+				<Link to='/home'>
+					<span className='StreetSavvy'>Street Savvy</span>
+				</Link>
+				<Link to='/findaplace'>
+					<span className='Findaplace'>Find a place</span>
+				</Link>
+				<Link to='/saved'>
+					<span className='Saved'>Saved</span>
+				</Link>
+				<div className='login'>
+					<img className='_7887887426_googlegpnggooglelogowhitepng1' src = {ImgAsset.findaplace__7887887426_googlegpnggooglelogowhitepng1} />
+					<span className='Login'>Log in</span>
+				</div>
+			</div>
+			<div className='nav_1'>
+				<div className='Navbar'/>
+				<Link to='/home'>
+					<span className='StreetSavvy_1'>Street Savvy</span>
+				</Link>
+				<Link to='/findaplace'>
+					<span className='Findaplace_1'>Find a place</span>
+				</Link>
+				<Link to='/about'>
+					<span className='About'>About</span>
+				</Link>
+				<Link to='/saved'>
+					<span className='Saved_1'>Saved</span>
+				</Link>
+				<div className='login_1'>
+					<img className='_7887887426_googlegpnggooglelogowhitepng1_1' src = {ImgAsset.findaplace__7887887426_googlegpnggooglelogowhitepng1} />
+					<span className='Login_1'>Log in</span>
+				</div>
 			</div>
 		</div>
 	)

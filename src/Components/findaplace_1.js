@@ -1,13 +1,13 @@
 import React from 'react'
-import './findaplace.css'
+import './findaplace_1.css'
 import ImgAsset from '../public'
 import {Link} from 'react-router-dom'
-export default function Findaplace () {
+export default function Findaplace_1 () {
 	return (
-		<div className='findaplace_findaplace'>
+		<div className='findaplace_1_findaplace'>
 			<div className='Rectangle9'/>
-			<img className='Vector' src = {ImgAsset.findaplace_Vector} />
-			<img className='Vector_1' src = {ImgAsset.findaplace_Vector_1} />
+			<img className='Vector' src = {ImgAsset.findaplace_1_Vector} />
+			<img className='Vector_1' src = {ImgAsset.findaplace_1_Vector_1} />
 			<div className='footer'/>
 			<span className='Copyright2023'>Copyright © 2023 | All rights reserved</span>
 			<span className='Pickyourinterest'>Pick your interest</span>
@@ -29,16 +29,11 @@ export default function Findaplace () {
 			</Link>
 			<img className='PeopleEatingAtRestaurant2012' src = {ImgAsset.findaplace_PeopleEatingAtRestaurant2012} />
 			<img className='PeopleEatingAtRestaurant2011' src = {ImgAsset.findaplace_PeopleEatingAtRestaurant2011} />
-			<Link to='/findaplace_4'>
-				<img className='_' src = {ImgAsset.findaplace__} />
-			</Link>
-			<span className='__1'>$                      $$                   $$$                   $$$$</span>
-			<Link to='/findaplace_3'>
-				<div className='__2'/>
-			</Link>
-			<Link to='/findaplace_1'>
-				<div className='__3'/>
-			</Link>
+			<img className='_' src = {ImgAsset.findaplace_1__} />
+			<div className='__1'/>
+			<span className='__2'>$                      $$                   $$$                   $$$$</span>
+			<div className='__3'/>
+			<div className='__4'/>
 			<div className='nav'>
 				<div className='Navbar'/>
 				<Link to='/home'>
@@ -56,9 +51,6 @@ export default function Findaplace () {
 					<span className='Login'>Log in</span>
 				</div>
 			</div>
-			<Link to='/findaplace_2'>
-				<div className='__4'/>
-			</Link>
 		</div>
 	)
 }

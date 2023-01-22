@@ -2,7 +2,6 @@ import React from 'react'
 import './home.css'
 import ImgAsset from '../public'
 import {Link} from 'react-router-dom'
-import login from "./login"
 export default function Home () {
 	return (
 		<div className='home_home'>
@@ -38,64 +37,41 @@ export default function Home () {
 			<img className='BlobShape_1' src = {ImgAsset.home_BlobShape_1} />
 			<img className='BlobShape_2' src = {ImgAsset.home_BlobShape_2} />
 			<img className='BlobShape_3' src = {ImgAsset.home_BlobShape_3} />
-			<div className='nav'>
-				<login className='login'/>
-				<span className='StreetSavvy'>Street Savvy</span>
-				<span className='Findaplace_2'>Find a place</span>
-				<span className='About_1'>About</span>
-				<div className='nav_1'>
-					<div className='Navbar'/>
-					<login className='login_1'/>
-					<span className='StreetSavvy_1'>Street Savvy</span>
-					<Link to='/findaplace'>
-						<span className='Findaplace_3'>Find a place</span>
-					</Link>
-					<Link to='/about'>
-						<span className='About_2'>About</span>
-					</Link>
-					<Link to='/saved'>
-						<span className='Profile'>Profile</span>
-					</Link>
-					<div className='nav_2'>
-						<login className='login_2'/>
-						<span className='StreetSavvy_2'>Street Savvy</span>
-						<span className='Findaplace_4'>Find a place</span>
-						<span className='About_3'>About</span>
-						<div className='nav_3'>
-							<div className='Navbar_1'/>
-							<login className='login_3'/>
-							<span className='StreetSavvy_3'>Street Savvy</span>
-							<Link to='/findaplace'>
-								<span className='Findaplace_5'>Find a place</span>
-							</Link>
-							<Link to='/about'>
-								<span className='About_4'>About</span>
-							</Link>
-							<Link to='/saved'>
-								<span className='Saved'>Saved</span>
-							</Link>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div className='Group2'>
 				<Link to='/findaplace'>
 					<div className='FindaplaceHolder_2'/>
 				</Link>
-				<span className='Findaplace_6'>Find a place</span>
+				<span className='Findaplace_2'>Find a place</span>
 			</div>
 			<div className='Group4'>
-				<Link to='/card'>
+				<Link to='/findaplace'>
 					<div className='FindaplaceHolder_3'/>
 				</Link>
-				<span className='Findaplace_7'>Find a place</span>
+				<span className='Findaplace_3'>Find a place</span>
 			</div>
 			<span className='Getstartedimmediately'>Get started immediately</span>
-			<span className='InputyourbudgetandreceivepersonalizedrestaurantrecommendationsinTorontofromourextensivedatabaseOuralgorithmlearnswhatrestaurantsandcuisinesyoulikeandrecommendssimilarplaces'>Input your budget and receive personalized restaurant recommendations in Toronto from our extensive database. Our algorithm learns what restaurants and cuisines you like and recommends similar places! </span>
+			<span className='InputyourbudgetandreceivepersonalizedrecommendationsonplacestovisitandthingstodoalloverTorontoOuralgorithmlearnsyourpreferencesandgivesrecommendationstailoredtoyou'>Input your budget and receive personalized recommendations on places to visit and things to do all over Toronto! Our algorithm learns your preferences and gives recommendations tailored to you.</span>
 			<img className='Vector' src = {ImgAsset.home_Vector} />
 			<img className='Vector_1' src = {ImgAsset.home_Vector_1} />
 			<img className='Vector_2' src = {ImgAsset.home_Vector_2} />
 			<img className='Vector_3' src = {ImgAsset.home_Vector_3} />
+			<div className='nav'>
+				<div className='Navbar'/>
+				<span className='StreetSavvy'>Street Savvy</span>
+				<Link to='/findaplace'>
+					<span className='Findaplace_4'>Find a place</span>
+				</Link>
+				<Link to='/about'>
+					<span className='About_1'>About</span>
+				</Link>
+				<Link to='/saved'>
+					<span className='Saved'>Saved</span>
+				</Link>
+				<div className='login'>
+					<img className='_7887887426_googlegpnggooglelogowhitepng1' src = {ImgAsset.findaplace__7887887426_googlegpnggooglelogowhitepng1} />
+					<span className='Login'>Log in</span>
+				</div>
+			</div>
 		</div>
 	)
 }

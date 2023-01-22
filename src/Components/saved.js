@@ -2,31 +2,11 @@ import React from 'react'
 import './saved.css'
 import ImgAsset from '../public'
 import {Link} from 'react-router-dom'
-import login from "./login"
 export default function Saved () {
 	return (
 		<div className='saved_saved'>
 			<div className='footer'/>
 			<span className='Copyright2023'>Copyright © 2023 | All rights reserved</span>
-			<div className='nav'>
-				<login className='login'/>
-				<span className='StreetSavvy'>Street Savvy</span>
-				<span className='Findaplace'>Find a place</span>
-				<span className='About'>About</span>
-				<div className='nav_1'>
-					<div className='Navbar'/>
-					<login className='login_1'/>
-					<Link to='/home'>
-						<span className='StreetSavvy_1'>Street Savvy</span>
-					</Link>
-					<Link to='/findaplace'>
-						<span className='Findaplace_1'>Find a place</span>
-					</Link>
-					<Link to='/about'>
-						<span className='About_1'>About</span>
-					</Link>
-				</div>
-			</div>
 			<span className='Profile'>Profile</span>
 			<span className='Saved'>Saved</span>
 			<div className='Rectangle9'/>
@@ -59,6 +39,23 @@ export default function Saved () {
 			</div>
 			<div className='Rectangle10'/>
 			<span className='ThedescriptiongoeshereLoremipsumdolorsitametconsecteturadipiscingelitseddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaUtenimadminimveniamquisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequatDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborum'>The description goes here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+			<div className='nav'>
+				<div className='Navbar'/>
+				<Link to='/home'>
+					<span className='StreetSavvy'>Street Savvy</span>
+				</Link>
+				<Link to='/findaplace'>
+					<span className='Findaplace'>Find a place</span>
+				</Link>
+				<Link to='/about'>
+					<span className='About'>About</span>
+				</Link>
+				<span className='Saved_1'>Saved</span>
+				<div className='login'>
+					<img className='_7887887426_googlegpnggooglelogowhitepng1' src = {ImgAsset.findaplace__7887887426_googlegpnggooglelogowhitepng1} />
+					<span className='Login'>Log in</span>
+				</div>
+			</div>
 		</div>
 	)
 }

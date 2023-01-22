@@ -46,14 +46,14 @@
 	left: 122px;
 	top: 257px;
 	width: 1183px;
-	height: 116px;
+	height: 400px;
 }
-.about_about .about_1 .StreetSavvystartedoffasaUofTHacksprojectwiththethemeofexplorationThechallengesofincorporatingpersonalfinanceandusingcoherewereimplementedaswellStreetSavvyisawebsitethattakesuserinputandgivesrecommendationsbasedonabudgetandinterestswhetheritbeforfoodshoppingorentertainmentTheproblemsthatthistacklesincludesthefactthatpeopleoftenhavetroublepickingaspotordecidingwheretogoandwhattodoaswellasitstayingwithintheirbudgetToolsusedFrontendDesignFigmaLanguageframeworkReactJSandChakraUIBackendLanguageframeworkPythonandFlaskDatabaseMongoDBOthertoolsCohereGoogleMapsAPI {
+.about_about .about_1 .StreetSavvystartedoffasaUofTHacksprojectwiththethemeofexplorationThechallengesofincorporatingpersonalfinanceandusingcoherewereimplementedaswellStreetSavvyisawebsitethattakesuserinputandgivesrecommendationsbasedonabudgetandinterestswhetheritbeforfoodshoppingorentertainmentTheproblemsthatthistacklesincludesthefactthatpeopleoftenhavetroublepickingaspotordecidingwheretogoandwhattodoaswellasitstayingwithintheirbudgetFrontendDesignFigmaLanguageframeworkReactJSandChakraUIBackendLanguageframeworkPythonandFlaskDatabaseMongoDBOthertoolsCohereGoogleMapsAPI {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 1183px;
-	height: 116px;
+	height: 400px;
 	color: rgba(0,0,0,1.00);
 	font-family: Quicksand;
 	font-size: 18px;
@@ -160,8 +160,8 @@
 }
 .about_about .ProjectCreators {
 	position: absolute;
-	left: 585px;
-	top: 725px;
+	left: 122px;
+	top: 729px;
 	width: 269px;
 	height: 52px;
 	color: rgba(222,138,119,1.00);
@@ -176,8 +176,10 @@
 	top: 834px;
 	width: 259px;
 	height: 251px;
-	background: rgba(217,217,217,1.00);
+	object-fit: cover;
+	overflow: hidden;
 	border-radius: 50%;
+	background-size: cover;
 }
 .about_about .Ellipse5 {
 	position: absolute;
@@ -185,8 +187,10 @@
 	top: 842px;
 	width: 259px;
 	height: 251px;
-	background: rgba(217,217,217,1.00);
+	object-fit: cover;
+	overflow: hidden;
 	border-radius: 50%;
+	background-size: cover;
 }
 .about_about .Ellipse6 {
 	position: absolute;
@@ -194,8 +198,8 @@
 	top: 843px;
 	width: 259px;
 	height: 251px;
-	background: rgba(217,217,217,1.00);
-	border-radius: 50%;
+	object-fit: cover;
+	overflow: hidden;
 }
 .about_about .Ellipse7 {
 	position: absolute;
@@ -203,13 +207,15 @@
 	top: 834px;
 	width: 259px;
 	height: 251px;
-	background: rgba(217,217,217,1.00);
+	object-fit: cover;
+	overflow: hidden;
 	border-radius: 50%;
+	background-size: cover;
 }
 .about_about .ToolsUsed {
 	position: absolute;
-	left: 591px;
-	top: 419px;
+	left: 122px;
+	top: 388px;
 	width: 291px;
 	height: 53px;
 	color: rgba(222,138,119,1.00);
@@ -221,317 +227,88 @@
 .about_about .nav {
 	position: absolute;
 	left: 0px;
-	top: -57px;
-	width: 1440px;
-	height: 115px;
+	top: 0px;
+	width: 1470px;
+	height: 56.033905029296875px;
 }
-.about_about .nav .login {
+.about_about .nav .Navbar {
 	position: absolute;
-	left: 1305px;
-	top: 18.02325439453125px;
-	height: 21.751953125px;
-}
-.about_about .nav .login .Login {
-	position: absolute;
-	left: 26px;
-	top: -1.8914794921875px;
-	width: 90%;
-	height: 78.26080856604113%;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-}
-.about_about .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
-	position: absolute;
-	left: 2px;
-	top: 2.83721923828125px;
-	width: 22.5%;
-	height: 82.6086468528329%;
-	object-fit: cover;
-	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	width: 1470px;
+	height: 56.033905029296875px;
+	background: rgba(222,138,119,1.00);
 }
 .about_about .nav .StreetSavvy {
 	position: absolute;
-	left: 49px;
-	top: 1px;
-	width: 217px;
-	height: 23.643402099609375px;
+	left: 118.41668701171875px;
+	top: 0.966094970703125px;
+	width: 218.45831298828125px;
+	height: 51.203399658203125px;
 	color: rgba(255,255,255,1.00);
 	font-family: Calligraffitti;
-	font-size: 42px;
+	font-size: 38px;
 	font-weight: 400;
-	line-height: 65.912109375px;
+	line-height: 59.634765625px;
 }
 .about_about .nav .Findaplace {
 	position: absolute;
-	left: 1125px;
-	top: 12.34881591796875px;
-	width: 136px;
-	height: 28.372100830078125px;
+	left: 962.645751953125px;
+	top: 16.37127685546875px;
+	width: 115.3541259765625px;
+	height: 22.841949462890625px;
 	color: rgba(255,255,255,1.00);
 	font-family: Quicksand;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 25px;
 }
 .about_about .nav .About {
 	position: absolute;
-	left: 994px;
-	top: 12.34881591796875px;
-	width: 67px;
-	height: 28.372100830078125px;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-}
-.about_about .nav .nav_1 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 1440px;
-	height: 115px;
-}
-.about_about .nav .nav_1 .Navbar {
-	position: absolute;
-	left: 0px;
-	top: 57px;
-	width: 1440px;
-	height: 58px;
-	background: rgba(222,138,119,1.00);
-}
-.about_about .nav .nav_1 .login_1 {
-	position: absolute;
-	left: 1251px;
-	top: 77px;
-	height: 21.751953125px;
-}
-.about_about .nav .nav_1 .login_1 .Login_1 {
-	position: absolute;
-	left: 26px;
-	top: -1.8914794921875px;
-	width: 90%;
-	height: 78.26080856604113%;
+	left: 852.3958740234375px;
+	top: 16.423736572265625px;
+	width: 57.1666259765625px;
+	height: 22.841949462890625px;
 	color: rgba(255,255,255,1.00);
 	font-family: Quicksand;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25px;
 }
-.about_about .nav .nav_1 .login_1 ._7887887426_googlegpnggooglelogowhitepng1_1 {
+.about_about .nav .Saved {
 	position: absolute;
-	left: 2px;
-	top: 2.83721923828125px;
-	width: 22.5%;
-	height: 82.6086468528329%;
-	object-fit: cover;
-	overflow: hidden;
-}
-.about_about .nav .nav_1 .StreetSavvy_1 {
-	position: absolute;
-	left: 116px;
-	top: 58px;
-	width: 335px;
-	height: 52px;
-	color: rgba(255,255,255,1.00);
-	font-family: Calligraffitti;
-	font-size: 38px;
-	font-weight: 400;
-	line-height: 59.634765625px;
-}
-.about_about .nav .nav_1 .Findaplace_1 {
-	position: absolute;
-	left: 943px;
-	top: 73.94570922851562px;
-	width: 113px;
-	height: 23.643402099609375px;
+	left: 1147.4166259765625px;
+	top: 15.457611083984375px;
+	width: 60.2291259765625px;
+	height: 22.841949462890625px;
 	color: rgba(255,255,255,1.00);
 	font-family: Quicksand;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25px;
 }
-.about_about .nav .nav_1 .About_1 {
+.about_about .nav .login {
 	position: absolute;
-	left: 835px;
-	top: 74px;
-	width: 56px;
-	height: 23.643402099609375px;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 25px;
-}
-.about_about .nav .nav_1 .Profile {
-	position: absolute;
-	left: 1124px;
-	top: 73px;
-	width: 59px;
-	height: 23.643402099609375px;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 25px;
-}
-.about_about .nav .nav_1 .nav_2 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 1440px;
-	height: 114px;
-}
-.about_about .nav .nav_1 .nav_2 .login_2 {
-	position: absolute;
-	left: 1305px;
-	top: 17.02325439453125px;
-	height: 21.751953125px;
-}
-.about_about .nav .nav_1 .nav_2 .login_2 .Login_2 {
-	position: absolute;
-	left: 26px;
-	top: -1.8914794921875px;
-	width: 90%;
-	height: 78.26080856604113%;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-}
-.about_about .nav .nav_1 .nav_2 .login_2 ._7887887426_googlegpnggooglelogowhitepng1_2 {
-	position: absolute;
-	left: 2px;
-	top: 2.83721923828125px;
-	width: 22.5%;
-	height: 82.6086468528329%;
-	object-fit: cover;
-	overflow: hidden;
-}
-.about_about .nav .nav_1 .nav_2 .StreetSavvy_2 {
-	position: absolute;
-	left: 49px;
-	top: 0px;
-	width: 217px;
-	height: 23.643402099609375px;
-	color: rgba(255,255,255,1.00);
-	font-family: Calligraffitti;
-	font-size: 42px;
-	font-weight: 400;
-	line-height: 65.912109375px;
-}
-.about_about .nav .nav_1 .nav_2 .Findaplace_2 {
-	position: absolute;
-	left: 1125px;
-	top: 11.34881591796875px;
-	width: 136px;
-	height: 28.372100830078125px;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-}
-.about_about .nav .nav_1 .nav_2 .About_2 {
-	position: absolute;
-	left: 994px;
-	top: 11.34881591796875px;
-	width: 67px;
-	height: 28.372100830078125px;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 {
-	position: absolute;
-	left: 0px;
-	top: 56px;
-	width: 1440px;
-	height: 58px;
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 .Navbar_1 {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 1440px;
-	height: 58px;
-	background: rgba(222,138,119,1.00);
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 .login_3 {
-	position: absolute;
-	left: 1251px;
-	top: 20px;
-	height: 21.751953125px;
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 .login_3 .Login_3 {
-	position: absolute;
-	left: 26px;
-	top: -1.8914794921875px;
-	width: 90%;
-	height: 78.26080856604113%;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 25px;
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 .login_3 ._7887887426_googlegpnggooglelogowhitepng1_3 {
-	position: absolute;
-	left: 2px;
-	top: 2.83721923828125px;
-	width: 22.5%;
-	height: 82.6086468528329%;
-	object-fit: cover;
-	overflow: hidden;
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 .StreetSavvy_3 {
-	position: absolute;
-	left: 116px;
-	top: 1px;
-	width: 214px;
-	height: 53px;
-	color: rgba(255,255,255,1.00);
-	font-family: Calligraffitti;
-	font-size: 38px;
-	font-weight: 400;
-	line-height: 59.634765625px;
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 .Findaplace_3 {
-	position: absolute;
-	left: 943px;
-	top: 16.945709228515625px;
-	width: 113px;
-	height: 23.643402099609375px;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 25px;
-}
-.about_about .nav .nav_1 .nav_2 .nav_3 .About_3 {
-	position: absolute;
-	left: 835px;
+	left: 1268px;
 	top: 17px;
-	width: 56px;
-	height: 23.643402099609375px;
-	color: rgba(255,255,255,1.00);
-	font-family: Quicksand;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 25px;
+	width: 93px;
+	height: 23px;
 }
-.about_about .nav .nav_1 .nav_2 .nav_3 .Saved {
+.about_about .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
 	position: absolute;
-	left: 1124px;
-	top: 16px;
-	width: 59px;
-	height: 23.643402099609375px;
+	left: 0px;
+	top: 5px;
+	width: 19.35483870967742%;
+	height: 78.12606148097827%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.about_about .nav .login .Login {
+	position: absolute;
+	left: 22px;
+	top: 0px;
+	width: 76.34408602150538%;
+	height: 100%;
 	color: rgba(255,255,255,1.00);
 	font-family: Quicksand;
 	font-size: 20px;

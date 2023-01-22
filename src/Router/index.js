@@ -4,14 +4,13 @@ import HomePage from '../Components/index';
 import Home from '../Components/home';
 import About from '../Components/about';
 import Findaplace from '../Components/findaplace';
+import Findaplace_1 from '../Components/findaplace_1';
+import Findaplace_2 from '../Components/findaplace_2';
+import Findaplace_3 from '../Components/findaplace_3';
+import Findaplace_4 from '../Components/findaplace_4';
 import Saved from '../Components/saved';
 import Card from '../Components/card';
 import Reviews from '../Components/reviews';
-import Login from '../Components/login';
-import Property1default from '../Components/Property1default';
-import Property1default_1 from '../Components/Property1default_1';
-import Property1default_2 from '../Components/Property1default_2';
-import Property1default_3 from '../Components/Property1default_3';
 const RouterDOM = () => {
 	return (
 		<Router>
@@ -19,14 +18,13 @@ const RouterDOM = () => {
 				<Route exact path="/"><Home /></Route>
 				<Route exact path="/about"><About /></Route>
 				<Route exact path="/findaplace"><Findaplace /></Route>
+				<Route exact path="/findaplace_1"><Findaplace_1 /></Route>
+				<Route exact path="/findaplace_2"><Findaplace_2 /></Route>
+				<Route exact path="/findaplace_3"><Findaplace_3 /></Route>
+				<Route exact path="/findaplace_4"><Findaplace_4 /></Route>
 				<Route exact path="/saved"><Saved /></Route>
 				<Route exact path="/card"><Card /></Route>
 				<Route exact path="/reviews"><Reviews /></Route>
-				<Route exact path="/login"><Login /></Route>
-				<Route exact path="/property1default"><Property1default /></Route>
-				<Route exact path="/property1default_1"><Property1default_1 /></Route>
-				<Route exact path="/property1default_2"><Property1default_2 /></Route>
-				<Route exact path="/property1default_3"><Property1default_3 /></Route>
 			</Switch>
 		</Router>
 	);

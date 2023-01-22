@@ -1,5 +1,5 @@
 
-.findaplace_findaplace {
+.findaplace_1_findaplace {
 	position: relative;
 	left: 0px;
 	top: 0px;
@@ -9,7 +9,7 @@
 	overflow: auto;
 	background: rgba(255,255,255,1.00);
 }
-.findaplace_findaplace .Rectangle9 {
+.findaplace_1_findaplace .Rectangle9 {
 	position: absolute;
 	left: -11px;
 	top: 313px;
@@ -17,21 +17,21 @@
 	height: 204px;
 	background: rgba(233,241,247,1.00);
 }
-.findaplace_findaplace .Vector {
+.findaplace_1_findaplace .Vector {
 	position: absolute;
 	left: 0px;
 	top: 266px;
 	width: 1440px;
 	height: 95px;
 }
-.findaplace_findaplace .Vector_1 {
+.findaplace_1_findaplace .Vector_1 {
 	position: absolute;
 	left: 0px;
 	top: 511px;
 	width: 1440px;
 	height: 103px;
 }
-.findaplace_findaplace .footer {
+.findaplace_1_findaplace .footer {
 	position: absolute;
 	left: 0px;
 	top: 1471px;
@@ -39,7 +39,7 @@
 	height: 118px;
 	background: rgba(115,107,146,1.00);
 }
-.findaplace_findaplace .Copyright2023 {
+.findaplace_1_findaplace .Copyright2023 {
 	position: absolute;
 	left: 562px;
 	top: 1534px;
@@ -51,7 +51,7 @@
 	font-weight: 500;
 	line-height: 22.5px;
 }
-.findaplace_findaplace .Pickyourinterest {
+.findaplace_1_findaplace .Pickyourinterest {
 	position: absolute;
 	left: 625px;
 	top: 672px;
@@ -63,7 +63,7 @@
 	font-weight: 500;
 	line-height: 37.91999816894531px;
 }
-.findaplace_findaplace .RestaurantTableVectorsbyVecteezy {
+.findaplace_1_findaplace .RestaurantTableVectorsbyVecteezy {
 	position: absolute;
 	left: 334px;
 	top: 1069px;
@@ -75,7 +75,7 @@
 	font-weight: 300;
 	line-height: 11.25px;
 }
-.findaplace_findaplace .ThemeParkVectorsbyVecteezy {
+.findaplace_1_findaplace .ThemeParkVectorsbyVecteezy {
 	position: absolute;
 	left: 895px;
 	top: 1077px;
@@ -87,7 +87,7 @@
 	font-weight: 300;
 	line-height: 11.25px;
 }
-.findaplace_findaplace .Whatwouldyouliketodotoday {
+.findaplace_1_findaplace .Whatwouldyouliketodotoday {
 	position: absolute;
 	left: 116px;
 	top: 156px;
@@ -99,7 +99,7 @@
 	font-weight: 500;
 	line-height: 42.659996032714844px;
 }
-.findaplace_findaplace .Selectyourbudget {
+.findaplace_1_findaplace .Selectyourbudget {
 	position: absolute;
 	left: 610px;
 	top: 361px;
@@ -111,7 +111,7 @@
 	font-weight: 500;
 	line-height: 37.91999816894531px;
 }
-.findaplace_findaplace .Group1 {
+.findaplace_1_findaplace .Group1 {
 	position: absolute;
 	left: 916px;
 	top: 1166px;
@@ -119,7 +119,7 @@
 	height: 51px;
 	border-radius: 11px;
 }
-.findaplace_findaplace .Group1 .FindaplaceHolder {
+.findaplace_1_findaplace .Group1 .FindaplaceHolder {
 	position: absolute;
 	left: 28px;
 	top: 0px;
@@ -128,7 +128,7 @@
 	background: rgba(223,181,107,1.00);
 	border-radius: 11px;
 }
-.findaplace_findaplace .Group1 .Entertainment {
+.findaplace_1_findaplace .Group1 .Entertainment {
 	position: absolute;
 	left: 0px;
 	top: 11px;
@@ -143,7 +143,7 @@
 	font-weight: 400;
 	line-height: 22.5px;
 }
-.findaplace_findaplace .Group1_1 {
+.findaplace_1_findaplace .Group1_1 {
 	position: absolute;
 	left: 334px;
 	top: 1169px;
@@ -151,7 +151,7 @@
 	height: 51px;
 	border-radius: 11px;
 }
-.findaplace_findaplace .Group1_1 .FindaplaceHolder_1 {
+.findaplace_1_findaplace .Group1_1 .FindaplaceHolder_1 {
 	position: absolute;
 	left: 28px;
 	top: 0px;
@@ -160,7 +160,7 @@
 	background: rgba(223,181,107,1.00);
 	border-radius: 11px;
 }
-.findaplace_findaplace .Group1_1 .Food {
+.findaplace_1_findaplace .Group1_1 .Food {
 	position: absolute;
 	left: 0px;
 	top: 11px;
@@ -175,7 +175,7 @@
 	font-weight: 400;
 	line-height: 22.5px;
 }
-.findaplace_findaplace .PeopleEatingAtRestaurant2012 {
+.findaplace_1_findaplace .PeopleEatingAtRestaurant2012 {
 	position: absolute;
 	left: 801px;
 	top: 762px;
@@ -184,7 +184,7 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-.findaplace_findaplace .PeopleEatingAtRestaurant2011 {
+.findaplace_1_findaplace .PeopleEatingAtRestaurant2011 {
 	position: absolute;
 	left: 246px;
 	top: 762px;
@@ -193,7 +193,7 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-.findaplace_findaplace ._ {
+.findaplace_1_findaplace ._ {
 	position: absolute;
 	left: 550px;
 	top: 444px;
@@ -201,7 +201,18 @@
 	height: 26px;
 	border-radius: 3px;
 }
-.findaplace_findaplace .__1 {
+.findaplace_1_findaplace .__1 {
+	position: absolute;
+	left: 916px;
+	top: 444px;
+	width: 24px;
+	height: 26px;
+	background: rgba(217,217,217,0.00);
+	border-radius: 3px;
+	border: 3px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+	box-sizing: border-box;
+}
+.findaplace_1_findaplace .__2 {
 	position: absolute;
 	left: 580px;
 	top: 437px;
@@ -213,7 +224,7 @@
 	font-weight: 400;
 	line-height: 40px;
 }
-.findaplace_findaplace .__2 {
+.findaplace_1_findaplace .__3 {
 	position: absolute;
 	left: 789px;
 	top: 444px;
@@ -224,88 +235,88 @@
 	border: 3px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
 	box-sizing: border-box;
 }
-.findaplace_findaplace .__3 {
+.findaplace_1_findaplace .__4 {
 	position: absolute;
 	left: 673px;
 	top: 444px;
 	width: 24px;
 	height: 26px;
-	background: rgba(217,217,217,0.00);
+	background: rgba(115,107,146,1.00);
 	border-radius: 3px;
 	border: 3px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
 	box-sizing: border-box;
 }
-.findaplace_findaplace .nav {
+.findaplace_1_findaplace .nav {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 1470px;
-	height: 56.033905029296875px;
+	height: 56.033935546875px;
 }
-.findaplace_findaplace .nav .Navbar {
+.findaplace_1_findaplace .nav .Navbar {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 1470px;
-	height: 56.033905029296875px;
+	height: 56.033935546875px;
 	background: rgba(222,138,119,1.00);
 }
-.findaplace_findaplace .nav .StreetSavvy {
+.findaplace_1_findaplace .nav .StreetSavvy {
 	position: absolute;
 	left: 118.416748046875px;
-	top: 0.966094970703125px;
+	top: 0.966064453125px;
 	width: 218.458251953125px;
-	height: 51.203399658203125px;
+	height: 51.203369140625px;
 	color: rgba(255,255,255,1.00);
 	font-family: Calligraffitti;
 	font-size: 38px;
 	font-weight: 400;
 	line-height: 59.634765625px;
 }
-.findaplace_findaplace .nav .Findaplace {
+.findaplace_1_findaplace .nav .Findaplace {
 	position: absolute;
 	left: 962.645751953125px;
-	top: 16.37127685546875px;
+	top: 16.371337890625px;
 	width: 115.354248046875px;
-	height: 22.841949462890625px;
+	height: 22.842041015625px;
 	color: rgba(255,255,255,1.00);
 	font-family: Quicksand;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25px;
 }
-.findaplace_findaplace .nav .About {
+.findaplace_1_findaplace .nav .About {
 	position: absolute;
 	left: 852.39599609375px;
-	top: 16.423736572265625px;
+	top: 16.423828125px;
 	width: 57.166748046875px;
-	height: 22.841949462890625px;
+	height: 22.842041015625px;
 	color: rgba(255,255,255,1.00);
 	font-family: Quicksand;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25px;
 }
-.findaplace_findaplace .nav .Saved {
+.findaplace_1_findaplace .nav .Saved {
 	position: absolute;
 	left: 1147.41650390625px;
-	top: 15.457611083984375px;
+	top: 15.45751953125px;
 	width: 60.229248046875px;
-	height: 22.841949462890625px;
+	height: 22.842041015625px;
 	color: rgba(255,255,255,1.00);
 	font-family: Quicksand;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25px;
 }
-.findaplace_findaplace .nav .login {
+.findaplace_1_findaplace .nav .login {
 	position: absolute;
 	left: 1268px;
 	top: 17px;
 	width: 93px;
 	height: 23px;
 }
-.findaplace_findaplace .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
+.findaplace_1_findaplace .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
 	position: absolute;
 	left: 0px;
 	top: 5px;
@@ -314,7 +325,7 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-.findaplace_findaplace .nav .login .Login {
+.findaplace_1_findaplace .nav .login .Login {
 	position: absolute;
 	left: 22px;
 	top: 0px;
@@ -325,15 +336,4 @@
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25px;
-}
-.findaplace_findaplace .__4 {
-	position: absolute;
-	left: 916px;
-	top: 444px;
-	width: 24px;
-	height: 26px;
-	background: rgba(217,217,217,0.00);
-	border-radius: 3px;
-	border: 3px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
-	box-sizing: border-box;
 }
