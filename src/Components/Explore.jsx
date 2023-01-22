@@ -52,7 +52,7 @@ const Explore = ({ user }) => {
                                     h={150}
                                     fontSize={100}
                                     borderRadius={16}
-                                    onClick={() => setCategory('thingstodo')}
+                                    onClick={() => setCategory('thing')}
                                 />
                             </HStack>
                             <Heading color={'#736B92'}>What is your price range?</Heading>
