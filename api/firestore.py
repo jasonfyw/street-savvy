@@ -36,17 +36,14 @@ class firestoreManager:
                 u'email': f'{email}',
                 u'userID': f'{userID}',
                 u'restaurantChoices': [],
-                u'shoppingChoices': [],
                 u'thingsChoices': [],
             })
 
     def addChoice(self, userID, choiceCat, docID):
-        collection = self.db.collection(u'Users')
-        query = collection.where(u'userID', u'==', userID).stream()
-        for doc in query:
-            collection.document(doc.id).update(
-                {f'{choiceCat}': firestore.ArrayUnion([f'{docID}'])})
-            # doc.update({f'{choiceCat}': firestore.ArrayUnion([f'{docID}'])})
+        collection = self.db.collection(u'Users').document(userID)
+        collection.update(
+            {f'{choiceCat}': firestore.ArrayUnion([f'{docID}'])})
+        # doc.update({f'{choiceCat}': firestore.ArrayUnion([f'{docID}'])})
 
     def addThingsChoice(self, userID, docID):
         self.addChoice(userID, 'thingsChoices', docID)
@@ -54,16 +51,11 @@ class firestoreManager:
     def addRestaurantChoice(self, userID, docID):
         self.addChoice(userID, 'restauntChoices', docID)
 
-    def addShoppingChoice(self, userID, docID):
-        self.addChoice(userID, 'shoppingChocies', docID)
-
     def getUserData(self, userID):
         '''returns JSON format of user data
         '''
-        collection = self.db.collection(u'Users')
-        query = collection.where(u'userID', u'==', userID).stream()
-        for doc in query:
-            return doc.to_dict()
+        doc = self.db.collection(u'Users').document(userID).get()
+        return doc.to_dict()
 
     def filterRestaurant(self, categoryDict: dict):
         collection = self.db.collection(u'Restaurants')
@@ -74,7 +66,6 @@ class firestoreManager:
 
 if __name__ == "__main__":
     dbManager = firestoreManager()
-    iter = dbManager.filterRestaurant(
-        {'category': 'american', 'name': "Johnny G's Cafe"})
+    iter = dbManager.filterRestaurant({'category': 'american'})
     for i in iter:
         print(i.to_dict())
