@@ -33,3 +33,5 @@ travel-budget-app-5cfe4-e0104ecd7b8e.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/ignore
