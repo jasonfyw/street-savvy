@@ -13,6 +13,10 @@ Then, install the JS dependencies from `package.json` using `npm`:
 ```
 $ npm install
 ```
+Using "npm" install Firebase
+```
+$ npm install firebase
+```
 Now, change into the `api` directory to set up and enter a virtual Python environment using `venv`:
 ```
 $ cd api
