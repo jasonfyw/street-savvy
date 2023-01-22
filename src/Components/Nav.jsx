@@ -33,7 +33,16 @@ const Nav= () => {
 
     const links = [
         <NavLink to={'/about'}>About</NavLink>,
-        <NavLink to={'/findaplace'}>Discover a new place</NavLink>
+        <NavLink to={'/findaplace'}>Discover a new place</NavLink>,
+        // Login button
+        <Link p={2} fontWeight={300} borderRadius={10} _hover={{
+            textDecoration: 'none',
+            bg: '#CE7A67',
+            transition: '0.2s',
+            cursor: 'pointer'
+        }}>
+            Login
+        </Link>
 
     ]
 
@@ -86,14 +95,6 @@ const Nav= () => {
                     <HStack spacing={8} alignItems={'center'} mr={6}>
                         <HStack as={'nav'} spacing={6} display={{ base: 'none', md: 'flex' }}>
                             { links }
-                            <Link p={2} fontWeight={300} borderRadius={10} _hover={{
-                                textDecoration: 'none',
-                                bg: '#CE7A67',
-                                transition: '0.2s',
-                                cursor: 'pointer'
-                            }}>
-                                Login
-                            </Link>
                         </HStack>
                     </HStack>
                 </Flex>
