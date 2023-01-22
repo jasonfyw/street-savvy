@@ -8,21 +8,31 @@ import {
     useColorModeValue,
     Stack,
     Text,
-    Link
+    Link,
+    Button
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { Link as RouteLink } from 'react-router-dom';
+import { FaGoogle } from 'react-icons/fa';
 
 
 const NavLink = ({ children, to }) => (
-    <Link as={RouteLink} to={to} p={2} fontWeight={300} borderRadius={10} _hover={{
-        textDecoration: 'none',
-        bg: '#CE7A67',
-        transition: '0.2s',
-        cursor: 'pointer'
-    }}>
+    <Button
+        as={RouteLink}
+        to={to}
+        p={2}
+        fontWeight={400}
+        bg={'#DE8A77'}
+        borderRadius={10}
+        _hover={{
+            textDecoration: 'none',
+            bg: '#E79382',
+            transition: '0.2s',
+            cursor: 'pointer'
+        }}
+    >
         { children }
-    </Link>
+    </Button>
 );
 
 
@@ -35,14 +45,21 @@ const Nav= () => {
         <NavLink to={'/about'}>About</NavLink>,
         <NavLink to={'/findaplace'}>Discover a new place</NavLink>,
         // Login button
-        <Link p={2} fontWeight={300} borderRadius={10} _hover={{
-            textDecoration: 'none',
-            bg: '#CE7A67',
-            transition: '0.2s',
-            cursor: 'pointer'
-        }}>
+        <Button
+            leftIcon={<FaGoogle />}
+            p={2}
+            fontWeight={400}
+            borderRadius={10}
+            bg={'#DE8A77'}
+            _hover={{
+                textDecoration: 'none',
+                bg: '#E79382',
+                transition: '0.2s',
+                cursor: 'pointer'
+            }}
+        >
             Login
-        </Link>
+        </Button>
 
     ]
 
@@ -88,7 +105,6 @@ const Nav= () => {
                                 cursor: 'pointer'
                             }}
                         >
-                            {/* <Box fontWeight={600}>Jason Wang</Box> */}
                             <Text fontWeight={600} fontSize={30} fontFamily={'Calligraffitti, cursive;'}>Street Savvy</Text>
                         </Link>
                     </Flex>
