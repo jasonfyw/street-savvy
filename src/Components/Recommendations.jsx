@@ -1,20 +1,23 @@
-import { React, useEffect, useState } from 'react';
+import { React, useEffect, useState, useRef } from 'react';
 import {
     Box,
     Button,
     HStack,
-    Stack,
-    VStack,
-    Flex,
-    Text,
-    Heading,
-    Image,
     Center,
-    IconButton
+    IconButton,
+    useDisclosure,
+    Drawer,
+    DrawerOverlay,
+    DrawerContent,
+    DrawerCloseButton,
+    DrawerHeader,
+    DrawerBody,
 } from '@chakra-ui/react'
 import { useLocalStorage } from 'usehooks-ts'
 import axios from 'axios'
 import { BsTrash, BsHeartFill } from 'react-icons/bs'
+import LocationCard from './LocationCard'
+import List from './List'
 
 
 const SUBCATEGORIES = {
@@ -43,6 +46,10 @@ const SUBCATEGORIES = {
 const Recommendations = () => {
     const [settings, setSettings] = useLocalStorage('settings', null)
     const [locationData, setLocationData] = useState({})
+    const [user, setUser] = useLocalStorage('user', null)
+
+    const { isOpen, onOpen, onClose } = useDisclosure()
+    const btnRef = useRef()
 
 
     const getRecommendation = () => {
@@ -54,6 +61,15 @@ const Recommendations = () => {
             setLocationData(res.data.location)
         }).catch(function (error) {
             console.log(error);
+        })
+    }
+
+    const saveRecommendation = () => {
+        axios.put('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
+            'category': settings['category'],
+            'info': locationData
+        }).then((res) => {
+            getRecommendation()
         })
     }
 
@@ -80,6 +96,17 @@ const Recommendations = () => {
             >
                 Reset preferences
             </Button>
+            <Button
+                ref={btnRef}
+                m={5}
+                top={0}
+                left={0}
+                position={'fixed'}
+                colorScheme={'teal'}
+                onClick={onOpen}
+            >
+                View List
+            </Button>
             <Box>
                 <Center>
                     <HStack spacing={20}>
@@ -92,65 +119,14 @@ const Recommendations = () => {
                             onClick={() => getRecommendation()}
                         />
                         <Center h={'100vh'}>
-                            <Box
-                                maxW={'425px'}
-                                w={'full'}
-                                bg={'white'}
-                                opacity={0.9}
-                                boxShadow={'xl'}
-                                rounded={'md'}
-                                p={6}
-                                overflow={'hidden'}
-                            >
-
-                                <Box
-                                    h={'175px'}
-                                    bg={'gray.100'}
-                                    mt={-6}
-                                    mx={-6}
-                                    mb={6}
-                                    pos={'relative'}>
-                                    <Image
-                                        src={'https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'}
-                                        height={'175px'}
-                                        width={'100%'}
-                                        fit={'cover'}
-                                    />
-                                </Box>
-                                <Stack>
-                                    <Text
-                                        color={'blue.200'}
-                                        textTransform={'uppercase'}
-                                        fontWeight={800}
-                                        fontSize={'sm'}
-                                        letterSpacing={1.1}
-                                    >
-                                        {locationData.category}
-                                    </Text>
-                                    <Flex>
-                                        <Heading
-                                            color={'#736B92'}
-                                            fontSize={'2xl'}
-                                            fontFamily={'body'}
-                                        >
-                                            {locationData.name}
-                                        </Heading>
-                                        {/* <Spacer />
-                                        <HStack>
-                                            {props.links}
-                                        </HStack> */}
-                                    </Flex>
-                                    <VStack>
-                                        <Text>Website: {locationData.website}</Text>
-                                        <Text>Phone: {locationData.phone}</Text>
-                                        <Text>Rating: {locationData.rating}</Text>
-                                    </VStack>
-                                    <Text color={'gray.500'}>
-                                        {locationData.description}
-                                    </Text>
-
-                                </Stack>
-                            </Box>
+                            <LocationCard
+                                category={locationData['category']}
+                                name={locationData['name']}
+                                website={locationData['website']}
+                                phone={locationData['phoneNumber']}
+                                rating={locationData['rating']}
+                                description={locationData['description']}
+                            />
                         </Center>
                         <IconButton
                             icon={<BsHeartFill />}
@@ -158,11 +134,34 @@ const Recommendations = () => {
                             h={150}
                             fontSize={100}
                             borderRadius={16}
-                            onClick={() => getRecommendation()}
+                            onClick={() => saveRecommendation()}
                         />
                     </HStack>
                 </Center>
             </Box>
+
+
+
+
+
+
+
+            <Drawer
+                isOpen={isOpen}
+                placement='right'
+                onClose={onClose}
+                finalFocusRef={btnRef}
+            >
+                <DrawerOverlay />
+                <DrawerContent>
+                    <DrawerCloseButton />
+                    <DrawerHeader>Your list</DrawerHeader>
+
+                    <DrawerBody>
+                        <List />
+                    </DrawerBody>
+                </DrawerContent>
+            </Drawer>
         </>
         
     )

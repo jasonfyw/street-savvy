@@ -5,6 +5,7 @@ import Login from './components/Login';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Route, Router } from 'react-router-dom';
 import axios from 'axios'
+import List from './components/List'
 
 const auth = getAuth();
 
@@ -22,13 +23,18 @@ const App = () => {
 
     return (
         <ChakraProvider>
-            {
-                user ? (
-                    <Explore user={user} />
-                ) : (
-                    <Login />
-                )
-            }
+            {/* <Router>
+                <Route to={'/'}> */}
+                    {
+                        user ? (
+                            <Explore user={user} />
+                        ) : (
+                            <Login />
+                        )
+                    }
+                {/* </Route>
+                <Route to={'/lists'}><List /></Route> */}
+            {/* </Router> */}
         </ChakraProvider>
     )
 }
