@@ -61,7 +61,7 @@ class userList(Resource):
         if args["category"] == 'restaurant':
             dbManager.clearChoices(userID, "restaurantChoices")
         else:
-            dbManager.clearChoices(userID, "thingsChoice")
+            dbManager.clearChoices(userID, "thingsChoices")
         return '', 202
 
 
