@@ -22,7 +22,6 @@ def getRecommendation():
         list(preferenceConfig.values())
     )
 
-
     # TODO get random sample from database
     filterConfig = {
         'category': subcategory[0],
@@ -36,11 +35,14 @@ def getRecommendation():
         candidateLocationsStream = dbManager.filterRestaurant(filterConfig)
         for l in candidateLocationsStream:
             candidateLocations.append(l.to_dict())
-        
+    elif category == 'thing':
+        candidateLocationsStream = dbManager.filterThingsToDo(filterConfig)
+        for l in candidateLocationsStream:
+            candidateLocations.append(l.to_dict())
+
     res = sample(candidateLocations, 1) if len(candidateLocations) > 0 else {}
-        
+
     try:
-        res = jsonify({ 'location': res[0] })
+        return jsonify({'location': res[0]})
     except KeyError:
-        res = jsonify({ 'location': {} })
-    return res
+        return jsonify({'location': {}})
