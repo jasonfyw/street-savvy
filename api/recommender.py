@@ -6,7 +6,8 @@ recommender = Blueprint('recommender', __name__)
 
 dbManager = firestoreManager()
 
-@recommender.route('/recommender/getRecommendation', methods = ['POST'])
+
+@recommender.route('/recommender/getRecommendation', methods=['POST'])
 def getRecommendation():
     # request.json contains:
     # category, price, preferenceConfig
@@ -19,7 +20,6 @@ def getRecommendation():
         list(preferenceConfig.keys()),
         list(preferenceConfig.values())
     )
-
 
     # TODO get random sample from database
     filterConfig = {
@@ -34,10 +34,14 @@ def getRecommendation():
         candidateLocationsStream = dbManager.filterRestaurant(filterConfig)
         for l in candidateLocationsStream:
             candidateLocations.append(l.to_dict())
-        
+    elif category == 'thing':
+        candidateLocationsStream = dbManager.filterThingsToDo(filterConfig)
+        for l in candidateLocationsStream:
+            candidateLocations.append(l.to_dict())
+
     res = sample(candidateLocations, 1) if len(candidateLocations) > 0 else {}
-        
+
     try:
-        return jsonify({ 'location': res[0] })
+        return jsonify({'location': res[0]})
     except KeyError:
-        return jsonify({ 'location': {} })
+        return jsonify({'location': {}})

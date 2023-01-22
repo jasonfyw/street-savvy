@@ -3,8 +3,9 @@ from firebase_admin import firestore
 from firebase_admin import credentials
 
 cred = credentials.Certificate(
-            'Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
+    'api/Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
 app = firebase_admin.initialize_app(cred)
+
 
 class firestoreManager:
     def __init__(self) -> None:
@@ -58,14 +59,23 @@ class firestoreManager:
     def addChoice(self, userID, choiceCat, docID):
         collection = self.db.collection(u'Users').document(userID)
         collection.update(
-            {f'{choiceCat}': firestore.ArrayUnion([f'{docID}'])})
+            {f'{choiceCat}': firestore.ArrayUnion([docID])})
         # doc.update({f'{choiceCat}': firestore.ArrayUnion([f'{docID}'])})
 
     def addThingsChoice(self, userID, docID):
         self.addChoice(userID, 'thingsChoices', docID)
 
     def addRestaurantChoice(self, userID, docID):
-        self.addChoice(userID, 'restauntChoices', docID)
+        self.addChoice(userID, 'restaurantChoices', docID)
+
+    def clearChoices(self, userID, choiceCat):
+        collection = self.db.collection(u'Users').document(userID)
+        collection.update({
+            choiceCat: firestore.DELETE_FIELD
+        })
+        collection.update({
+            choiceCat: []
+        })
 
     def getUserData(self, userID):
         '''returns JSON format of user data
@@ -83,8 +93,6 @@ class firestoreManager:
         collection = self.db.collection("ThingsToDo")
         for key in categoryDict:
             collection = collection.where(key, u'==', categoryDict[key])
-        collection = collection.where('rating', '>', 1.0)
-
         return collection.stream()
 
 
