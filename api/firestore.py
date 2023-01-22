@@ -28,6 +28,22 @@ class firestoreManager:
             u'website': website
         })
 
+    def addThingsToDo(self, name, placeID, photoAPI, category, rating, address, phoneNumber, reviews, website, description, priceLevel):
+        doc_ref = self.db.collection(u'ThingsToDo').document()
+        doc_ref.set({
+            u'name': name,
+            u'placeID': placeID,
+            u'photoAPI': photoAPI,
+            u'category': category,
+            u'rating': rating,
+            u'address': address,
+            u'phoneNumber': phoneNumber,
+            u'reviews': reviews,
+            u'website': website,
+            u'description': description,
+            u'priceLevel': priceLevel
+        })
+
     def addUser(self, userID, email) -> None:
 
         doc_ref = self.db.collection(u'Users').document(userID)
@@ -63,9 +79,17 @@ class firestoreManager:
             collection = collection.where(key, u'==', categoryDict[key])
         return collection.stream()
 
+    def filterThingsToDo(self, categoryDict: dict):
+        collection = self.db.collection("ThingsToDo")
+        for key in categoryDict:
+            collection = collection.where(key, u'==', categoryDict[key])
+        collection = collection.where('rating', '>', 1.0)
+
+        return collection.stream()
+
 
 if __name__ == "__main__":
     dbManager = firestoreManager()
-    iter = dbManager.filterRestaurant({'category': 'american'})
+    iter = dbManager.filterThingsToDo({'category': 'night_club'})
     for i in iter:
-        print(i.to_dict())
+        print(i.to_dict()["rating"])
