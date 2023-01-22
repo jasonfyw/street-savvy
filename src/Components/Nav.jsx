@@ -31,12 +31,12 @@ const NavLink = ({ children, to }) => (
             cursor: 'pointer'
         }}
     >
-        { children }
+        {children}
     </Button>
 );
 
 
-const Nav= () => {
+const Nav = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     const ref = useRef(null);
@@ -111,7 +111,7 @@ const Nav= () => {
                     </Flex>
                     <HStack spacing={8} alignItems={'center'} mr={6}>
                         <HStack as={'nav'} spacing={6} display={{ base: 'none', md: 'flex' }}>
-                            { links }
+                            {links}
                         </HStack>
                     </HStack>
                 </Flex>
@@ -119,7 +119,7 @@ const Nav= () => {
                 {isOpen ? (
                     <Box pb={4} display={{ md: 'none' }}>
                         <Stack as={'nav'} spacing={4}>
-                            { links }
+                            {links}
                         </Stack>
                     </Box>
                 ) : null}

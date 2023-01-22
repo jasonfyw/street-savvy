@@ -1,12 +1,14 @@
 from flask import jsonify, Blueprint, request
 from random import choices, sample
 from firestore import firestoreManager
+from flask_cors import cross_origin
 
 recommender = Blueprint('recommender', __name__)
 
 dbManager = firestoreManager()
 
 @recommender.route('/recommender/getRecommendation', methods = ['POST'])
+@cross_origin()
 def getRecommendation():
     # request.json contains:
     # category, price, preferenceConfig
@@ -38,6 +40,7 @@ def getRecommendation():
     res = sample(candidateLocations, 1) if len(candidateLocations) > 0 else {}
         
     try:
-        return jsonify({ 'location': res[0] })
+        res = jsonify({ 'location': res[0] })
     except KeyError:
-        return jsonify({ 'location': {} })
+        res = jsonify({ 'location': {} })
+    return res

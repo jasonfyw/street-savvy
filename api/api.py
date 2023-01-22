@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
+from flask_cors import CORS
 from firestore import firestoreManager
 
 from recommender import recommender
@@ -7,8 +8,15 @@ from utils import utils
 
 dbManager = firestoreManager()
 
+config={
+    'ORIGINS': [
+        'http://localhost:3000'
+    ]
+}
+
 # create Flask application interface
 app = Flask(__name__)
+cors = CORS(app, resources={ r'/*': {'origins': config['ORIGINS']}}, supports_credentials=True)
 api = Api(app)
 
 addUserArg = reqparse.RequestParser()
