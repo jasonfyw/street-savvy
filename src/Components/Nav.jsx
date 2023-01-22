@@ -86,6 +86,7 @@ const Nav= () => {
                 width={'100vw'}
                 zIndex={100}
                 ref={ref}
+                color={'#fff'}
             >
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <IconButton
