@@ -5,8 +5,14 @@ import {
     Text,
     Heading,
     Flex,
-    VStack
+    VStack,
+    Spacer,
+    Link,
+    HStack,
+    IconButton,
+    Center
 } from '@chakra-ui/react'
+import { BiLink, BiPhone, BiStar } from 'react-icons/bi'
 
 
 const LocationCard = (props) => {
@@ -54,15 +60,29 @@ const LocationCard = (props) => {
                     >
                         {props.name}
                     </Heading>
-                    {/* <Spacer />
-                                        <HStack>
-                                            {props.links}
-                                        </HStack> */}
+                    <Spacer />
+                    <HStack>
+                        <Link href={props.href} isExternal>
+                            <IconButton
+                                variant={'outline'}
+                                colorScheme={'cyan'}
+                                aria-label={'View project'}
+                                fontSize={'1rem'}
+                                size={'sm'}
+                                icon={<BiLink />}
+                            />
+                        </Link>
+                    </HStack>
                 </Flex>
                 <VStack>
-                    <Text>Website: {props.website}</Text>
-                    <Text>Phone: {props.phone}</Text>
-                    <Text>Rating: {props.rating}</Text>
+                    <HStack>
+                        <BiPhone />
+                        <Text>{props.phone}</Text>
+                    </HStack>
+                    <HStack>
+                        <BiStar />
+                        <Text>{props.rating}</Text>
+                    </HStack>
                 </VStack>
                 <Text color={'gray.500'}>
                     {props.description}
