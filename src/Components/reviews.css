@@ -1,0 +1,467 @@
+
+.reviews_reviews {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,255,255,1.00);
+}
+.reviews_reviews .Vector {
+	position: absolute;
+	left: 0px;
+	top: 1091px;
+	width: 1440px;
+	height: 68px;
+}
+.reviews_reviews .Vector_1 {
+	position: absolute;
+	left: 0px;
+	top: 82px;
+	width: 1440px;
+	height: 68px;
+}
+.reviews_reviews .Rectangle9 {
+	position: absolute;
+	left: 0px;
+	top: 125px;
+	width: 1440px;
+	height: 966px;
+	background: rgba(233,241,247,1.00);
+}
+.reviews_reviews .footer {
+	position: absolute;
+	left: 0px;
+	top: 1211px;
+	width: 1440px;
+	height: 118px;
+	background: rgba(115,107,146,1.00);
+}
+.reviews_reviews .Copyright2023 {
+	position: absolute;
+	left: 562px;
+	top: 1274px;
+	width: 316px;
+	height: 23px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22.5px;
+}
+.reviews_reviews .Rectangle9_1 {
+	position: absolute;
+	left: 475px;
+	top: 112px;
+	width: 573px;
+	height: 738px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 5px;
+	border: 1px solid rgba(226.0000017285347,225.00000178813934,229.00000154972076,1);
+	box-sizing: border-box;
+}
+.reviews_reviews .NameofPlace {
+	position: absolute;
+	left: 445px;
+	top: 129px;
+	width: 641px;
+	height: 22px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(115,107,146,1.00);
+	font-family: Rubik;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 23.69999885559082px;
+}
+.reviews_reviews .Group8 {
+	position: absolute;
+	left: 491px;
+	top: 148px;
+	width: 371.857666015625px;
+	height: 122.372802734375px;
+}
+.reviews_reviews .Group8 .Group5 {
+	position: absolute;
+	left: 8.791015625px;
+	top: 32.005126953125px;
+	width: 17.5819091796875px;
+	height: 23.533203125px;
+}
+.reviews_reviews .Group8 .Group5 .Ellipse1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 17.5819091796875px;
+	height: 23.533203125px;
+}
+.reviews_reviews .Group8 .Group5 .Ellipse2 {
+	position: absolute;
+	left: 4.3953857421875px;
+	top: 3.03662109375px;
+	width: 9.3770751953125px;
+	height: 9.470703125px;
+	background: rgba(217,217,217,0.00);
+	border-radius: 50%;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+	box-sizing: border-box;
+}
+.reviews_reviews .Group8 .Star1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 36.9219970703125px;
+	height: 33.887939453125px;
+	border-radius: 3px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+	box-sizing: border-box;
+}
+.reviews_reviews .Group8 ._123StreetNameONCanada {
+	position: absolute;
+	left: 32.526611328125px;
+	top: 34.8291015625px;
+	width: 334.935546875px;
+	height: 32.946533203125px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.reviews_reviews .Group8 ._1234567890 {
+	position: absolute;
+	left: 34.2847900390625px;
+	top: 63.069091796875px;
+	width: 334.9356689453125px;
+	height: 32.946533203125px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.reviews_reviews .Group8 .wwwcompanywebsitecom {
+	position: absolute;
+	left: 36.9219970703125px;
+	top: 89.42626953125px;
+	width: 334.9356689453125px;
+	height: 32.946533203125px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.reviews_reviews .Group8 ._5 {
+	position: absolute;
+	left: 34.2847900390625px;
+	top: 7.530517578125px;
+	width: 254.0587158203125px;
+	height: 32.005126953125px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.reviews_reviews .Group8 .Group6 {
+	position: absolute;
+	left: 7.911865234375px;
+	top: 59.3037109375px;
+	width: 21.0982666015625px;
+	height: 21.650634765625px;
+}
+.reviews_reviews .Group8 .Group6 .Line1 {
+	position: absolute;
+	left: 3.2459716796875px;
+	top: 0px;
+	width: 5.4097900390625px;
+	height: 21.650634765625px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.reviews_reviews .Group8 .Group6 .Line2 {
+	position: absolute;
+	left: 10.2786865234375px;
+	top: 0px;
+	width: 5.4097900390625px;
+	height: 21.650634765625px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.reviews_reviews .Group8 .Group6 .Line4 {
+	position: absolute;
+	left: 1.0819091796875px;
+	top: 7.216796875px;
+	width: 20.016357421875px;
+	height: 0px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.reviews_reviews .Group8 .Group6 .Line5 {
+	position: absolute;
+	left: 0px;
+	top: 13.832275390625px;
+	width: 20.016357421875px;
+	height: 0px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.reviews_reviews .Group8 .Group7 {
+	position: absolute;
+	left: 7.911865234375px;
+	top: 85.6611328125px;
+	width: 18.500244140625px;
+	height: 27.5439453125px;
+}
+.reviews_reviews .Group8 .Group7 .Line5_1 {
+	position: absolute;
+	left: 0.92041015625px;
+	top: 0px;
+	width: 16.702880859375px;
+	height: 12.257568359375px;
+}
+.reviews_reviews .Group8 .Group7 .Line7 {
+	position: absolute;
+	left: 0.7744140625px;
+	top: 10.378662109375px;
+	width: 6.446533203125px;
+	height: 5.149658203125px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.reviews_reviews .Group8 .Group7 .Line9 {
+	position: absolute;
+	left: 0.77392578125px;
+	top: 15.5283203125px;
+	width: 6.4466552734375px;
+	height: 8.582763671875px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.reviews_reviews .Group8 .Group7 .Line11 {
+	position: absolute;
+	left: 0px;
+	top: 22.83740234375px;
+	width: 4.038818359375px;
+	height: 3.294677734375px;
+}
+.reviews_reviews .Group8 .Group7 .Line10 {
+	position: absolute;
+	left: 3.997314453125px;
+	top: 18.961181640625px;
+	width: 6.4466552734375px;
+	height: 8.582763671875px;
+	border: 2px solid rgba(115.00000074505806,107.00000122189522,146.00000649690628,1);
+}
+.reviews_reviews .Group8 .Group7 .Line8 {
+	position: absolute;
+	left: 9.650390625px;
+	top: 18.6015625px;
+	width: 4.5078125px;
+	height: 2.498291015625px;
+}
+.reviews_reviews .Group8 .Group7 .Line6 {
+	position: absolute;
+	left: 13.3536376953125px;
+	top: 1.193359375px;
+	width: 5.1466064453125px;
+	height: 19.35302734375px;
+}
+.reviews_reviews .Rectangle10 {
+	position: absolute;
+	left: 510px;
+	top: 267px;
+	width: 508px;
+	height: 292px;
+	background: rgba(217,217,217,1.00);
+	border-radius: 5px;
+}
+.reviews_reviews .ThedescriptiongoeshereLoremipsumdolorsitametconsecteturadipiscingelitseddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaUtenimadminimveniamquisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequatDuisauteiruredolorinreprehenderitinvoluptatevelitessecillumdoloreeufugiatnullapariaturExcepteursintoccaecatcupidatatnonproidentsuntinculpaquiofficiadeseruntmollitanimidestlaborum {
+	position: absolute;
+	left: 496px;
+	top: 569px;
+	width: 552px;
+	height: 99px;
+	color: rgba(0,0,0,1.00);
+	font-family: Quicksand;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 17.5px;
+}
+.reviews_reviews .ThereviewsgoeshereLoremipsumdolorsitametconsecteturadipiscingelitseddoeiusmodtemporincididuntutlaboreetdoloremagnaaliquaUtenimadminimveniamquisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequat {
+	position: absolute;
+	left: 498px;
+	top: 706px;
+	width: 552px;
+	height: 99px;
+	color: rgba(0,0,0,1.00);
+	font-family: Quicksand;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 17.5px;
+}
+.reviews_reviews .Group1 {
+	position: absolute;
+	left: 1018px;
+	top: 397px;
+	width: 136.2598876953125px;
+	height: 48.0078125px;
+	border-radius: 11px;
+}
+.reviews_reviews .Group1 .FindaplaceHolder {
+	position: absolute;
+	left: 15.765625px;
+	top: 0px;
+	width: 104.7286376953125px;
+	height: 48.0078125px;
+	background: rgba(223,181,107,1.00);
+	border-radius: 11px;
+}
+.reviews_reviews .Group1 .Save {
+	position: absolute;
+	left: 0px;
+	top: 10.354736328125px;
+	width: 136.2598876953125px;
+	height: 21.650634765625px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22.5px;
+}
+.reviews_reviews .Group9 {
+	position: absolute;
+	left: 376px;
+	top: 406px;
+	width: 136.2598876953125px;
+	height: 48.0078125px;
+	border-radius: 11px;
+}
+.reviews_reviews .Group9 .FindaplaceHolder_1 {
+	position: absolute;
+	left: 15.765625px;
+	top: 0px;
+	width: 104.7286376953125px;
+	height: 48.0078125px;
+	background: rgba(223,181,107,1.00);
+	border-radius: 11px;
+}
+.reviews_reviews .Group9 .Skip {
+	position: absolute;
+	left: 0px;
+	top: 10.354736328125px;
+	width: 136.2598876953125px;
+	height: 21.650634765625px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22.5px;
+}
+.reviews_reviews .Reviews {
+	position: absolute;
+	left: 498px;
+	top: 688px;
+	width: 254.0587158203125px;
+	height: 32.005126953125px;
+	color: rgba(222,138,119,1.00);
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18.959999084472656px;
+}
+.reviews_reviews .nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1470px;
+	height: 56.033935546875px;
+}
+.reviews_reviews .nav .Navbar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1470px;
+	height: 56.033935546875px;
+	background: rgba(222,138,119,1.00);
+}
+.reviews_reviews .nav .StreetSavvy {
+	position: absolute;
+	left: 118.41668701171875px;
+	top: 0.966064453125px;
+	width: 218.45831298828125px;
+	height: 51.203369140625px;
+	color: rgba(255,255,255,1.00);
+	font-family: Calligraffitti;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 59.634765625px;
+}
+.reviews_reviews .nav .Findaplace {
+	position: absolute;
+	left: 962.645751953125px;
+	top: 16.371337890625px;
+	width: 115.3541259765625px;
+	height: 22.842041015625px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.reviews_reviews .nav .About {
+	position: absolute;
+	left: 852.3958740234375px;
+	top: 16.423828125px;
+	width: 57.1666259765625px;
+	height: 22.842041015625px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.reviews_reviews .nav .Saved {
+	position: absolute;
+	left: 1147.4166259765625px;
+	top: 15.45751953125px;
+	width: 60.2291259765625px;
+	height: 22.842041015625px;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.reviews_reviews .nav .login {
+	position: absolute;
+	left: 1268px;
+	top: 17px;
+	width: 93px;
+	height: 23px;
+}
+.reviews_reviews .nav .login ._7887887426_googlegpnggooglelogowhitepng1 {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	width: 19.35483870967742%;
+	height: 78.12606148097827%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.reviews_reviews .nav .login .Login {
+	position: absolute;
+	left: 22px;
+	top: 0px;
+	width: 76.34408602150538%;
+	height: 100%;
+	color: rgba(255,255,255,1.00);
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
