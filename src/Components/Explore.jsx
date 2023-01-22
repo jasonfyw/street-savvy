@@ -6,7 +6,8 @@ import {
     VStack,
     Button,
     HStack,
-    IconButton
+    IconButton,
+    Tooltip
 } from '@chakra-ui/react'
 import { useLocalStorage } from 'usehooks-ts'
 import { GiMeal } from 'react-icons/gi'
@@ -30,72 +31,85 @@ const Explore = ({ user }) => {
         <Box>
             {
                 (settings === null || !settings.hasOwnProperty('category') || !settings.hasOwnProperty('priceLevel')) ? (
-                    <Center>
-                        <VStack py={10}>
-                            <Button onClick={() => auth.signOut()}>Sign out</Button>
-                            <Heading color={'#736B92'}>Hello, {user.displayName}.</Heading>
+                    <>
+                        <Button
+                            onClick={() => auth.signOut()}
+                            position={'fixed'}
+                            top={0}
+                            right={0}
+                            m={5}
+                        >Sign out</Button>
+                    
+                        <Center>
+                            <VStack py={10}>
+                                <Heading color={'#736B92'}>Hello, {user.displayName}.</Heading>
 
-                            <Heading color={'#736B92'}>What are you looking to do?</Heading>
+                                <Heading color={'#736B92'}>What are you looking to do?</Heading>
 
-                            <HStack spacing={100} py={20}>
-                                <IconButton
-                                    icon={<GiMeal />}
-                                    w={150}
-                                    h={150}
-                                    fontSize={100}
-                                    borderRadius={16}
-                                    onClick={() => setCategory('restaurant')}
-                                />
-                                <IconButton
-                                    icon={<GrSign />}
-                                    w={150}
-                                    h={150}
-                                    fontSize={100}
-                                    borderRadius={16}
-                                    onClick={() => setCategory('thing')}
-                                />
-                            </HStack>
-                            <Heading color={'#736B92'}>What is your price range?</Heading>
-                            <HStack spacing={25} py={20}>
-                                <Button
-                                    w={100}
-                                    h={100}
-                                    fontSize={32}
-                                    isRound
-                                    onClick={() => setPriceLevel(1)}
-                                >
-                                    $
-                                </Button>
-                                <Button
-                                    w={100}
-                                    h={100}
-                                    fontSize={32}
-                                    isRound
-                                    onClick={() => setPriceLevel(2)}
-                                >
-                                    $$
-                                </Button>
-                                <Button
-                                    w={100}
-                                    h={100}
-                                    fontSize={32}
-                                    isRound
-                                    onClick={() => setPriceLevel(3)}
-                                >
-                                    $$$
-                                </Button>
-                                <Button
-                                    w={100}
-                                    h={100}
-                                    fontSize={32}
-                                    isRound
-                                    onClick={() => setPriceLevel(4)}
-                                >
-                                    $$$$
-                                </Button>
-                            </HStack>
-                        </VStack>
-                    </Center>
+                                <HStack spacing={100} py={20}>
+                                    <Tooltip label='Restaurant'>
+                                        <IconButton
+                                            icon={<GiMeal />}
+                                            w={150}
+                                            h={150}
+                                            fontSize={100}
+                                            borderRadius={16}
+                                            onClick={() => setCategory('restaurant')}
+                                        />
+                                    </Tooltip>
+                                    <Tooltip label='Activities'>
+                                        <IconButton
+                                            icon={<GrSign />}
+                                            w={150}
+                                            h={150}
+                                            fontSize={100}
+                                            borderRadius={16}
+                                            onClick={() => setCategory('thing')}
+                                        />
+                                    </Tooltip>
+                                </HStack>
+                                <Heading color={'#736B92'}>What is your price range?</Heading>
+                                <HStack spacing={25} py={20}>
+                                    <Button
+                                        w={100}
+                                        h={100}
+                                        fontSize={32}
+                                        isRound
+                                        onClick={() => setPriceLevel(1)}
+                                    >
+                                        $
+                                    </Button>
+                                    <Button
+                                        w={100}
+                                        h={100}
+                                        fontSize={32}
+                                        isRound
+                                        onClick={() => setPriceLevel(2)}
+                                    >
+                                        $$
+                                    </Button>
+                                    <Button
+                                        w={100}
+                                        h={100}
+                                        fontSize={32}
+                                        isRound
+                                        onClick={() => setPriceLevel(3)}
+                                    >
+                                        $$$
+                                    </Button>
+                                    <Button
+                                        w={100}
+                                        h={100}
+                                        fontSize={32}
+                                        isRound
+                                        onClick={() => setPriceLevel(4)}
+                                    >
+                                        $$$$
+                                    </Button>
+                                </HStack>
+                            </VStack>
+                        </Center>
+                    </>
                 ) : (
                     <Recommendations />
                 )
