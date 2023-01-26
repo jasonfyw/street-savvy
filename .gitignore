@@ -2,6 +2,7 @@ venv
 __pycache__
 .env
 .ipynb_checkpoints
+.vscode
 
 # unsafe notebooks
 individual_poi_scraper.ipynb
