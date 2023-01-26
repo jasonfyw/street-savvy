@@ -3,7 +3,7 @@ from firebase_admin import firestore
 from firebase_admin import credentials
 
 cred = credentials.Certificate(
-    'api/Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
+    'Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json')
 app = firebase_admin.initialize_app(cred)
 
 
