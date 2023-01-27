@@ -3,9 +3,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import Explore from './components/Explore';
 import Login from './components/Login';
 import { ChakraProvider } from '@chakra-ui/react';
-import { Route, Router } from 'react-router-dom';
 import axios from 'axios'
-import List from './components/List'
 import { User } from 'firebase/auth'
 
 const auth = getAuth();

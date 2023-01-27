@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, useCallback } from 'react';
 import {
     Box,
     Button,
@@ -46,13 +46,13 @@ const SUBCATEGORIES = {
 const Recommendations = () => {
     const [settings, setSettings] = useLocalStorage('settings', {})
     const [locationData, setLocationData] = useState({})
-    const [user, setUser] = useLocalStorage('user', {})
+    const [user,] = useLocalStorage('user', {})
 
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = useRef()
 
 
-    const getRecommendation = () => {
+    const getRecommendation = useCallback(() => {
         axios.post('http://127.0.0.1:5000/recommender/getRecommendation', {
             'category': settings['category'],
             'price': settings['priceLevel'],
@@ -62,7 +62,7 @@ const Recommendations = () => {
         }).catch(function (error) {
             console.log(error);
         })
-    }
+    }, [settings])
 
     const saveRecommendation = () => {
         axios.put('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
@@ -83,7 +83,7 @@ const Recommendations = () => {
             setSettings({ ...settings, preferenceConfig: config })
         }
         getRecommendation()
-    }, [settings, setSettings])
+    }, [settings, setSettings, getRecommendation])
 
     return (
         <>

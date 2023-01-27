@@ -14,14 +14,14 @@ import { BsTrash } from 'react-icons/bs'
 const List = () => {
     const [restaurantChoice, setRestaurantChoice] = useState([])
     const [thingChoice, setThingChoice] = useState([])
-    const [user, setUser] = useLocalStorage('user', {})
+    const [user,] = useLocalStorage('user', {})
 
     useEffect(() => {
         axios.get('http://127.0.0.1:5000/userreg/'.concat(user['uid'])).then((res) => {
             setRestaurantChoice(res.data['restaurantChoices'])
             setThingChoice(res.data['thingsChoices'])
         })
-    }, [])
+    }, [user])
 
 
     const restaurantCards = restaurantChoice.map((location) => (

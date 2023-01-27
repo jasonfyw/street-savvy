@@ -9,8 +9,7 @@ import {
     Spacer,
     Link,
     HStack,
-    IconButton,
-    Center
+    IconButton
 } from '@chakra-ui/react'
 import { BiLink, BiPhone, BiStar } from 'react-icons/bi'
 
