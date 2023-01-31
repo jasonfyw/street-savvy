@@ -1,13 +1,15 @@
-# travel-budget-app
+# Street Savvy
+
+A web app that suggests places to visit in Toronto based on your preferences. Submitted to UofTHacks X.
 
 ### User installation
 Clone the repository in a directory of your choosing:
 ```
-$ git clone https://github.com/jasonfyw/travel-budget-app.git
+$ git clone https://github.com/jasonfyw/street-savvy
 ```
 Change directory into the cloned repository:
 ```
-$ cd travel-budget-app
+$ cd street-savvy
 ```
 Then, install the JS dependencies from `package.json` using `npm`:
 ```
@@ -27,6 +29,7 @@ We can now safely install the Python dependencies and run the scripts properly. 
 ``` 
 $ pip install -r ../requirements.txt
 ```
+Then, assuming you have a Firestore instance already set up, fill in your credentials in `src/firebase.ts` and `api/Credentials/travel-budget-app-5cfe4-e0104ecd7b8e.json`
 
 
 
