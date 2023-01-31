@@ -1,4 +1,4 @@
-import { React, useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, useCallback } from 'react';
 import {
     Box,
     Button,
@@ -44,25 +44,25 @@ const SUBCATEGORIES = {
 
 
 const Recommendations = () => {
-    const [settings, setSettings] = useLocalStorage('settings', null)
+    const [settings, setSettings] = useLocalStorage('settings', {})
     const [locationData, setLocationData] = useState({})
-    const [user, setUser] = useLocalStorage('user', null)
+    const [user,] = useLocalStorage('user', {})
 
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = useRef()
 
 
-    const getRecommendation = () => {
+    const getRecommendation = useCallback(() => {
         axios.post('http://127.0.0.1:5000/recommender/getRecommendation', {
             'category': settings['category'],
             'price': settings['priceLevel'],
             'preferenceConfig': settings['preferenceConfig']
         }).then((res) => {
-            setLocationData(res.data.location)
+            setLocationData(res.data['location'])
         }).catch(function (error) {
             console.log(error);
         })
-    }
+    }, [settings])
 
     const saveRecommendation = () => {
         axios.put('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
@@ -80,16 +80,16 @@ const Recommendations = () => {
             SUBCATEGORIES[settings['category']].forEach(elem => {
                 config[elem] = prob
             })
-            setSettings({...settings, preferenceConfig: config})
+            setSettings({ ...settings, preferenceConfig: config })
         }
         getRecommendation()
-    }, [settings, setSettings])
+    }, [settings, setSettings, getRecommendation])
 
     return (
         <>
             <Button
                 m={5}
-                onClick={() => setSettings(null)}
+                onClick={() => setSettings({})}
                 top={0}
                 right={0}
                 position={'fixed'}
@@ -97,7 +97,7 @@ const Recommendations = () => {
                 Reset preferences
             </Button>
             <Button
-                ref={btnRef}
+                ref={btnRef && null}
                 m={5}
                 top={0}
                 left={0}
@@ -117,6 +117,7 @@ const Recommendations = () => {
                             fontSize={100}
                             borderRadius={16}
                             onClick={() => getRecommendation()}
+                            aria-label={'Discard'}
                         />
                         <Center h={'100vh'}>
                             <LocationCard
@@ -135,6 +136,7 @@ const Recommendations = () => {
                             fontSize={100}
                             borderRadius={16}
                             onClick={() => saveRecommendation()}
+                            aria-label={'Favourite'}
                         />
                     </HStack>
                 </Center>
@@ -150,7 +152,7 @@ const Recommendations = () => {
                 isOpen={isOpen}
                 placement='right'
                 onClose={onClose}
-                finalFocusRef={btnRef}
+                finalFocusRef={btnRef && undefined}
             >
                 <DrawerOverlay />
                 <DrawerContent>
@@ -163,7 +165,7 @@ const Recommendations = () => {
                 </DrawerContent>
             </Drawer>
         </>
-        
+
     )
 }
 

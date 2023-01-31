@@ -18,10 +18,10 @@ import Recommendations from './Recommendations'
 
 
 const Explore = ({ user }) => {
-    const [settings, setSettings] = useLocalStorage('settings', null)
+    const [settings, setSettings] = useLocalStorage('settings', {})
 
     const setCategory = (category) => {
-        setSettings({...settings, 'category': category})
+        setSettings({ ...settings, 'category': category })
     }
     const setPriceLevel = (priceLevel) => {
         setSettings({ ...settings, 'priceLevel': priceLevel })
@@ -39,7 +39,7 @@ const Explore = ({ user }) => {
                             right={0}
                             m={5}
                         >Sign out</Button>
-                    
+
                         <Center>
                             <VStack py={10}>
                                 <Heading color={'#736B92'}>Hello, {user.displayName}.</Heading>
@@ -55,6 +55,7 @@ const Explore = ({ user }) => {
                                             fontSize={100}
                                             borderRadius={16}
                                             onClick={() => setCategory('restaurant')}
+                                            aria-label={'Restaurant'}
                                         />
                                     </Tooltip>
                                     <Tooltip label='Activities'>
@@ -65,6 +66,7 @@ const Explore = ({ user }) => {
                                             fontSize={100}
                                             borderRadius={16}
                                             onClick={() => setCategory('thing')}
+                                            aria-label={'Activity'}
                                         />
                                     </Tooltip>
                                 </HStack>
@@ -74,7 +76,6 @@ const Explore = ({ user }) => {
                                         w={100}
                                         h={100}
                                         fontSize={32}
-                                        isRound
                                         onClick={() => setPriceLevel(1)}
                                     >
                                         $
@@ -83,7 +84,6 @@ const Explore = ({ user }) => {
                                         w={100}
                                         h={100}
                                         fontSize={32}
-                                        isRound
                                         onClick={() => setPriceLevel(2)}
                                     >
                                         $$
@@ -92,7 +92,6 @@ const Explore = ({ user }) => {
                                         w={100}
                                         h={100}
                                         fontSize={32}
-                                        isRound
                                         onClick={() => setPriceLevel(3)}
                                     >
                                         $$$
@@ -101,7 +100,6 @@ const Explore = ({ user }) => {
                                         w={100}
                                         h={100}
                                         fontSize={32}
-                                        isRound
                                         onClick={() => setPriceLevel(4)}
                                     >
                                         $$$$

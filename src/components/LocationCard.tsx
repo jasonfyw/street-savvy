@@ -9,13 +9,20 @@ import {
     Spacer,
     Link,
     HStack,
-    IconButton,
-    Center
+    IconButton
 } from '@chakra-ui/react'
 import { BiLink, BiPhone, BiStar } from 'react-icons/bi'
 
+interface LocationCardProps {
+    category: string,
+    name: string,
+    website: string,
+    phone: string,
+    rating: string,
+    description: string,
+}
 
-const LocationCard = (props) => {
+const LocationCard = (props: LocationCardProps) => {
     return (
         <Box
             maxW={'425px'}
@@ -62,7 +69,7 @@ const LocationCard = (props) => {
                     </Heading>
                     <Spacer />
                     <HStack>
-                        <Link href={props.href} isExternal>
+                        <Link href={props.website} isExternal>
                             <IconButton
                                 variant={'outline'}
                                 colorScheme={'cyan'}

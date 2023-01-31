@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios'
 import { useLocalStorage } from 'usehooks-ts'
 import {
@@ -14,14 +14,14 @@ import { BsTrash } from 'react-icons/bs'
 const List = () => {
     const [restaurantChoice, setRestaurantChoice] = useState([])
     const [thingChoice, setThingChoice] = useState([])
-    const [user, setUser] = useLocalStorage('user', null)
+    const [user,] = useLocalStorage('user', {})
 
     useEffect(() => {
         axios.get('http://127.0.0.1:5000/userreg/'.concat(user['uid'])).then((res) => {
-            setRestaurantChoice(res.data.restaurantChoices)
-            setThingChoice(res.data.thingsChoices)
+            setRestaurantChoice(res.data['restaurantChoices'])
+            setThingChoice(res.data['thingsChoices'])
         })
-    }, [])
+    }, [user])
 
 
     const restaurantCards = restaurantChoice.map((location) => (
@@ -57,12 +57,13 @@ const List = () => {
                     colorScheme={'red'}
                     onClick={() => {
                         axios.delete('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
-                            data: {category: 'restaurant'}
+                            data: { category: 'restaurant' }
                         }).then(res => setRestaurantChoice([])).catch(err => console.log(err))
                     }}
+                    aria-label={'Clear list'}
                 />
             </Flex>
-            { restaurantCards }
+            {restaurantCards}
             <Flex py={2} mt={10}>
                 <Heading>Activities</Heading>
                 <Spacer />
@@ -72,12 +73,13 @@ const List = () => {
                     colorScheme={'red'}
                     onClick={() => {
                         axios.delete('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
-                            data: {category: 'things'}
+                            data: { category: 'things' }
                         }).then(res => setThingChoice([])).catch(err => console.log(err))
                     }}
+                    aria-label={'Clear list'}
                 />
             </Flex>
-            { thingCards }
+            {thingCards}
         </Box>
     )
 }
