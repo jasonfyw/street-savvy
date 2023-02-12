@@ -5,6 +5,7 @@ import Login from './components/Login';
 import { ChakraProvider } from '@chakra-ui/react';
 import axios from 'axios'
 import { User } from 'firebase/auth'
+import theme from './theme';
 
 const auth = getAuth();
 
@@ -24,7 +25,7 @@ const App = () => {
     }, [])
 
     return (
-        <ChakraProvider>
+        <ChakraProvider theme={theme}>
             {/* <Router>
                 <Route to={'/'}> */}
             {
