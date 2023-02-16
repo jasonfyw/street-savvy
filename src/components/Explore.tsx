@@ -185,7 +185,7 @@ const Explore = ({ user }) => {
                                                 toast({
                                                     title: 'Please select your preferences',
                                                     status: 'error',
-                                                    duration: 1000,
+                                                    duration: 2000,
                                                     isClosable: true,
                                                     variant: 'subtle',
                                                     position: 'bottom-right'
