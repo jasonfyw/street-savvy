@@ -8,13 +8,15 @@ import {
     HStack,
     IconButton,
     Tooltip,
-    Container
+    Container,
+    useColorModeValue
 } from '@chakra-ui/react'
 import { useLocalStorage } from 'usehooks-ts'
 import { GiMeal, GiTicket } from 'react-icons/gi'
 
 import { auth } from '../firebase'
 import Recommendations from './Recommendations'
+import { ColorModeSwitcher } from '../ColorModeSwitcher';
 
 
 const Explore = ({ user }) => {
@@ -34,22 +36,33 @@ const Explore = ({ user }) => {
         }
     }, [settings])
 
+    const shadowColor = useColorModeValue('#eee', 'gray.900')
+    const cardColor = useColorModeValue('#fdfdfd', 'gray.900')
+    const buttonColor = useColorModeValue('white', '#232938')
+    const buttonColorHover = useColorModeValue('#efefef', '#293042')
+    const buttonTextColor = useColorModeValue('#555', '#eee')
+
     return (
         <Box>
             {
                 (Object.keys(settings).length === 0 || !displayRecommendations) ? (
                     <>
-                        <Button
-                            onClick={() => auth.signOut()}
-                            position={'fixed'}
+                        <HStack position={'fixed'}
                             top={0}
                             right={0}
-                            m={5}
-                        >Sign out</Button>
+                            m={5}>
+                            <ColorModeSwitcher></ColorModeSwitcher>
+                            <Button
+                                onClick={() => auth.signOut()}
+                                
+                            >Sign out</Button>
+                        </HStack>
 
                         <Container
                             mt={100}
-                            boxShadow={'0px 8px 10px 10px #eee'}
+                            bg={cardColor}
+                            // boxShadow={`0px 8px 10px 10px #222`}
+                            boxShadow={'2xl'}
                             borderRadius={20}
                         >
                             <Center fontFamily={'Quicksand, sans-serif'}>
@@ -68,11 +81,11 @@ const Explore = ({ user }) => {
                                                 borderRadius={16}
                                                 onClick={() => setCategory('restaurant')}
                                                 aria-label={'Restaurant'}
-                                                bg={settings['category'] === 'restaurant' ? '#DE8A77' : 'white'}
-                                                boxShadow={'0px 5px 10px 3px #ddd'}
-                                                color={settings['category'] === 'restaurant' ? 'white' : '#555'}
+                                                bg={settings['category'] === 'restaurant' ? '#DE8A77' : buttonColor}
+                                                boxShadow={`0px 5px 10px 3px ${shadowColor}`}
+                                                color={settings['category'] === 'restaurant' ? 'white' : buttonTextColor}
                                                 _hover={{
-                                                    bg: settings['category'] === 'restaurant' ? '#de9b8c' : '#efefef',
+                                                    bg: settings['category'] === 'restaurant' ? '#de9b8c' : buttonColorHover,
                                                 }}
                                             />
                                         </Tooltip>
@@ -85,11 +98,11 @@ const Explore = ({ user }) => {
                                                 borderRadius={16}
                                                 onClick={() => setCategory('thing')}
                                                 aria-label={'Activity'}
-                                                bg={settings['category'] === 'thing' ? '#DE8A77' : 'white'}
-                                                boxShadow={'0px 5px 10px 3px #ddd'}
-                                                color={settings['category'] === 'thing' ? 'white' : '#555'}
+                                                bg={settings['category'] === 'thing' ? '#DE8A77' : buttonColor}
+                                                boxShadow={`0px 5px 10px 3px ${shadowColor}`}
+                                                color={settings['category'] === 'thing' ? 'white' : buttonTextColor}
                                                 _hover={{
-                                                    bg: settings['category'] === 'thing' ? '#de9b8c' : '#efefef',
+                                                    bg: settings['category'] === 'thing' ? '#de9b8c' : buttonColorHover,
                                                 }}
                                             />
                                         </Tooltip>
@@ -107,7 +120,7 @@ const Explore = ({ user }) => {
                                                 bg: settings['priceLevel'] === 1 ? '#de9b8c' : '#efefef',
                                             }}
                                             borderRadius={'full'}
-                                            boxShadow={'0px 5px 10px 3px #eee'}
+                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
                                         >
                                             $
                                         </Button>
@@ -117,7 +130,7 @@ const Explore = ({ user }) => {
                                             fontSize={32}
                                             onClick={() => setPriceLevel(2)}
                                             borderRadius={'full'}
-                                            boxShadow={'0px 5px 10px 3px #eee'}
+                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
                                             bg={settings['priceLevel'] === 2 ? '#DE8A77' : 'white'}
                                             color={settings['priceLevel'] === 2 ? 'white' : '#555'}
                                             _hover={{
@@ -132,7 +145,7 @@ const Explore = ({ user }) => {
                                             fontSize={32}
                                             onClick={() => setPriceLevel(3)}
                                             borderRadius={'full'}
-                                            boxShadow={'0px 5px 10px 3px #eee'}
+                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
                                             bg={settings['priceLevel'] === 3 ? '#DE8A77' : 'white'}
                                             color={settings['priceLevel'] === 3 ? 'white' : '#555'}
                                             _hover={{
@@ -147,7 +160,7 @@ const Explore = ({ user }) => {
                                             fontSize={32}
                                             onClick={() => setPriceLevel(4)}
                                             borderRadius={'full'}
-                                            boxShadow={'0px 5px 10px 3px #eee'}
+                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
                                             bg={settings['priceLevel'] === 4 ? '#DE8A77' : 'white'}
                                             color={settings['priceLevel'] === 4 ? 'white' : '#555'}
                                             _hover={{
@@ -169,7 +182,7 @@ const Explore = ({ user }) => {
                                             }
                                         }}
                                         borderRadius={20}
-                                        boxShadow={'0px 5px 10px 3px #ddd'}
+                                        boxShadow={'xl'}
                                         bg={'#736B92'}
                                         color={'white'}
                                         _hover={{
