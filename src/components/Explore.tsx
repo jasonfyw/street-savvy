@@ -9,7 +9,8 @@ import {
     IconButton,
     Tooltip,
     Container,
-    useColorModeValue
+    useColorModeValue,
+    useToast
 } from '@chakra-ui/react'
 import { useLocalStorage } from 'usehooks-ts'
 import { GiMeal, GiTicket } from 'react-icons/gi'
@@ -22,6 +23,7 @@ import { ColorModeSwitcher } from '../ColorModeSwitcher';
 const Explore = ({ user }) => {
     const [settings, setSettings] = useLocalStorage('settings', {})
     const [displayRecommendations, setDisplayRecommendations] = useState<boolean>(false)
+    const toast = useToast()
 
     const setCategory = (category) => {
         setSettings({ ...settings, 'category': category })
@@ -67,7 +69,7 @@ const Explore = ({ user }) => {
                         >
                             <Center fontFamily={'Quicksand, sans-serif'}>
                                 <VStack py={10}>
-                                    <Heading fontFamily={'Quicksand, sans-serif'} fontWeight={400} color={'#a0a0a0'} fontSize={28}>Hello, {user.displayName}!</Heading>
+                                    <Heading fontFamily={'Quicksand, sans-serif'} fontWeight={400} color={buttonTextColor} fontSize={28}>Hello, {user.displayName}!</Heading>
 
                                     <Heading color={'#736B92'} fontFamily={'Quicksand, sans-serif'}>What are you looking to do?</Heading>
 
@@ -114,10 +116,10 @@ const Explore = ({ user }) => {
                                             h={100}
                                             fontSize={32}
                                             onClick={() => setPriceLevel(1)}
-                                            bg={settings['priceLevel'] === 1 ? '#DE8A77' : 'white'}
-                                            color={settings['priceLevel'] === 1 ? 'white' : '#555'}
+                                            bg={settings['priceLevel'] === 1 ? '#DE8A77' : buttonColor}
+                                            color={settings['priceLevel'] === 1 ? 'white' : buttonTextColor}
                                             _hover={{
-                                                bg: settings['priceLevel'] === 1 ? '#de9b8c' : '#efefef',
+                                            bg: settings['priceLevel'] === 1 ? '#de9b8c' : buttonColorHover,
                                             }}
                                             borderRadius={'full'}
                                             boxShadow={`0px 5px 10px 3px ${shadowColor}`}
@@ -131,10 +133,10 @@ const Explore = ({ user }) => {
                                             onClick={() => setPriceLevel(2)}
                                             borderRadius={'full'}
                                             boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                            bg={settings['priceLevel'] === 2 ? '#DE8A77' : 'white'}
-                                            color={settings['priceLevel'] === 2 ? 'white' : '#555'}
+                                            bg={settings['priceLevel'] === 2 ? '#DE8A77' : buttonColor}
+                                            color={settings['priceLevel'] === 2 ? 'white' : buttonTextColor}
                                             _hover={{
-                                                bg: settings['priceLevel'] === 2 ? '#de9b8c' : '#efefef',
+                                                bg: settings['priceLevel'] === 2 ? '#de9b8c' : buttonColorHover,
                                             }}
                                         >
                                             $$
@@ -146,10 +148,10 @@ const Explore = ({ user }) => {
                                             onClick={() => setPriceLevel(3)}
                                             borderRadius={'full'}
                                             boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                            bg={settings['priceLevel'] === 3 ? '#DE8A77' : 'white'}
-                                            color={settings['priceLevel'] === 3 ? 'white' : '#555'}
+                                            bg={settings['priceLevel'] === 3 ? '#DE8A77' : buttonColor}
+                                            color={settings['priceLevel'] === 3 ? 'white' : buttonTextColor}
                                             _hover={{
-                                                bg: settings['priceLevel'] === 3 ? '#de9b8c' : '#efefef',
+                                            bg: settings['priceLevel'] === 3 ? '#de9b8c' : buttonColorHover,
                                             }}
                                         >
                                             $$$
@@ -161,10 +163,10 @@ const Explore = ({ user }) => {
                                             onClick={() => setPriceLevel(4)}
                                             borderRadius={'full'}
                                             boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                            bg={settings['priceLevel'] === 4 ? '#DE8A77' : 'white'}
-                                            color={settings['priceLevel'] === 4 ? 'white' : '#555'}
+                                            bg={settings['priceLevel'] === 4 ? '#DE8A77' : buttonColor}
+                                            color={settings['priceLevel'] === 4 ? 'white' : buttonTextColor}
                                             _hover={{
-                                                bg: settings['priceLevel'] === 4 ? '#de9b8c' : '#efefef',
+                                            bg: settings['priceLevel'] === 4 ? '#de9b8c' : buttonColorHover,
                                             }}
                                         >
                                             $$$$
@@ -179,6 +181,15 @@ const Explore = ({ user }) => {
                                         onClick={() => {
                                             if (settings.hasOwnProperty('category') && settings.hasOwnProperty('priceLevel')) {
                                                 setDisplayRecommendations(true)
+                                            } else {
+                                                toast({
+                                                    title: 'Please select your preferences',
+                                                    status: 'error',
+                                                    duration: 1000,
+                                                    isClosable: true,
+                                                    variant: 'subtle',
+                                                    position: 'bottom-right'
+                                                })
                                             }
                                         }}
                                         borderRadius={20}
