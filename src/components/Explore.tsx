@@ -14,6 +14,7 @@ import {
 } from '@chakra-ui/react'
 import { useLocalStorage } from 'usehooks-ts'
 import { GiMeal, GiTicket } from 'react-icons/gi'
+import _ from 'lodash'
 
 import { auth } from '../firebase'
 import Recommendations from './Recommendations'
@@ -43,6 +44,19 @@ const Explore = ({ user }) => {
     const buttonColor = useColorModeValue('white', '#232938')
     const buttonColorHover = useColorModeValue('#efefef', '#293042')
     const buttonTextColor = useColorModeValue('#555', '#eee')
+
+    const poiData = [
+        {
+            category: 'restaurant',
+            categoryLabel: 'Restaurant',
+            icon: <GiMeal />
+        },
+        {
+            category: 'thing',
+            categoryLabel: 'Activities',
+            icon: <GiTicket />
+        }
+    ]
 
     return (
         <Box>
@@ -74,103 +88,49 @@ const Explore = ({ user }) => {
                                     <Heading color={'#736B92'} fontFamily={'Quicksand, sans-serif'}>What are you looking to do?</Heading>
 
                                     <HStack spacing={100} py={10}>
-                                        <Tooltip label='Restaurant'>
-                                            <IconButton
-                                                icon={<GiMeal />}
-                                                w={100}
-                                                h={100}
-                                                fontSize={60}
-                                                borderRadius={16}
-                                                onClick={() => setCategory('restaurant')}
-                                                aria-label={'Restaurant'}
-                                                bg={settings['category'] === 'restaurant' ? '#DE8A77' : buttonColor}
-                                                boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                                color={settings['category'] === 'restaurant' ? 'white' : buttonTextColor}
-                                                _hover={{
-                                                    bg: settings['category'] === 'restaurant' ? '#de9b8c' : buttonColorHover,
-                                                }}
-                                            />
-                                        </Tooltip>
-                                        <Tooltip label='Activities'>
-                                            <IconButton
-                                                icon={<GiTicket />}
-                                                w={100}
-                                                h={100}
-                                                fontSize={60}
-                                                borderRadius={16}
-                                                onClick={() => setCategory('thing')}
-                                                aria-label={'Activity'}
-                                                bg={settings['category'] === 'thing' ? '#DE8A77' : buttonColor}
-                                                boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                                color={settings['category'] === 'thing' ? 'white' : buttonTextColor}
-                                                _hover={{
-                                                    bg: settings['category'] === 'thing' ? '#de9b8c' : buttonColorHover,
-                                                }}
-                                            />
-                                        </Tooltip>
+                                        {
+                                            poiData.map((poi) => (
+                                                <Tooltip label={poi.categoryLabel}>
+                                                    <IconButton
+                                                        icon={poi.icon}
+                                                        w={100}
+                                                        h={100}
+                                                        fontSize={60}
+                                                        borderRadius={16}
+                                                        onClick={() => setCategory(poi.category)}
+                                                        aria-label={poi.categoryLabel}
+                                                        bg={settings['category'] === poi.category ? '#DE8A77' : buttonColor}
+                                                        boxShadow={`0px 5px 10px 3px ${shadowColor}`}
+                                                        color={settings['category'] === poi.category ? 'white' : buttonTextColor}
+                                                        _hover={{
+                                                            bg: settings['category'] === poi.category ? '#de9b8c' : buttonColorHover,
+                                                        }}
+                                                    />
+                                                </Tooltip>
+                                            ))
+                                        }
                                     </HStack>
                                     <Heading color={'#736B92'} fontFamily={'Quicksand, sans-serif'}>What is your price range?</Heading>
                                     <HStack spacing={25} py={10}>
-                                        <Button
-                                            w={100}
-                                            h={100}
-                                            fontSize={32}
-                                            onClick={() => setPriceLevel(1)}
-                                            bg={settings['priceLevel'] === 1 ? '#DE8A77' : buttonColor}
-                                            color={settings['priceLevel'] === 1 ? 'white' : buttonTextColor}
-                                            _hover={{
-                                            bg: settings['priceLevel'] === 1 ? '#de9b8c' : buttonColorHover,
-                                            }}
-                                            borderRadius={'full'}
-                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                        >
-                                            $
-                                        </Button>
-                                        <Button
-                                            w={100}
-                                            h={100}
-                                            fontSize={32}
-                                            onClick={() => setPriceLevel(2)}
-                                            borderRadius={'full'}
-                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                            bg={settings['priceLevel'] === 2 ? '#DE8A77' : buttonColor}
-                                            color={settings['priceLevel'] === 2 ? 'white' : buttonTextColor}
-                                            _hover={{
-                                                bg: settings['priceLevel'] === 2 ? '#de9b8c' : buttonColorHover,
-                                            }}
-                                        >
-                                            $$
-                                        </Button>
-                                        <Button
-                                            w={100}
-                                            h={100}
-                                            fontSize={32}
-                                            onClick={() => setPriceLevel(3)}
-                                            borderRadius={'full'}
-                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                            bg={settings['priceLevel'] === 3 ? '#DE8A77' : buttonColor}
-                                            color={settings['priceLevel'] === 3 ? 'white' : buttonTextColor}
-                                            _hover={{
-                                            bg: settings['priceLevel'] === 3 ? '#de9b8c' : buttonColorHover,
-                                            }}
-                                        >
-                                            $$$
-                                        </Button>
-                                        <Button
-                                            w={100}
-                                            h={100}
-                                            fontSize={32}
-                                            onClick={() => setPriceLevel(4)}
-                                            borderRadius={'full'}
-                                            boxShadow={`0px 5px 10px 3px ${shadowColor}`}
-                                            bg={settings['priceLevel'] === 4 ? '#DE8A77' : buttonColor}
-                                            color={settings['priceLevel'] === 4 ? 'white' : buttonTextColor}
-                                            _hover={{
-                                            bg: settings['priceLevel'] === 4 ? '#de9b8c' : buttonColorHover,
-                                            }}
-                                        >
-                                            $$$$
-                                        </Button>
+                                        {
+                                            _.range(1, 5).map(n => (
+                                                <Button
+                                                    w={100}
+                                                    h={100}
+                                                    fontSize={32}
+                                                    onClick={() => setPriceLevel(n)}
+                                                    bg={settings['priceLevel'] === n ? '#DE8A77' : buttonColor}
+                                                    color={settings['priceLevel'] === n ? 'white' : buttonTextColor}
+                                                    _hover={{
+                                                        bg: settings['priceLevel'] === n ? '#de9b8c' : buttonColorHover,
+                                                    }}
+                                                    borderRadius={'full'}
+                                                    boxShadow={`0px 5px 10px 3px ${shadowColor}`}
+                                                >
+                                                    { '$'.repeat(n) }
+                                                </Button>
+                                            ))
+                                        }
                                     </HStack>
 
                                     <Button
