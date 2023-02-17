@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup } from "firebase/auth";
+import { getAuth, signInWithRedirect } from "firebase/auth";
 import { provider } from "../firebase";
 import {
     Box,
@@ -82,7 +82,7 @@ const Login = () => {
                             </Heading>
                             <IconButton
                                 onClick={() => {
-                                    signInWithPopup(auth, provider)
+                                    signInWithRedirect(auth, provider)
                                 }}
                                 icon={<FaGoogle />}
                                 w={150}
