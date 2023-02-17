@@ -13,11 +13,13 @@ import {
     DrawerHeader,
     DrawerBody,
 } from '@chakra-ui/react'
+import { RepeatIcon } from '@chakra-ui/icons';
 import { useLocalStorage } from 'usehooks-ts'
 import axios from 'axios'
 import { BsTrash, BsHeartFill } from 'react-icons/bs'
 import LocationCard from './LocationCard'
 import List from './List'
+import { ColorModeSwitcher } from '../ColorModeSwitcher';
 
 
 const SUBCATEGORIES = {
@@ -87,22 +89,28 @@ const Recommendations = () => {
 
     return (
         <>
-            <Button
-                m={5}
-                onClick={() => setSettings({})}
-                top={0}
+            <HStack top={0}
                 right={0}
                 position={'fixed'}
-            >
-                Reset preferences
-            </Button>
+                m={5}>
+                <ColorModeSwitcher />
+                <Button
+                    leftIcon={<RepeatIcon />}
+                    onClick={() => setSettings({})}
+                >
+                    Reset preferences
+                </Button>
+            </HStack>
             <Button
                 ref={btnRef && null}
                 m={5}
                 top={0}
                 left={0}
                 position={'fixed'}
-                colorScheme={'teal'}
+                bg={'#736B92'}
+                _hover={{
+                    bg: '#877dad'
+                }}
                 onClick={onOpen}
             >
                 View List
