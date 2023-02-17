@@ -12,11 +12,12 @@ import {
     DrawerCloseButton,
     DrawerHeader,
     DrawerBody,
+    useColorModeValue,
 } from '@chakra-ui/react'
-import { RepeatIcon } from '@chakra-ui/icons';
+import { RepeatIcon, CloseIcon } from '@chakra-ui/icons';
 import { useLocalStorage } from 'usehooks-ts'
 import axios from 'axios'
-import { BsTrash, BsHeartFill } from 'react-icons/bs'
+import { BsHeartFill } from 'react-icons/bs'
 import LocationCard from './LocationCard'
 import List from './List'
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
@@ -112,21 +113,17 @@ const Recommendations = () => {
                     bg: '#877dad'
                 }}
                 onClick={onOpen}
+                color={'white'}
             >
                 View List
             </Button>
+
+            
+
             <Box>
                 <Center>
                     <HStack spacing={20}>
-                        <IconButton
-                            icon={<BsTrash />}
-                            w={150}
-                            h={150}
-                            fontSize={100}
-                            borderRadius={16}
-                            onClick={() => getRecommendation()}
-                            aria-label={'Discard'}
-                        />
+                        
                         <Center h={'100vh'}>
                             <LocationCard
                                 category={locationData['category']}
@@ -137,23 +134,51 @@ const Recommendations = () => {
                                 description={locationData['description']}
                             />
                         </Center>
-                        <IconButton
-                            icon={<BsHeartFill />}
-                            w={150}
-                            h={150}
-                            fontSize={100}
-                            borderRadius={16}
-                            onClick={() => saveRecommendation()}
-                            aria-label={'Favourite'}
-                        />
+                        
                     </HStack>
                 </Center>
             </Box>
 
 
 
-
-
+            <Box bottom={0}
+                position={'fixed'}
+                w={'100vw'}
+                pb={20}
+            >
+                <Center>
+                    <HStack spacing={10}>
+                        <IconButton
+                            icon={<CloseIcon />}
+                            w={20}
+                            h={20}
+                            fontSize={28}
+                            borderRadius={'full'}
+                            onClick={() => getRecommendation()}
+                            aria-label={'Discard'}
+                            // bg={useColorModeValue('#ed8d7d', '#f3b5b4')}
+                            color={useColorModeValue('#ee816e', '#f3b5b4')}
+                            // _hover={{
+                            //     bg: useColorModeValue('#e07967', '#ffc9c8')
+                            // }}
+                        />
+                        <IconButton
+                            icon={<BsHeartFill />}
+                            w={20}
+                            h={20}
+                            fontSize={28}
+                            borderRadius={'full'}
+                            onClick={() => saveRecommendation()}
+                            aria-label={'Favourite'}
+                            // bg={useColorModeValue('#73ca9a', '#abe4b8')}
+                            color={useColorModeValue('#6cd99d', '#abe4b8')}
+                            // _hover={{
+                            //     bg: useColorModeValue('#91daa2', '#b8f4c6')
+                            // }}
+                        />
+                    </HStack>
+                </Center>
+            </Box>
 
 
             <Drawer
