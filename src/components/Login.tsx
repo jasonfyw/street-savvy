@@ -26,7 +26,8 @@ const Login = () => {
             <ColorModeSwitcher
                 right={0}
                 position={'fixed'}
-                m={5} />
+                m={5}
+            />
 
             <Stack 
                 h={'100vh'} 
@@ -49,7 +50,13 @@ const Login = () => {
                     >
                         Street Savvy
                     </Heading>
-                    <Center h={'65%'} mx={isLargerThan800 ? '6rem' : 4} pb={50} color={'white'} fontFamily={'Rubik'}>
+                    <Center
+                        h={'65%'}
+                        mx={isLargerThan800 ? '6rem' : 4}
+                        pb={50}
+                        color={'white'}
+                        fontFamily={'Rubik'}
+                    >
                         <VStack>
                             <Text textAlign={'center'} fontSize={20} my={10}>
                                 Street Savvy gives you recommendations based on your budget and interests, whether it be for food, shopping or entertainment. Now you will never have trouble picking a spot or worry about going over your budget!
@@ -58,10 +65,21 @@ const Login = () => {
                         </VStack>
                     </Center>
                 </Box>
-                <Box w={isLargerThan800 ? '45vw' : '100vw'} h={ isLargerThan800 ? '100vh' : 'auto'} >
+                <Box
+                    w={isLargerThan800 ? '45vw' : '100vw'}
+                    h={ isLargerThan800 ? '100vh' : 'auto'}
+                >
                     <Center h={'100%'}>
                         <VStack py={10}>
-                            <Heading fontSize={'60'} color={'#DE8A77'} fontFamily={'Rubik, sans-serif'} mb={10} textAlign={'center'}>Get Started</Heading>
+                            <Heading
+                                fontSize={'60'}
+                                color={'#DE8A77'}
+                                fontFamily={'Rubik, sans-serif'}
+                                mb={10}
+                                textAlign={'center'}
+                            >
+                                Get Started
+                            </Heading>
                             <IconButton
                                 onClick={() => {
                                     signInWithPopup(auth, provider)
@@ -75,7 +93,6 @@ const Login = () => {
                             />
                         </VStack>
                     </Center>
-
                 </Box>
             </Stack>
         </Box>
