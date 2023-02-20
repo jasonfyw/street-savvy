@@ -124,7 +124,7 @@ const Recommendations = () => {
                 <Center>
                     <HStack spacing={20}>
                         
-                        <Center h={'100vh'}>
+                        <Center h={'100vh'} pb={[15, 30]}>
                             <LocationCard
                                 category={locationData['category']}
                                 name={locationData['name']}
@@ -144,7 +144,7 @@ const Recommendations = () => {
             <Box bottom={0}
                 position={'fixed'}
                 w={'100vw'}
-                pb={20}
+                pb={[5, '2rem']}
             >
                 <Center>
                     <HStack spacing={10}>

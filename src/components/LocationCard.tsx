@@ -9,9 +9,11 @@ import {
     Spacer,
     Link,
     HStack,
-    IconButton
+    IconButton,
+    useColorModeValue
 } from '@chakra-ui/react'
 import { BiLink, BiPhone, BiStar } from 'react-icons/bi'
+import { TiStarFullOutline, TiStarHalfOutline, TiStarOutline } from 'react-icons/ti'
 
 interface LocationCardProps {
     category: string,
@@ -23,11 +25,37 @@ interface LocationCardProps {
 }
 
 const LocationCard = (props: LocationCardProps) => {
+
+    const getRatingStars = () => {
+        let ratingStars = [] as number[]
+        let stars = parseFloat(props.rating)
+        while (stars >= 1) {
+            ratingStars.push(1)
+            stars -= 1
+        }
+        if (Math.abs(stars - 0.5) <= 0.25) {
+            ratingStars.push(0.5)
+        }
+        for (let i = ratingStars.length; i < 5; i++) {
+            ratingStars.push(0)
+        }
+        return ratingStars.map((n) => {
+            if (n === 1) {
+                return <TiStarFullOutline />
+            } else if (n === 0.5) {
+                return <TiStarHalfOutline />
+            } else {
+                return <TiStarOutline />
+            }
+        })
+    }
+
     return (
         <Box
             maxW={'425px'}
+            minH={'600px'}
             w={'full'}
-            bg={'white'}
+            bg={useColorModeValue('white', 'gray.900')}
             opacity={0.9}
             boxShadow={'xl'}
             rounded={'md'}
@@ -36,7 +64,7 @@ const LocationCard = (props: LocationCardProps) => {
         >
 
             <Box
-                h={'175px'}
+                h={'275px'}
                 bg={'gray.100'}
                 mt={-6}
                 mx={-6}
@@ -44,7 +72,7 @@ const LocationCard = (props: LocationCardProps) => {
                 pos={'relative'}>
                 <Image
                     src={'https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'}
-                    height={'175px'}
+                    height={'275px'}
                     width={'100%'}
                     fit={'cover'}
                 />
@@ -81,14 +109,23 @@ const LocationCard = (props: LocationCardProps) => {
                         </Link>
                     </HStack>
                 </Flex>
-                <VStack>
-                    <HStack>
+                <VStack textAlign={'left'}>
+                    <HStack
+                        textAlign={'left'}
+                        w={'full'}
+                        color={useColorModeValue('#5babc6', 'blue.200')}
+                    >
+                        { 
+                            getRatingStars()
+                        }
+                        <Text>{props.rating}</Text>
+                    </HStack>
+                    <HStack
+                        textAlign={'left'}
+                        w={'full'}
+                    >
                         <BiPhone />
                         <Text>{props.phone}</Text>
-                    </HStack>
-                    <HStack>
-                        <BiStar />
-                        <Text>{props.rating}</Text>
                     </HStack>
                 </VStack>
                 <Text color={'gray.500'}>
