@@ -10,9 +10,10 @@ import {
     Link,
     HStack,
     IconButton,
-    useColorModeValue
+    useColorModeValue,
+    Tooltip
 } from '@chakra-ui/react'
-import { BiLink, BiPhone, BiStar } from 'react-icons/bi'
+import { BiLink, BiPhone, BiPin } from 'react-icons/bi'
 import { TiStarFullOutline, TiStarHalfOutline, TiStarOutline } from 'react-icons/ti'
 
 interface LocationCardProps {
@@ -22,6 +23,7 @@ interface LocationCardProps {
     phone: string,
     rating: string,
     description: string,
+    placeId: string
 }
 
 const LocationCard = (props: LocationCardProps) => {
@@ -97,16 +99,33 @@ const LocationCard = (props: LocationCardProps) => {
                     </Heading>
                     <Spacer />
                     <HStack>
-                        <Link href={props.website} isExternal>
-                            <IconButton
-                                variant={'outline'}
-                                colorScheme={'cyan'}
-                                aria-label={'View project'}
-                                fontSize={'1rem'}
-                                size={'sm'}
-                                icon={<BiLink />}
-                            />
-                        </Link>
+                        <Tooltip hasArrow label='Location Website'>
+                            <Link href={props.website} isExternal>
+                                <IconButton
+                                    variant={'outline'}
+                                    colorScheme={'cyan'}
+                                    aria-label={'View project'}
+                                    fontSize={'1rem'}
+                                    size={'sm'}
+                                    icon={<BiLink />}
+                                />
+                            </Link>
+                        </Tooltip>
+                        <Tooltip hasArrow label='Google Maps Link'>
+                            <Link
+                                href={`https://www.google.com/maps/place/?q=place_id:${props.placeId}`}
+                                isExternal
+                            >
+                                <IconButton
+                                    variant={'outline'}
+                                    colorScheme={'cyan'}
+                                    aria-label={'View project'}
+                                    fontSize={'1rem'}
+                                    size={'sm'}
+                                    icon={<BiPin />}
+                                />
+                            </Link>
+                        </Tooltip>
                     </HStack>
                 </Flex>
                 <VStack textAlign={'left'}>

@@ -32,6 +32,7 @@ const List = () => {
             phone={location['phoneNumber']}
             rating={location['rating']}
             description={location['description']}
+            placeId={location['placeID']}
         />
     ))
     const thingCards = thingChoice.map((location) => (
@@ -42,6 +43,7 @@ const List = () => {
             phone={location['phoneNumber']}
             rating={location['rating']}
             description={location['description']}
+            placeId={location['placeID']}
         />
     ))
 

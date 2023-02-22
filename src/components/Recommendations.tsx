@@ -132,6 +132,7 @@ const Recommendations = () => {
                                 phone={locationData['phoneNumber']}
                                 rating={locationData['rating']}
                                 description={locationData['description']}
+                                placeId={locationData['placeID']}
                             />
                         </Center>
                         
