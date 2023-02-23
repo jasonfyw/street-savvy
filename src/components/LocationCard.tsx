@@ -94,7 +94,7 @@ const LocationCard = (props: LocationCardProps) => {
                     fontSize={'sm'}
                     letterSpacing={1.1}
                 >
-                    {props.category}
+                    {props.category.replace('_', ' ')}
                 </Text>
                 <Flex>
                     <Heading
