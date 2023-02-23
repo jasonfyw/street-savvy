@@ -52,7 +52,11 @@ const LocationCard = (props: LocationCardProps) => {
             }
         })
     }
-    console.log(`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${props.photoApi}&key=${process.env.REACT_APP_GOOGLE_PLACES_API_KEY}`)
+
+    const imageURL = props.photoApi === undefined ? 
+        'https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80' 
+        : 
+        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${props.photoApi}&key=${process.env.REACT_APP_GOOGLE_PLACES_API_KEY}`
 
     return (
         <Box
@@ -75,7 +79,7 @@ const LocationCard = (props: LocationCardProps) => {
                 mb={6}
                 pos={'relative'}>
                 <Image
-                    src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${props.photoApi}&key=${process.env.REACT_APP_GOOGLE_PLACES_API_KEY}`}
+                    src={imageURL}
                     height={'275px'} 
                     width={'100%'}
                     fit={'cover'}
