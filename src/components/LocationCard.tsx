@@ -13,7 +13,7 @@ import {
     useColorModeValue,
     Tooltip
 } from '@chakra-ui/react'
-import { BiLink, BiPhone, BiPin } from 'react-icons/bi'
+import { BiLink, BiPhone, BiPin, BiLinkExternal } from 'react-icons/bi'
 import { TiStarFullOutline, TiStarHalfOutline, TiStarOutline } from 'react-icons/ti'
 
 interface LocationCardProps {
@@ -24,7 +24,8 @@ interface LocationCardProps {
     rating: string,
     description: string,
     placeId: string,
-    photoApi: string
+    photoApi: string,
+    address: string
 }
 
 const LocationCard = (props: LocationCardProps) => {
@@ -117,7 +118,7 @@ const LocationCard = (props: LocationCardProps) => {
                                 />
                             </Link>
                         </Tooltip>
-                        <Tooltip hasArrow label='Google Maps Link'>
+                        <Tooltip hasArrow label='Open in Google Maps'>
                             <Link
                                 href={`https://www.google.com/maps/place/?q=place_id:${props.placeId}`}
                                 isExternal
@@ -128,7 +129,7 @@ const LocationCard = (props: LocationCardProps) => {
                                     aria-label={'View project'}
                                     fontSize={'1rem'}
                                     size={'sm'}
-                                    icon={<BiPin />}
+                                    icon={<BiLinkExternal />}
                                 />
                             </Link>
                         </Tooltip>
@@ -151,6 +152,13 @@ const LocationCard = (props: LocationCardProps) => {
                     >
                         <BiPhone />
                         <Text>{props.phone}</Text>
+                    </HStack>
+                    <HStack
+                        textAlign={'left'}
+                        w={'full'}
+                    >
+                        <BiPin />
+                        <Text>{props.address}</Text>
                     </HStack>
                 </VStack>
                 <Text color={'gray.500'}>

@@ -134,6 +134,7 @@ const Recommendations = () => {
                                 description={locationData['description']}
                                 placeId={locationData['placeID']}
                                 photoApi={locationData['photoAPI']}
+                                address={locationData['address']}
                             />
                         </Center>
                         
