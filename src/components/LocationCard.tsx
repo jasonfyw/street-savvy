@@ -36,7 +36,7 @@ const LocationCard = (props: LocationCardProps) => {
             ratingStars.push(1)
             stars -= 1
         }
-        if (Math.abs(stars - 0.5) <= 0.25) {
+        if (stars <= 0.9 && stars > 0.25) {
             ratingStars.push(0.5)
         }
         for (let i = ratingStars.length; i < 5; i++) {
