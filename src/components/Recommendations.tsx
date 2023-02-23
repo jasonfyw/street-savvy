@@ -133,6 +133,7 @@ const Recommendations = () => {
                                 rating={locationData['rating']}
                                 description={locationData['description']}
                                 placeId={locationData['placeID']}
+                                photoApi={locationData['photoAPI']}
                             />
                         </Center>
                         
