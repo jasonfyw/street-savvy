@@ -89,8 +89,11 @@ const Explore = ({ user }) => {
 
                                     <HStack spacing={100} py={10}>
                                         {
-                                            poiData.map((poi) => (
-                                                <Tooltip label={poi.categoryLabel}>
+                                            poiData.map((poi, i) => (
+                                                <Tooltip
+                                                    key={i}
+                                                    label={poi.categoryLabel}
+                                                >
                                                     <IconButton
                                                         icon={poi.icon}
                                                         w={100}
@@ -115,6 +118,7 @@ const Explore = ({ user }) => {
                                         {
                                             _.range(1, 5).map(n => (
                                                 <Button
+                                                    key={n}
                                                     w={100}
                                                     h={100}
                                                     fontSize={32}

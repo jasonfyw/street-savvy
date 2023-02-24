@@ -43,13 +43,13 @@ const LocationCard = (props: LocationCardProps) => {
         for (let i = ratingStars.length; i < 5; i++) {
             ratingStars.push(0)
         }
-        return ratingStars.map((n) => {
+        return ratingStars.map((n, i) => {
             if (n === 1) {
-                return <TiStarFullOutline />
+                return <TiStarFullOutline key={i} />
             } else if (n === 0.5) {
-                return <TiStarHalfOutline />
+                return <TiStarHalfOutline key={i} />
             } else {
-                return <TiStarOutline />
+                return <TiStarOutline key={i} />
             }
         })
     }

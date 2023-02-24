@@ -24,8 +24,9 @@ const List = () => {
     }, [user])
 
 
-    const restaurantCards = restaurantChoice.map((location) => (
+    const restaurantCards = restaurantChoice.map((location, i) => (
         <LocationCard
+            key={i}
             category={location['category']}
             name={location['name']}
             website={location['website']}
@@ -37,8 +38,9 @@ const List = () => {
             address={location['address']}
         />
     ))
-    const thingCards = thingChoice.map((location) => (
+    const thingCards = thingChoice.map((location, i) => (
         <LocationCard
+            key={i}
             category={location['category']}
             name={location['name']}
             website={location['website']}
