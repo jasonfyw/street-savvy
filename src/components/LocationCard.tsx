@@ -59,6 +59,8 @@ const LocationCard = (props: LocationCardProps) => {
         : 
         `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${props.photoApi}&key=${process.env.REACT_APP_GOOGLE_PLACES_API_KEY}`
 
+    const category = props.category !== undefined ? props.category.replace('_', ' ') : ''
+
     return (
         <Box
             maxW={'425px'}
@@ -94,7 +96,7 @@ const LocationCard = (props: LocationCardProps) => {
                     fontSize={'sm'}
                     letterSpacing={1.1}
                 >
-                    {props.category.replace('_', ' ')}
+                    {category}
                 </Text>
                 <Flex>
                     <Heading
