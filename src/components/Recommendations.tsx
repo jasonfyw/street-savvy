@@ -189,6 +189,7 @@ const Recommendations = () => {
                 placement='right'
                 onClose={onClose}
                 finalFocusRef={btnRef && undefined}
+                size={'lg'}
             >
                 <DrawerOverlay />
                 <DrawerContent>

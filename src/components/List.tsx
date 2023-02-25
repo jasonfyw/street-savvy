@@ -6,7 +6,15 @@ import {
     Heading,
     Flex,
     Spacer,
-    IconButton
+    IconButton,
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionIcon,
+    AccordionPanel,
+    Center,
+    HStack,
+    Text
 } from '@chakra-ui/react'
 import LocationCard from './LocationCard'
 import { BsTrash } from 'react-icons/bs'
@@ -36,6 +44,10 @@ const List = () => {
             placeId={location['placeID']}
             photoApi={location['photoAPI']}
             address={location['address']}
+            maxWidth={'100%'}
+            minHeight={'0'}
+            mt={5}
+            imageHeight={'0'}
         />
     ))
     const thingCards = thingChoice.map((location, i) => (
@@ -50,44 +62,78 @@ const List = () => {
             placeId={location['placeID']}
             photoApi={location['photoAPI']}
             address={location['address']}
+            maxWidth={'100%'}
+            minHeight={'0'}
+            mt={5}
+            imageHeight={'0'}
         />
     ))
 
 
     return (
         <Box>
-            <Flex py={2}>
-                <Heading>Restaurants</Heading>
-                <Spacer />
-                <IconButton
-                    icon={<BsTrash />}
-                    fontSize={20}
-                    colorScheme={'red'}
-                    onClick={() => {
-                        axios.delete('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
-                            data: { category: 'restaurant' }
-                        }).then(res => setRestaurantChoice([])).catch(err => console.log(err))
-                    }}
-                    aria-label={'Clear list'}
-                />
-            </Flex>
-            {restaurantCards}
-            <Flex py={2} mt={10}>
-                <Heading>Activities</Heading>
-                <Spacer />
-                <IconButton
-                    icon={<BsTrash />}
-                    fontSize={20}
-                    colorScheme={'red'}
-                    onClick={() => {
-                        axios.delete('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
-                            data: { category: 'things' }
-                        }).then(res => setThingChoice([])).catch(err => console.log(err))
-                    }}
-                    aria-label={'Clear list'}
-                />
-            </Flex>
-            {thingCards}
+            <Accordion allowToggle>
+                <AccordionItem>
+                    <AccordionButton>
+                        <Flex py={2} w={'100%'}>
+                            <Heading>Restaurants</Heading>
+                            <Spacer />
+                            
+                            <Center px={4}>
+                                <AccordionIcon/>
+                            </Center>
+                        </Flex>
+                    </AccordionButton>
+                    <AccordionPanel pb={4}>
+                        <HStack spacing={3}>
+                            <IconButton
+                                icon={<BsTrash />}
+                                fontSize={16}
+                                size={'sm'}
+                                colorScheme={'red'}
+                                onClick={() => {
+                                    axios.delete('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
+                                        data: { category: 'restaurant' }
+                                    }).then(res => setRestaurantChoice([])).catch(err => console.log(err))
+                                }}
+                                aria-label={'Clear list'}
+                            />
+                            <Text>Clear list</Text>
+                        </HStack>
+                        {restaurantCards}
+                    </AccordionPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                    <AccordionButton>
+                        <Flex py={2} w={'100%'}>
+                            <Heading>Activities</Heading>
+                            <Spacer />
+                            
+                            <Center px={4}>
+                                <AccordionIcon />
+                            </Center>
+                        </Flex>
+                    </AccordionButton>
+                    <AccordionPanel pb={4}>
+                        <HStack spacing={3}>
+                            <IconButton
+                                icon={<BsTrash />}
+                                fontSize={20}
+                                colorScheme={'red'}
+                                onClick={() => {
+                                    axios.delete('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
+                                        data: { category: 'things' }
+                                    }).then(res => setThingChoice([])).catch(err => console.log(err))
+                                }}
+                                aria-label={'Clear list'}
+                            />
+                            <Text>Clear list</Text>
+                        </HStack>
+                        {thingCards}
+                    </AccordionPanel>
+                </AccordionItem>
+            </Accordion>
         </Box>
     )
 }

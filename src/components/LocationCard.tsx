@@ -25,7 +25,11 @@ interface LocationCardProps {
     description: string,
     placeId: string,
     photoApi: string,
-    address: string
+    address: string,
+    maxWidth?: number | string,
+    minHeight?: number | string,
+    mt?: number | string,
+    imageHeight?: number | string
 }
 
 const LocationCard = (props: LocationCardProps) => {
@@ -63,8 +67,8 @@ const LocationCard = (props: LocationCardProps) => {
 
     return (
         <Box
-            maxW={'425px'}
-            minH={'600px'}
+            maxW={props.maxWidth || '425px'}
+            minH={props.minHeight || '600px'}
             w={'full'}
             bg={useColorModeValue('white', 'gray.900')}
             opacity={0.9}
@@ -72,21 +76,28 @@ const LocationCard = (props: LocationCardProps) => {
             rounded={'md'}
             p={6}
             overflow={'hidden'}
+            mt={props.mt || 0}
         >
 
             <Box
-                h={'275px'}
+                h={props.imageHeight || '275px'}
                 bg={'gray.100'}
                 mt={-6}
                 mx={-6}
                 mb={6}
-                pos={'relative'}>
-                <Image
-                    src={imageURL}
-                    height={'275px'} 
-                    width={'100%'}
-                    fit={'cover'}
-                />
+                pos={'relative'}
+            >
+                {
+                    props.imageHeight !== 0 && (
+                        <Image
+                            src={imageURL}
+                            height={props.imageHeight || '275px'}
+                            width={'100%'}
+                            fit={'cover'}
+                        />
+                    )
+                }
+                
             </Box>
             <Stack>
                 <Text
