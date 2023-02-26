@@ -22,6 +22,7 @@ import LocationCard from './LocationCard'
 import List from './List'
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 import { updateRecommender } from '../helpers/recommender.helper';
+import { AnimatePresence, motion } from 'framer-motion';
 
 
 const SUBCATEGORIES = {
@@ -53,19 +54,22 @@ const Recommendations = () => {
     const [user,] = useLocalStorage('user', {})
 
     const { isOpen, onOpen, onClose } = useDisclosure()
+    const { isOpen: isVisible, onToggle } = useDisclosure()
     const btnRef = useRef()
 
 
-    const getRecommendation = useCallback(() => {
+    const getRecommendation = useCallback((settings) => {
         axios.post('http://127.0.0.1:5000/recommender/getRecommendation', {
             'category': settings['category'],
             'price': settings['priceLevel'],
             'preferenceConfig': settings['preferenceConfig']
         }).then((res) => {
             setLocationData(res.data['location'])
+            onToggle()
         }).catch(function (error) {
             console.log(error);
         })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [settings])
 
     const saveRecommendation = () => {
@@ -73,20 +77,21 @@ const Recommendations = () => {
             'category': settings['category'],
             'info': locationData
         }).then((res) => {
-            getRecommendation()
+            getRecommendation(settings)
         })
     }
 
+
     useEffect(() => {
-        if (!settings.hasOwnProperty('preferenceConfig')) {
-            let config = {}
-            const prob = 1 / SUBCATEGORIES[settings['category']].length
-            SUBCATEGORIES[settings['category']].forEach(elem => {
-                config[elem] = prob
-            })
-            setSettings({ ...settings, preferenceConfig: config })
-        }
-        getRecommendation()
+        let config = {}
+        const prob = 1 / SUBCATEGORIES[settings['category']].length
+        SUBCATEGORIES[settings['category']].forEach(elem => {
+            config[elem] = prob
+        })
+        setSettings({ ...settings, preferenceConfig: config })
+        console.log(config)
+        console.log(settings)
+        getRecommendation({...settings, preferenceConfig: config})
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
@@ -99,7 +104,7 @@ const Recommendations = () => {
                 <ColorModeSwitcher />
                 <Button
                     leftIcon={<RepeatIcon />}
-                    onClick={() => setSettings({})}
+                    onClick={() => setSettings({preferenceConfig: {}})}
                 >
                     Reset preferences
                 </Button>
@@ -127,17 +132,28 @@ const Recommendations = () => {
                     <HStack spacing={20}>
                         
                         <Center h={'100vh'} pb={[15, 30]}>
-                            <LocationCard
-                                category={locationData['category']}
-                                name={locationData['name']}
-                                website={locationData['website']}
-                                phone={locationData['phoneNumber']}
-                                rating={locationData['rating']}
-                                description={locationData['description']}
-                                placeId={locationData['placeID']}
-                                photoApi={locationData['photoAPI']}
-                                address={locationData['address']}
-                            />
+                            <AnimatePresence>
+                                {isVisible && (
+                                    <motion.div
+                                        initial={{ x: "100%" }}
+                                        animate={{ x: 0 }}
+                                        exit={{ x: "-100%" }}
+                                        transition={{ duration: 0.1, ease: "easeInOut" }}
+                                    >
+                                        <LocationCard
+                                            category={locationData['category']}
+                                            name={locationData['name']}
+                                            website={locationData['website']}
+                                            phone={locationData['phoneNumber']}
+                                            rating={locationData['rating']}
+                                            description={locationData['description']}
+                                            placeId={locationData['placeID']}
+                                            photoApi={locationData['photoAPI']}
+                                            address={locationData['address']}
+                                        />
+                                    </motion.div>
+                                )}
+                            </AnimatePresence>
                         </Center>
                         
                     </HStack>
@@ -160,20 +176,17 @@ const Recommendations = () => {
                             fontSize={28}
                             borderRadius={'full'}
                             onClick={() => {
+                                onToggle()
                                 updateRecommender(
                                     locationData['category'], 
                                     false, 
                                     settings, 
                                     setSettings
                                 )
-                                getRecommendation()
+                                getRecommendation(settings)
                             }}
                             aria-label={'Discard'}
-                            // bg={useColorModeValue('#ed8d7d', '#f3b5b4')}
                             color={useColorModeValue('#ee816e', '#f3b5b4')}
-                            // _hover={{
-                            //     bg: useColorModeValue('#e07967', '#ffc9c8')
-                            // }}
                         />
                         <IconButton
                             icon={<BsHeartFill />}
@@ -182,6 +195,7 @@ const Recommendations = () => {
                             fontSize={28}
                             borderRadius={'full'}
                             onClick={() => {
+                                onToggle()
                                 updateRecommender(
                                     locationData['category'],
                                     true,
@@ -191,11 +205,7 @@ const Recommendations = () => {
                                 saveRecommendation()
                             }}
                             aria-label={'Favourite'}
-                            // bg={useColorModeValue('#73ca9a', '#abe4b8')}
                             color={useColorModeValue('#6cd99d', '#abe4b8')}
-                            // _hover={{
-                            //     bg: useColorModeValue('#91daa2', '#b8f4c6')
-                            // }}
                         />
                     </HStack>
                 </Center>

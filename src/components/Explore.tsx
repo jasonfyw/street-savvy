@@ -34,7 +34,7 @@ const Explore = ({ user }) => {
     }
 
     useEffect(() => {
-        if (Object.keys(settings).length === 0) {
+        if (Object.keys(settings['preferenceConfig']).length === 0) {
             setDisplayRecommendations(false)
         }
     }, [settings])
