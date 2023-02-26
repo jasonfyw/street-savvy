@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
     Box,
     Heading,
@@ -10,7 +10,8 @@ import {
     Tooltip,
     Container,
     useColorModeValue,
-    useToast
+    useToast,
+    useDisclosure
 } from '@chakra-ui/react'
 import { useLocalStorage } from 'usehooks-ts'
 import { GiMeal, GiTicket } from 'react-icons/gi'
@@ -19,12 +20,17 @@ import _ from 'lodash'
 import { auth } from '../firebase'
 import Recommendations from './Recommendations'
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
+import ListDrawer from './ListDrawer';
 
 
 const Explore = ({ user }) => {
     const [settings, setSettings] = useLocalStorage('settings', {})
     const [displayRecommendations, setDisplayRecommendations] = useState<boolean>(false)
     const toast = useToast()
+
+    // hooks and refs for drawer 
+    const { isOpen, onOpen, onClose } = useDisclosure()
+    const btnRef = useRef()
 
     const setCategory = (category) => {
         setSettings({ ...settings, 'category': category })
@@ -60,6 +66,7 @@ const Explore = ({ user }) => {
 
     return (
         <Box>
+            {/* Conditionally render based on if user has selected preferences */}
             {
                 (Object.keys(settings).length === 0 || !displayRecommendations) ? (
                     <>
@@ -73,6 +80,22 @@ const Explore = ({ user }) => {
                                 
                             >Sign out</Button>
                         </HStack>
+                        {/* Button to open ListDrawer */}
+                        <Button
+                            ref={btnRef && null}
+                            m={5}
+                            top={0}
+                            left={0}
+                            position={'fixed'}
+                            bg={'#736B92'}
+                            _hover={{
+                                bg: '#877dad'
+                            }}
+                            onClick={onOpen}
+                            color={'white'}
+                        >
+                            View List
+                        </Button>
 
                         <Container
                             mt={100}
@@ -137,6 +160,7 @@ const Explore = ({ user }) => {
                                         }
                                     </HStack>
 
+                                    {/* Submit button */}
                                     <Button
                                         fontSize={18}
                                         fontWeight={600}
@@ -169,6 +193,14 @@ const Explore = ({ user }) => {
                                 </VStack>
                             </Center>
                         </Container>
+
+
+                        {/* Drawer with user selections */}
+                        <ListDrawer
+                            isOpen={isOpen}
+                            onClose={onClose}
+                            btnRef={btnRef}
+                        />
                     </>
                 ) : (
                     <Recommendations />

@@ -16,7 +16,7 @@ import {
     HStack,
     Text
 } from '@chakra-ui/react'
-import LocationCard from './LocationCard'
+import LocationCard from '../LocationCard'
 import { BsTrash } from 'react-icons/bs'
 
 const List = () => {
