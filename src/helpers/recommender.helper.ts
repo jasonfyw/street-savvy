@@ -23,31 +23,33 @@ export const updateRecommender = (
     settings: Object,
     setSettings: (string) => void
 ): void => {
-    let config = settings['preferenceConfig'] || {}
-    const prob = config[category]
-    const new_prob = shiftedSigmoid(prob, prob)
-    const n = Object.keys(config).length
-    const delta = new_prob - prob
-
-    // if <category> was picked, increase its probability and decrease the
-    // others according to a sigmoid curve and vice versa if <category> was
-    // rejected
-    for (const [k, v] of Object.entries(config)) {
-        if (k === category) {
-            if (isPicked) {
-                config[k] = new_prob
-            } else {
-                config[k] = prob - Math.abs(delta)
-            }
-        } else {
-            if (isPicked) {
-                config[k] = v as number - (delta / (n - 1))
-            } else {
-                config[k] = v as number + (delta / (n - 1))
-            }
-            
-        }
-    }
+    if (category) {
+        let config = settings['preferenceConfig'] || {}
+        const prob = config[category]
+        const new_prob = shiftedSigmoid(prob, prob)
+        const n = Object.keys(config).length
+        const delta = new_prob - prob
     
-    setSettings({ ...settings, preferenceConfig: config })
+        // if <category> was picked, increase its probability and decrease the
+        // others according to a sigmoid curve and vice versa if <category> was
+        // rejected
+        for (const [k, v] of Object.entries(config)) {
+            if (k === category) {
+                if (isPicked) {
+                    config[k] = new_prob
+                } else {
+                    config[k] = prob - Math.abs(delta)
+                }
+            } else {
+                if (isPicked) {
+                    config[k] = v as number - (delta / (n - 1))
+                } else {
+                    config[k] = v as number + (delta / (n - 1))
+                }
+                
+            }
+        }
+        
+        setSettings({ ...settings, preferenceConfig: config })
+    }
 }
