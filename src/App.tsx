@@ -22,6 +22,7 @@ const App = () => {
                 'email': user['email']
             })
         })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (

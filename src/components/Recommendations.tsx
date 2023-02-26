@@ -87,7 +87,8 @@ const Recommendations = () => {
             setSettings({ ...settings, preferenceConfig: config })
         }
         getRecommendation()
-    }, [settings, setSettings, getRecommendation])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
     return (
         <>
