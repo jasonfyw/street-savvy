@@ -69,6 +69,7 @@ const Recommendations = () => {
         }).catch(function (error) {
             console.log(error);
         })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [settings])
 
     const saveRecommendation = () => {
@@ -80,26 +81,14 @@ const Recommendations = () => {
         })
     }
 
-    // useEffect(() => {
-    //     // if (!settings.hasOwnProperty('preferenceConfig')) {
-    //     let config = {}
-    //     const prob = 1 / SUBCATEGORIES[settings['category']].length
-    //     SUBCATEGORIES[settings['category']].forEach(elem => {
-    //         config[elem] = prob
-    //     })
-    //     setSettings({ ...settings, preferenceConfig: config })
-    //     // }
-    // }, [settings, setSettings])
 
     useEffect(() => {
-        // if (!settings.hasOwnProperty('preferenceConfig')) {
         let config = {}
         const prob = 1 / SUBCATEGORIES[settings['category']].length
         SUBCATEGORIES[settings['category']].forEach(elem => {
             config[elem] = prob
         })
         setSettings({ ...settings, preferenceConfig: config })
-        // }
         console.log(config)
         console.log(settings)
         getRecommendation({...settings, preferenceConfig: config})
@@ -197,11 +186,7 @@ const Recommendations = () => {
                                 getRecommendation(settings)
                             }}
                             aria-label={'Discard'}
-                            // bg={useColorModeValue('#ed8d7d', '#f3b5b4')}
                             color={useColorModeValue('#ee816e', '#f3b5b4')}
-                            // _hover={{
-                            //     bg: useColorModeValue('#e07967', '#ffc9c8')
-                            // }}
                         />
                         <IconButton
                             icon={<BsHeartFill />}
@@ -220,11 +205,7 @@ const Recommendations = () => {
                                 saveRecommendation()
                             }}
                             aria-label={'Favourite'}
-                            // bg={useColorModeValue('#73ca9a', '#abe4b8')}
                             color={useColorModeValue('#6cd99d', '#abe4b8')}
-                            // _hover={{
-                            //     bg: useColorModeValue('#91daa2', '#b8f4c6')
-                            // }}
                         />
                     </HStack>
                 </Center>
