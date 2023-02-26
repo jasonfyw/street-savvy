@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import Explore from './components/Explore';
 import Login from './components/Login';
 import { ChakraProvider } from '@chakra-ui/react';
 import axios from 'axios'
-import { User } from 'firebase/auth'
 import theme from './theme';
+import { useLocalStorage } from 'usehooks-ts';
 
 const auth = getAuth();
 
 const App = () => {
-    const [user, setUser] = useState<User|undefined>(undefined)
+    const [user, setUser] = useLocalStorage('user', {})
 
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
