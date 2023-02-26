@@ -34,7 +34,6 @@ export const updateRecommender = (
     // rejected
     for (const [k, v] of Object.entries(config)) {
         if (k === category) {
-            console.log(delta)
             if (isPicked) {
                 config[k] = new_prob
             } else {
