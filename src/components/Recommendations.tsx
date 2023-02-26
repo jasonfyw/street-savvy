@@ -21,6 +21,7 @@ import { BsHeartFill } from 'react-icons/bs'
 import LocationCard from './LocationCard'
 import List from './List'
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
+import { updateRecommender } from '../helpers/recommender.helper';
 
 
 const SUBCATEGORIES = {
@@ -157,7 +158,15 @@ const Recommendations = () => {
                             h={20}
                             fontSize={28}
                             borderRadius={'full'}
-                            onClick={() => getRecommendation()}
+                            onClick={() => {
+                                updateRecommender(
+                                    locationData['category'], 
+                                    false, 
+                                    settings, 
+                                    setSettings
+                                )
+                                getRecommendation()
+                            }}
                             aria-label={'Discard'}
                             // bg={useColorModeValue('#ed8d7d', '#f3b5b4')}
                             color={useColorModeValue('#ee816e', '#f3b5b4')}
@@ -171,7 +180,15 @@ const Recommendations = () => {
                             h={20}
                             fontSize={28}
                             borderRadius={'full'}
-                            onClick={() => saveRecommendation()}
+                            onClick={() => {
+                                updateRecommender(
+                                    locationData['category'],
+                                    true,
+                                    settings,
+                                    setSettings
+                                )
+                                saveRecommendation()
+                            }}
                             aria-label={'Favourite'}
                             // bg={useColorModeValue('#73ca9a', '#abe4b8')}
                             color={useColorModeValue('#6cd99d', '#abe4b8')}
