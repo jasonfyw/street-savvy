@@ -66,6 +66,7 @@ const Explore = ({ user }) => {
 
     return (
         <Box>
+            {/* Conditionally render based on if user has selected preferences */}
             {
                 (Object.keys(settings).length === 0 || !displayRecommendations) ? (
                     <>
@@ -79,6 +80,7 @@ const Explore = ({ user }) => {
                                 
                             >Sign out</Button>
                         </HStack>
+                        {/* Button to open ListDrawer */}
                         <Button
                             ref={btnRef && null}
                             m={5}
@@ -158,6 +160,7 @@ const Explore = ({ user }) => {
                                         }
                                     </HStack>
 
+                                    {/* Submit button */}
                                     <Button
                                         fontSize={18}
                                         fontWeight={600}
@@ -192,6 +195,7 @@ const Explore = ({ user }) => {
                         </Container>
 
 
+                        {/* Drawer with user selections */}
                         <ListDrawer
                             isOpen={isOpen}
                             onClose={onClose}

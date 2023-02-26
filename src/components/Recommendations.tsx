@@ -52,7 +52,9 @@ const Recommendations = () => {
     const btnRef = useRef()
     const { isOpen: isVisible, onToggle } = useDisclosure()
 
-
+    /**
+     * Fetches a location randomly selected based on the preferences provided
+     */
     const getRecommendation = useCallback((settings) => {
         axios.post('http://127.0.0.1:5000/recommender/getRecommendation', {
             'category': settings['category'],
@@ -67,6 +69,9 @@ const Recommendations = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [settings])
 
+    /**
+     * Save current location to user's profile
+     */
     const saveRecommendation = () => {
         axios.put('http://127.0.0.1:5000/userlist/'.concat(user['uid']), {
             'category': settings['category'],
@@ -76,7 +81,10 @@ const Recommendations = () => {
         })
     }
 
-
+    /**
+     * Set default uniform distribution of categories and fetch first
+     * recommendation on mount
+     */
     useEffect(() => {
         let config = {}
         const prob = 1 / SUBCATEGORIES[settings['category']].length
@@ -84,8 +92,6 @@ const Recommendations = () => {
             config[elem] = prob
         })
         setSettings({ ...settings, preferenceConfig: config })
-        console.log(config)
-        console.log(settings)
         getRecommendation({...settings, preferenceConfig: config})
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
